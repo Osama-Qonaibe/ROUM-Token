@@ -1,0 +1,45 @@
+{
+  "compiler": {
+    "version": "0.8.33+commit.64118f21"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": "(see build/abi.json)",
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "compilationTarget": {
+      "contracts/ruom.v2.0.sol": "ROUM"
+    },
+    "evmVersion": "cancun",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": []
+  },
+  "sources": {
+    "contracts/ruom.v2.0.sol": {
+      "keccak256": "0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd",
+      "license": "MIT",
+      "urls": [
+        "bzz-raw://37685a85b391559d9363a5b14e0ffbfe1bc0fa2be5612f8a40b8b3905639d61a",
+        "dweb:/ipfs/QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL"
+      ]
+    }
+  },
+  "version": 1
+}
