@@ -19,7 +19,7 @@ Token Symbol:        ROUM
 Chain:              Binance Smart Chain (BSC)
 Network:            Mainnet (Chain ID: 56)
 Contract Address:   0xa5e3EA5e1de303D073cFA15EaB08e60C24324F6B
-Deployment Date:    December 2024 (Early)
+Deployment Date:    December 2025 (Early)
 Status:             ❌ BURNED - Not in use
 ```
 
