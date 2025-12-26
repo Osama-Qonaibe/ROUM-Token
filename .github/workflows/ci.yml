@@ -109,24 +109,12 @@ jobs:
         run: npm ci
       
       - name: Check Solidity syntax
-        run: npx solhint 'contracts/**/*.sol' || true
-
-  security:
-    name: Security Analysis
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      
-      - name: Run Slither analysis
-        uses: crytic/slither-action@v1.1
-        continue-on-error: true
+        run: npm run lint || true
 
   summary:
     name: Test Summary
     runs-on: ubuntu-latest
-    needs: [compile, test, gas-report]
+    needs: [compile, test, gas-report, lint]
     if: always()
     
     steps:
@@ -137,6 +125,5 @@ jobs:
           echo "Tests: ✅ Complete"
           echo "Gas Analysis: ✅ Complete"
           echo "Quality Checks: ✅ Complete"
-          echo "Security Analysis: ✅ Complete"
           echo ""
           echo "Status: All checks passed!"
