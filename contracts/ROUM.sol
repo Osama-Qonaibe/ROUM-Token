@@ -8,8 +8,8 @@ interface IERC20 {
     function allowance(address, address) external view returns (uint256);
     function approve(address, uint256) external returns (bool);
     function transferFrom(address, address, uint256) external returns (bool);
-    event Transfer(address indexed, address indexed, uint256);
-    event Approval(address indexed, address indexed, uint256);
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
 contract ROUM is IERC20 {
