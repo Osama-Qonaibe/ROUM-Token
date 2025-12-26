@@ -9,6 +9,7 @@
   [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue)](https://soliditylang.org/)
   [![BSC](https://img.shields.io/badge/BSC-Verified-green)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+  [![CI](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/ci.yml/badge.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/ci.yml)
 </div>
 
 ---
@@ -33,6 +34,7 @@
 - ✅ [**Sourcify**](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/) - Verified Source Code
 - 📚 [**Documentation**](docs/) - Technical Documentation
 - 🎨 [**Brand Assets**](assets/) - Logos and Brand Guidelines
+- ⚙️ [**Development Setup**](#development) - Build and Test Guide
 
 ## ✨ Features
 
@@ -42,6 +44,8 @@
 - ✅ **Built-in Overflow Protection** - Safe math included
 - ✅ **Clean & Auditable Code** - Open source and transparent
 - ✅ **Multiple Verifications** - Verified on BSCScan and Sourcify
+- ✅ **Comprehensive Tests** - 15+ test cases with full coverage
+- ✅ **CI/CD Pipeline** - Automated testing and deployment
 
 ## 🛠️ Technical Details
 
@@ -88,6 +92,8 @@
 ```
 ROUM-Token/
 ├── .github/                  # GitHub configuration
+│   ├── workflows/            # CI/CD pipelines
+│   │   └── ci.yml           # Automated testing pipeline
 │   ├── FUNDING.yml
 │   ├── ISSUE_TEMPLATE/
 │   └── PULL_REQUEST_TEMPLATE.md
@@ -105,10 +111,119 @@ ROUM-Token/
 │   ├── DEPLOYMENT.md
 │   ├── SECURITY.md
 │   └── INTEGRATION.md
+├── scripts/                 # Development scripts
+│   └── deploy.js           # Hardhat deployment script
+├── tests/                   # Test suite
+│   └── roum.test.js        # Comprehensive test cases
+├── hardhat.config.js        # Hardhat configuration
+├── package.json            # NPM dependencies
+├── .env.example            # Environment template
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore
 ```
+
+## 🚀 Development
+
+### Prerequisites
+
+- **Node.js** >= 16.0.0
+- **npm** >= 8.0.0 or **yarn**
+- Basic understanding of Solidity and Hardhat
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Osama-Qonaibe/ROUM-Token.git
+cd ROUM-Token
+
+# Install dependencies
+npm install
+```
+
+### Configuration
+
+```bash
+# Create .env file from template
+cp .env.example .env
+
+# Edit .env and add your configuration:
+# PRIVATE_KEY=your_private_key_here
+# BSC_API_KEY=your_bscscan_api_key_here
+```
+
+### Development Commands
+
+```bash
+# Compile contracts
+npm run compile
+
+# Run tests locally
+npm test
+
+# Run tests with gas reporting
+REPORT_GAS=true npm test
+
+# Generate coverage report
+npx hardhat coverage
+
+# Deploy to BSC Testnet
+npm run deploy:testnet
+
+# Deploy to BSC Mainnet
+npm run deploy:bsc
+
+# Verify contract on BSCScan
+npm run verify
+
+# Clean artifacts
+npm run clean
+
+# View available accounts
+npm run accounts
+```
+
+### Running Tests
+
+```bash
+# Run all tests
+npm test
+
+# Run specific test file
+npx hardhat test tests/roum.test.js
+
+# Run tests matching pattern
+npx hardhat test --grep "Transfer"
+```
+
+### Test Coverage
+
+The project includes 15+ comprehensive test cases covering:
+
+- ✅ Deployment validation
+- ✅ Token transfer functionality
+- ✅ Approval and allowance mechanisms
+- ✅ TransferFrom operations
+- ✅ Allowance increase/decrease
+- ✅ Error handling and edge cases
+- ✅ Event emissions
+
+## 🔄 CI/CD Pipeline
+
+The project uses GitHub Actions for automated testing and quality checks:
+
+### Pipeline Stages
+
+1. **Compile** - Contract compilation check
+2. **Test** - Run on Node 18 and 20
+3. **Gas Report** - Analyze gas consumption
+4. **Lint** - Code quality checks
+5. **Security** - Run Slither analysis
+
+**Trigger:** Push to `main` or `develop` branches, or Pull Requests
+
+**View Pipeline:** [Actions](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/ci.yml)
 
 ## 🚀 Deployment Info
 
@@ -154,7 +269,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", "WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -172,6 +287,8 @@ SOFTWARE.
 - ✅ No external dependencies
 - ✅ Immutable (no owner controls)
 - ✅ Open source (MIT License)
+- ✅ Automated security scanning (Slither)
+- ✅ Comprehensive test coverage
 
 🚨 **Security Contact:** Osamaqonaibe@outlook.com
 
@@ -190,6 +307,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 2. Follow the code style guidelines
 3. Write clear commit messages
 4. Test your changes on BSC testnet
+5. Ensure all tests pass locally
 
 ## 💬 Support
 
