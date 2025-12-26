@@ -119,7 +119,7 @@ Future Phase (DAO):
 
 ### Core Team
 
-**Osama Qonaube**
+**Osama Qonaibe**
 - Role: Project Lead
 - Responsibilities:
   - Strategic direction
@@ -183,24 +183,24 @@ Future Phase (DAO):
 ### DAO Governance Model
 
 ```
-┌─────────────────────────────┐
+┌────────────────────────┐
 │   ROUM Token Holders        │
 │   (Voting Power)            │
-└──────────┬──────────────────┘
+└───────┬─────────────┘
            │
            ▼
-┌─────────────────────────────┐
+┌────────────────────────┐
 │   Governance Contracts      │
 │   - Voting                  │
 │   - Treasury                │
 │   - Execution               │
-└──────────┬──────────────────┘
+└───────┬─────────────┘
            │
            ▼
-┌─────────────────────────────┐
+┌────────────────────────┐
 │   Protocol Updates          │
 │   Implementation            │
-└─────────────────────────────┘
+└────────────────────────┘
 ```
 
 ## Policy Updates
@@ -217,7 +217,7 @@ Governance policies updated quarterly:
 ### Channels
 
 - 📧 **Email:** Osamaqonaibe@outlook.com
-- 🐙 **GitHub:** [Issues & Discussions](https://github.com/Osama-Qonaibe/ROUM-Token)
+- 💙 **GitHub:** [Issues & Discussions](https://github.com/Osama-Qonaibe/ROUM-Token)
 - 📚 **Documentation:** [Docs](docs/)
 
 ### Governance Calls
@@ -251,7 +251,7 @@ This governance framework may be amended through:
 
 ---
 
-**Last Updated:** December 25, 2024  
+**Last Updated:** December 25, 2025  
 **Next Review:** March 25, 2025
 
 For questions: Osamaqonaibe@outlook.com
