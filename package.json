@@ -1,0 +1,32 @@
+{
+  "name": "roum-token",
+  "version": "1.0.0",
+  "description": "ROUM Token - Rumeida Heritage on Binance Smart Chain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:gas": "hardhat test --grep 'gas'",
+    "deploy:bsc": "hardhat run scripts/deploy.js --network bsc",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network bscTestnet",
+    "verify": "hardhat verify",
+    "clean": "hardhat clean",
+    "accounts": "hardhat accounts"
+  },
+  "keywords": ["blockchain", "solidity", "roum", "bep20", "bsc"],
+  "author": "Osama Qonaibe",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "ethers": "^6.8.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
