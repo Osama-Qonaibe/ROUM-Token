@@ -209,7 +209,7 @@ We're committed to transparent communication:
 ### Communication Channels
 
 - 📧 Email: Osamaqonaibe@outlook.com
-- 🐙 GitHub: [Issues & Discussions](https://github.com/Osama-Qonaibe/ROUM-Token)
+- 💙 GitHub: [Issues & Discussions](https://github.com/Osama-Qonaibe/ROUM-Token)
 - 📚 Docs: [Documentation](docs/)
 
 ---
@@ -234,7 +234,7 @@ This roadmap is subject to change based on:
 - Regulatory environment
 - Strategic priorities
 
-**Last Updated:** December 25, 2024  
+**Last Updated:** December 25, 2025  
 **Next Review:** January 15, 2025
 
 ---
