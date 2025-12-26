@@ -5,7 +5,7 @@ We appreciate all contributions to the ROUM Token project. This file recognizes 
 ## Core Team
 
 ### Founder & Lead Developer
-- **Osama Qonaube** (@Osama-Qonaibe)
+- **Osama Qonaibe** (@Osama-Qonaibe)
   - Role: Founder, Lead Blockchain Developer
   - Email: Osamaqonaibe@outlook.com
   - Location: Palestine 🇵🇸
