@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2025-12-26
+
+### Improved
+- ✅ Enhanced code documentation: Added clear parameter names to IERC20 event declarations
+  - `event Transfer(address indexed from, address indexed to, uint256 value)`
+  - `event Approval(address indexed owner, address indexed spender, uint256 value)`
+- ✅ Improved code readability and maintainability
+- ✅ Better compliance with Solidity best practices
+- ✅ Enhanced documentation for developers integrating the token
+
+### Technical Details
+- **Focus:** Code quality and documentation improvements
+- **Breaking Changes:** None
+- **Gas Impact:** None
+- **Security Impact:** None (enhancement only)
+
+### Notes
+- This is a minor patch release focusing on code quality
+- No functional changes to the smart contract
+- Fully backward compatible
+
+---
+
 ## [1.0.0] - 2024-12-25
 
 ### Added
@@ -158,7 +181,7 @@ Each release includes:
 
 ---
 
-**Last Updated:** December 26, 2024  
+**Last Updated:** December 26, 2025  
 **Status:** Active & Maintained  
 **Next Review:** January 26, 2025
 
