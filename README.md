@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="assets/logo.png" alt="ROUM Logo" width="200"/>
+  
+  <!-- Logo will appear here once uploaded to assets/logos/ -->
+  <!-- <img src="assets/logos/logo.png" alt="ROUM Logo" width="200"/> -->
   
   <h1>🪙 ROUM Token</h1>
   <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
@@ -16,32 +18,35 @@
 
 ## 📋 Token Information
 
-- **Name:** Rumeida Heritage
-- **Symbol:** ROUM
-- **Network:** Binance Smart Chain (BSC)
-- **Contract Address:** `0x35B1761B00AB98144fAB4dEDBD58C59A2050947e`
-- **Total Supply:** 1,000,000,000 ROUM
-- **Decimals:** 18
-- **License:** MIT
+| Property | Value |
+|----------|-------|
+| **Name** | Rumeida Heritage |
+| **Symbol** | ROUM |
+| **Network** | Binance Smart Chain (BSC) |
+| **Contract** | `0x35B1761B00AB98144fAB4dEDBD58C59A2050947e` |
+| **Total Supply** | 1,000,000,000 ROUM |
+| **Decimals** | 18 |
+| **License** | MIT |
 
-## 🔗 Verification Links
+## 🔗 Quick Links
 
-- **BSCScan:** [View on BSCScan](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-- **Sourcify:** [Verified on Sourcify](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/)
+- 🔍 [**BSCScan**](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e) - View on Block Explorer
+- ✅ [**Sourcify**](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/) - Verified Source Code
+- 📚 [**Documentation**](docs/) - Technical Documentation
+- 🎨 [**Brand Assets**](assets/) - Logos and Brand Guidelines
 
 ## ✨ Features
 
-- ✅ Full ERC-20/BEP-20 compatibility
-- ✅ Optimized gas usage with Solidity 0.8.33
-- ✅ Immutable contract (no owner, fully decentralized)
-- ✅ Built-in overflow protection
-- ✅ Clean and auditable code
-- ✅ MIT licensed (open source)
-- ✅ Verified on multiple blockchain explorers
+- ✅ **Full ERC-20/BEP-20 Compatibility** - Standard compliant token
+- ✅ **Optimized Gas Usage** - Built with Solidity 0.8.33
+- ✅ **Fully Decentralized** - No owner, immutable contract
+- ✅ **Built-in Overflow Protection** - Safe math included
+- ✅ **Clean & Auditable Code** - Open source and transparent
+- ✅ **Multiple Verifications** - Verified on BSCScan and Sourcify
 
 ## 🛠️ Technical Details
 
-### Compiler Settings
+### Compiler Configuration
 
 ```json
 {
@@ -54,74 +59,86 @@
 }
 ```
 
-### Contract Functions
+### Core Functions
 
-#### Standard ERC-20 Functions
+<details>
+<summary><strong>Standard ERC-20 Functions</strong></summary>
+
 - `name()` - Returns token name
-- `symbol()` - Returns token symbol
-- `decimals()` - Returns token decimals (18)
-- `totalSupply()` - Returns total supply
-- `balanceOf(address)` - Returns balance of an address
+- `symbol()` - Returns token symbol  
+- `decimals()` - Returns decimal places (18)
+- `totalSupply()` - Returns total token supply
+- `balanceOf(address)` - Returns balance of address
 - `transfer(address, uint256)` - Transfer tokens
-- `approve(address, uint256)` - Approve spending
-- `allowance(address, address)` - Check allowance
+- `approve(address, uint256)` - Approve spending allowance
+- `allowance(address, address)` - Check approved allowance
 - `transferFrom(address, address, uint256)` - Transfer from approved address
 
-#### Additional Functions
+</details>
+
+<details>
+<summary><strong>Enhanced Functions</strong></summary>
+
 - `increaseAllowance(address, uint256)` - Safely increase allowance
 - `decreaseAllowance(address, uint256)` - Safely decrease allowance
 
-## 📦 Repository Contents
+</details>
+
+## 📦 Repository Structure
 
 ```
 ROUM-Token/
-├── LICENSE                          # MIT License
-├── README.md                        # This file
-├── .gitignore                       # Git ignore rules
-├── assets/
-│   ├── logo.png                    # Main logo (1024x1024)
-│   ├── logo-small.png              # Icon (256x256)
-│   ├── banner.png                  # Repository banner
-│   ├── README.md                   # Logo usage guidelines
-│   └── brand-guidelines.md         # Brand guidelines
-├── contracts/
-│   └── ROUM.sol                    # Main contract source code
-├── build/
-│   ├── abi.json                    # Contract ABI
-│   ├── metadata.json               # Contract metadata
-│   └── compiler-settings.json      # Compiler configuration
-└── docs/
-    ├── DEPLOYMENT.md               # Deployment information
-    ├── SECURITY.md                 # Security documentation
-    └── INTEGRATION.md              # Integration guide
+├── .github/                  # GitHub configuration
+│   ├── FUNDING.yml
+│   ├── ISSUE_TEMPLATE/
+│   └── PULL_REQUEST_TEMPLATE.md
+├── assets/                  # Brand assets and logos
+│   ├── logos/              # Logo files directory
+│   ├── README.md
+│   └── brand-guidelines.md
+├── build/                   # Compilation artifacts
+│   ├── abi.json
+│   ├── metadata.json
+│   └── compiler-settings.json
+├── contracts/               # Solidity source code
+│   └── ROUM.sol
+├── docs/                    # Documentation
+│   ├── DEPLOYMENT.md
+│   ├── SECURITY.md
+│   └── INTEGRATION.md
+├── LICENSE                  # MIT License
+├── README.md                # This file
+└── .gitignore
 ```
 
-## 🚀 Deployment Information
+## 🚀 Deployment Info
 
 - **Network:** BSC Mainnet (Chain ID: 56)
 - **Deployed:** December 2024
-- **Deployer:** Osama Qonaube
-- **Verification:** Sourcify (Full Match)
-- **Source Code Hash:** `0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd`
+- **Developer:** Osama Qonaube
+- **Verification:** Full Match on Sourcify
+- **Source Hash:** `0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd`
 - **IPFS:** `QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL`
 
 ## 👨‍💻 Developer
 
-**Osama Qonaube**
-- Email: Osamaqonaibe@outlook.com
-- Location: Palestine 🇵🇸
-- Role: Full-Stack & Blockchain Developer
+**Osama Qonaube**  
+📧 Email: Osamaqonaibe@outlook.com  
+🌍 Location: Palestine 🇵🇸  
+💼 Role: Full-Stack & Blockchain Developer
 
 ## 📚 Documentation
 
-- **[Security](docs/SECURITY.md)** - Security features and best practices
-- **[Integration](docs/INTEGRATION.md)** - Developer integration guide
-- **[Deployment](docs/DEPLOYMENT.md)** - Deployment details and verification
-- **[Brand Guidelines](assets/brand-guidelines.md)** - Logo and branding guidelines
+| Document | Description |
+|----------|-------------|
+| [Security](docs/SECURITY.md) | Security features and audit information |
+| [Integration](docs/INTEGRATION.md) | Developer integration guide with code examples |
+| [Deployment](docs/DEPLOYMENT.md) | Deployment details and verification |
+| [Brand Guidelines](assets/brand-guidelines.md) | Logo usage and brand standards |
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
 ```
 MIT License
@@ -141,7 +158,7 @@ copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORITIES OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
@@ -149,38 +166,53 @@ SOFTWARE.
 
 ## 🔐 Security
 
-This contract has been:
+**Security Features:**
 - ✅ Verified on Sourcify (Full Match)
-- ✅ Verified on BSCScan
-- ✅ Built with Solidity 0.8.33 (built-in overflow protection)
+- ✅ Verified on BSCScan  
+- ✅ Solidity 0.8.33 (built-in overflow protection)
 - ✅ No external dependencies
 - ✅ Immutable (no owner controls)
 - ✅ Open source (MIT License)
 
-For security concerns, please refer to [SECURITY.md](docs/SECURITY.md)
+🚨 **Security Contact:** Osamaqonaibe@outlook.com
+
+For detailed security information, see [SECURITY.md](docs/SECURITY.md)
 
 ## 🌟 About Tel Rumeida
 
-Tel Rumeida (Arabic: تل الرميدة) is an archaeological site in the heart of Hebron, Palestine, with evidence of human settlement dating back over 5,000 years. This token honors the rich heritage and resilient history of this ancient Palestinian site.
+Tel Rumeida (Arabic: تل الرميدة) is an ancient archaeological site in Hebron, Palestine, with continuous human settlement spanning over 5,000 years. This token honors and preserves the rich cultural heritage of this historic Palestinian site.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
+**Before contributing:**
+1. Check existing issues
+2. Follow the code style guidelines
+3. Write clear commit messages
+4. Test your changes on BSC testnet
 
 ## 💬 Support
 
-For support and inquiries:
-- Email: Osamaqonaibe@outlook.com
-- GitHub Issues: [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
+**Need help?**
+- 📧 Email: Osamaqonaibe@outlook.com
+- 🐛 GitHub Issues: [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
+- 📖 Documentation: [View docs](docs/)
 
 ---
 
 <div align="center">
-  <strong>Made with ❤️ in Palestine 🇵🇸</strong>
   
-  <br><br>
+  ### Made with ❤️ in Palestine 🇵🇸
+  
+  <br>
   
   <a href="https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e">BSCScan</a> •
   <a href="https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/">Sourcify</a> •
   <a href="https://github.com/Osama-Qonaibe/ROUM-Token">GitHub</a>
+  
+  <br><br>
+  
+  **ROUM Token - Preserving Palestinian Heritage on the Blockchain**
+  
 </div>
