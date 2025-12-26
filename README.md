@@ -113,7 +113,7 @@ ROUM-Token/
 ## 🚀 Deployment Info
 
 - **Network:** BSC Mainnet (Chain ID: 56)
-- **Deployed:** December 2024
+- **Deployed:** 25 December 2025
 - **Developer:** Osama Qonaube
 - **Verification:** Full Match on Sourcify
 - **Source Hash:** `0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd`
