@@ -114,14 +114,14 @@ ROUM-Token/
 
 - **Network:** BSC Mainnet (Chain ID: 56)
 - **Deployed:** 25 December 2025
-- **Developer:** Osama Qonaube
+- **Developer:** Osama Qonaibe
 - **Verification:** Full Match on Sourcify
 - **Source Hash:** `0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd`
 - **IPFS:** `QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL`
 
 ## 👨‍💻 Developer
 
-**Osama Qonaube**  
+**Osama Qonaibe**  
 📧 Email: Osamaqonaibe@outlook.com  
 🌍 Location: Palestine 🇵🇸  
 💼 Role: Full-Stack & Blockchain Developer
@@ -142,7 +142,7 @@ This project is licensed under the **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2025 Osama Qonaube
+Copyright (c) 2025 Osama Qonaibe
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -154,7 +154,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS", "WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
