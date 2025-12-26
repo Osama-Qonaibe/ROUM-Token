@@ -1,9 +1,16 @@
-# 🪙 ROUM Token - Rumeida Heritage
+<div align="center">
+  <img src="assets/logo.png" alt="ROUM Logo" width="200"/>
+  
+  <h1>🪙 ROUM Token</h1>
+  <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue)](https://soliditylang.org/)
+  [![BSC](https://img.shields.io/badge/BSC-Verified-green)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+  [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+</div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue)](https://soliditylang.org/)
-[![BSC](https://img.shields.io/badge/BSC-Verified-green)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-[![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+---
 
 **ROUM** is a BEP-20 token deployed on Binance Smart Chain, representing the heritage and history of Rumeida (Tel Rumeida) in Hebron, Palestine.
 
@@ -71,16 +78,22 @@ ROUM-Token/
 ├── LICENSE                          # MIT License
 ├── README.md                        # This file
 ├── .gitignore                       # Git ignore rules
+├── assets/
+│   ├── logo.png                    # Main logo (1024x1024)
+│   ├── logo-small.png              # Icon (256x256)
+│   ├── banner.png                  # Repository banner
+│   ├── README.md                   # Logo usage guidelines
+│   └── brand-guidelines.md         # Brand guidelines
 ├── contracts/
 │   └── ROUM.sol                    # Main contract source code
 ├── build/
 │   ├── abi.json                    # Contract ABI
 │   ├── metadata.json               # Contract metadata
-│   ├── compiler-settings.json      # Compiler configuration
-│   ├── standard-json-input.json    # Solc standard input
-│   └── standard-json-output.json   # Solc standard output
+│   └── compiler-settings.json      # Compiler configuration
 └── docs/
-    └── DEPLOYMENT.md               # Deployment information
+    ├── DEPLOYMENT.md               # Deployment information
+    ├── SECURITY.md                 # Security documentation
+    └── INTEGRATION.md              # Integration guide
 ```
 
 ## 🚀 Deployment Information
@@ -98,6 +111,13 @@ ROUM-Token/
 - Email: Osamaqonaibe@outlook.com
 - Location: Palestine 🇵🇸
 - Role: Full-Stack & Blockchain Developer
+
+## 📚 Documentation
+
+- **[Security](docs/SECURITY.md)** - Security features and best practices
+- **[Integration](docs/INTEGRATION.md)** - Developer integration guide
+- **[Deployment](docs/DEPLOYMENT.md)** - Deployment details and verification
+- **[Brand Guidelines](assets/brand-guidelines.md)** - Logo and branding guidelines
 
 ## 📜 License
 
@@ -121,7 +141,7 @@ copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+AUTHORITIES OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
@@ -136,6 +156,8 @@ This contract has been:
 - ✅ No external dependencies
 - ✅ Immutable (no owner controls)
 - ✅ Open source (MIT License)
+
+For security concerns, please refer to [SECURITY.md](docs/SECURITY.md)
 
 ## 🌟 About Tel Rumeida
 
@@ -153,4 +175,12 @@ For support and inquiries:
 
 ---
 
-**Made with ❤️ in Palestine 🇵🇸**
+<div align="center">
+  <strong>Made with ❤️ in Palestine 🇵🇸</strong>
+  
+  <br><br>
+  
+  <a href="https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e">BSCScan</a> •
+  <a href="https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/">Sourcify</a> •
+  <a href="https://github.com/Osama-Qonaibe/ROUM-Token">GitHub</a>
+</div>
