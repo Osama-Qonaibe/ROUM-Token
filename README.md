@@ -1,7 +1,6 @@
 <div align="center">
   
-  <!-- Logo will appear here once uploaded to assets/logos/ -->
-  <!-- <img src="assets/logos/logo.png" alt="ROUM Logo" width="200"/> -->
+  <img src="assets/logos/logo.png" alt="ROUM Token Logo" width="200"/>
   
   <h1>🪙 ROUM Token</h1>
   <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
