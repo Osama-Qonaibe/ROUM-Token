@@ -11,7 +11,8 @@
     "deploy:testnet": "hardhat run scripts/deploy.js --network bscTestnet",
     "verify": "hardhat verify",
     "clean": "hardhat clean",
-    "accounts": "hardhat accounts"
+    "accounts": "hardhat accounts",
+    "lint": "solhint 'contracts/**/*.sol'"
   },
   "keywords": ["blockchain", "solidity", "roum", "bep20", "bsc"],
   "author": "Osama Qonaibe",
@@ -23,7 +24,9 @@
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
     "ethers": "^6.8.0",
     "hardhat-gas-reporter": "^1.0.9",
-    "solidity-coverage": "^0.8.5"
+    "solidity-coverage": "^0.8.5",
+    "solhint": "^4.0.0",
+    "dotenv": "^16.3.1"
   },
   "engines": {
     "node": ">=16.0.0",
