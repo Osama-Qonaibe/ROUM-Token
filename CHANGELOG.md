@@ -94,7 +94,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.1.0-beta] - 2024-12 (Retired)
+## [0.1.0-beta] - 2025-12 (Retired)
 
 ### Status
 - ⚠️ **RETIRED** - Beta testing phase
@@ -140,13 +140,13 @@ For each release:
 
 ## Future Releases
 
-### Planned for v1.1.0 (Q1 2025)
+### Planned for v1.1.0 (Q1 2026)
 - [ ] Enhanced integration features
 - [ ] Additional exchange support
 - [ ] Community governance features
 - [ ] Analytics improvements
 
-### Planned for v2.0.0 (Q2 2025)
+### Planned for v2.0.0 (Q2 2026)
 - [ ] Multi-network deployment
 - [ ] Cross-chain bridge
 - [ ] DAO governance implementation
@@ -183,6 +183,6 @@ Each release includes:
 
 **Last Updated:** December 26, 2025  
 **Status:** Active & Maintained  
-**Next Review:** January 26, 2025
+**Next Review:** January 26, 2026
 
 **ROUM Token - Building Trust Through Complete Transparency** ✅
