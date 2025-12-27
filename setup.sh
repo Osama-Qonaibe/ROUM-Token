@@ -61,7 +61,7 @@ fi
 
 echo ""
 
-# 3. رفع GitHub
+# 3. رفع GitHub - تصحيح: استخدم الـ branch الحالي بدل main مباشرة
 echo "📤 جاري رفع الملفات إلى GitHub..."
 
 git add package.json package-lock.json
@@ -82,10 +82,12 @@ else
   exit 1
 fi
 
-git push origin main
+# 🔧 FIX: استخدم متغير للـ branch الحالي بدل hardcoded main
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+git push origin $CURRENT_BRANCH
 
 if [ $? -eq 0 ]; then
-  echo "✅ تم الرفع إلى GitHub"
+  echo "✅ تم الرفع إلى GitHub على branch: $CURRENT_BRANCH"
 else
   echo "❌ خطأ في git push - تأكد من الاتصال بالإنترنت والصلاحيات"
   exit 1
@@ -98,7 +100,7 @@ echo "════════════════════════�
 echo ""
 echo "✅ تم إنشاء package.json"
 echo "✅ تم تثبيت npm dependencies"
-echo "✅ تم رفع الملفات إلى GitHub"
+echo "✅ تم رفع الملفات إلى GitHub على branch: $CURRENT_BRANCH"
 echo ""
 echo "📊 الملفات المنشأة:"
 echo "  • package.json"
