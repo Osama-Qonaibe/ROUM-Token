@@ -243,7 +243,7 @@ All remaining tokens:
 
 **Official Statement:**
 
-> "All remaining tokens from the legacy contract (v1.0.0) have been permanently burned by transferring them to the Zero Address (0x000...). These tokens are irreversibly destroyed and cannot be recovered under any circumstances. This action protects investors and ensures platform integrity."
+> "All remaining tokens from the legacy contract (v1.0.0) have been permanently burned by transferring them to the Zero Address (0x000000000000000000000000000000000000dEaD). These tokens are irreversibly destroyed and cannot be recovered under any circumstances. This action protects investors and ensures platform integrity."
 
 ### Burn Details
 
@@ -268,7 +268,7 @@ Step 1: Token Collection
 └─ Ready for destruction
 
 Step 2: Irreversible Transfer
-├─ Transfer to Zero Address: 0x0000000000000000000000000000000000000000
+├─ Transfer to Zero Address: 0x000000000000000000000000000000000000dEaD
 ├─ Zero Address cannot spend tokens
 ├─ No private key exists for recovery
 └─ Permanent destruction achieved
@@ -724,7 +724,7 @@ Step 4: Documentation
 
 *"Building on blockchain principles: Security, Transparency, and Trust"*
 
-**Last Updated:** 28 December 2025  
+**Last Updated:** 29 December 2025  
 **Next Review:** Continuous via CertiK  
 **Developer:** Osama Qonaibe  
 **Contact:** Osamaqonaibe@outlook.com  
