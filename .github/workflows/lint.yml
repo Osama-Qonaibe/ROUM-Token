@@ -10,6 +10,9 @@ jobs:
   solhint:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: read
+    
     strategy:
       matrix:
         node-version: [18.x]
