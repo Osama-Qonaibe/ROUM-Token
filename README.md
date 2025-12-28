@@ -6,20 +6,23 @@
   <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
   
   <!-- CTA Button -->
-  <a href="https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e">
+  <a href="https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504">
     <img src="https://img.shields.io/badge/🔍_View_on_BSCScan-0066CC?style=for-the-badge&logo=blockchain&logoColor=white" alt="View on BSCScan"/>
   </a>
-  <a href="docs/CERTIK-AUDIT.md">
+  <a href="https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504">
     <img src="https://img.shields.io/badge/🔐_CertiK_Audit-97%2F100-success?style=for-the-badge&logo=security&logoColor=white" alt="CertiK Audit"/>
+  </a>
+  <a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504">
+    <img src="https://img.shields.io/badge/✅_Sourcify_Verified-Exact_Match-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Sourcify Verified"/>
   </a>
   
   <br><br>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
   [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue.svg)](https://soliditylang.org/)
-  [![BSC](https://img.shields.io/badge/BSC-Verified-green.svg)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-  [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen.svg)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-  [![CertiK Audit](https://img.shields.io/badge/CertiK_Audit-97%2F100-brightgreen.svg?style=flat&logo=security&logoColor=white)](docs/CERTIK-AUDIT.md)
+  [![BSC](https://img.shields.io/badge/BSC-Verified-green.svg)](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+  [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen.svg)](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+  [![CertiK Audit](https://img.shields.io/badge/CertiK_Audit-97%2F100-brightgreen.svg?style=flat&logo=security&logoColor=white)](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504)
   [![Solidity Lint](https://img.shields.io/badge/Solidity_Lint-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
   [![Security Check](https://img.shields.io/badge/Security_Check-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/security-check.yml)
 
@@ -33,13 +36,38 @@
 
 | Property | Value |
 |----------|-------|
-| **Name** | Rumeida Heritage |
+| **Name** | roum token |
 | **Symbol** | ROUM |
-| **Network** | Binance Smart Chain (BSC) |
-| **Contract** | `0x35B1761B00AB98144fAB4dEDBD58C59A2050947e` |
+| **Network** | Binance Smart Chain (BSC) Mainnet |
+| **Contract Address** | `0x218232b3e7e6214A49922de0954cFc8757F7a504` |
 | **Total Supply** | 1,000,000,000 ROUM |
 | **Decimals** | 18 |
 | **License** | MIT |
+| **Status** | ✅ Live on Mainnet |
+| **Deployment Date** | 28 December 2024 |
+| **Verification** | ✅ Sourcify (Exact Match) + BSCScan Verified |
+
+## 🔐 Security & Verification
+
+### CertiK Security Audit: 97/100 ⭐⭐⭐⭐⭐
+
+<div align="center">
+
+| Metric | Result |
+|--------|--------|
+| **Security Score** | 97/100 (Excellent) |
+| **Tests Passed** | 22/23 (95.7%) |
+| **Critical Issues** | 0 |
+| **High Risk Items** | 0 |
+| **Attention Items** | 1 (Pre-launch Distribution) |
+
+</div>
+
+**Verification Links:**
+- 🔍 [**BSCScan Verification**](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+- ✅ [**Sourcify Verification**](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) - **Exact Match**
+- 🔐 [**CertiK Live Scanner**](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+- 📊 [**CertiK Full Report**](docs/CERTIK-AUDIT.md)
 
 ## 📊 Tokenomics Overview
 
@@ -106,8 +134,8 @@ gantt
     title ROUM Token Roadmap 2025
     dateFormat YYYY-MM-DD
     section Q1 2025
-    Token Deployment           :done, 2024-12-25, 1d
-    Security Audit            :done, 2024-12-26, 2d
+    Token Deployment           :done, 2024-12-25, 2d
+    Security Audit            :done, 2024-12-26, 3d
     Exchange Listings         :active, 2025-01-01, 30d
     Community Launch          :2025-01-15, 15d
     section Q2 2025
@@ -120,21 +148,20 @@ gantt
 
 ## 🔗 Quick Links
 
-- 🔍 [**BSCScan**](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e) - View on Block Explorer
-- ✅ [**Sourcify**](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/) - Verified Source Code
-- 🔐 [**CertiK Security Audit**](docs/CERTIK-AUDIT.md) - Comprehensive Audit Report (97/100)
-- 🔍 [**CertiK Skynet Scan**](https://skynet.certik.com/tools/token-scan/bsc/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e) - Live Security Scanner
+- 🔍 [**BSCScan**](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504) - View on Block Explorer
+- ✅ [**Sourcify**](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Verified Source Code
+- 🔐 [**CertiK Security Audit**](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Live Security Scanner (97/100)
 - 📚 [**Documentation**](docs/) - Technical Documentation
 - 🎨 [**Brand Assets**](assets/) - Logos and Brand Guidelines
 
 ## ✨ Features
 
 - ✅ **Full ERC-20/BEP-20 Compatibility** - Standard compliant token
-- ✅ **Optimized Gas Usage** - Built with Solidity 0.8.33
+- ✅ **Optimized Gas Usage** - Custom errors reduce transaction costs
 - ✅ **Fully Decentralized** - No owner, immutable contract
-- ✅ **Built-in Overflow Protection** - Safe math included
+- ✅ **Built-in Overflow Protection** - Safe math via Solidity 0.8.33
 - ✅ **Clean & Auditable Code** - Open source and transparent
-- ✅ **Multiple Verifications** - Verified on BSCScan and Sourcify
+- ✅ **Multiple Verifications** - Verified on BSCScan and Sourcify (Exact Match)
 - ✅ **Security Audited** - CertiK Score: 97/100 (Excellent)
 
 ## 🛠️ Technical Details
@@ -144,11 +171,11 @@ gantt
 ```json
 {
   "compiler": "solc 0.8.33+commit.64118f21",
+  "evmVersion": "cancun",
   "optimizer": {
     "enabled": true,
     "runs": 200
-  },
-  "evmVersion": "cancun"
+  }
 }
 ```
 
@@ -157,10 +184,10 @@ gantt
 <details>
 <summary><strong>Standard ERC-20 Functions</strong></summary>
 
-- `name()` - Returns token name
-- `symbol()` - Returns token symbol  
-- `decimals()` - Returns decimal places (18)
-- `totalSupply()` - Returns total token supply
+- `name()` - Returns token name: "roum token"
+- `symbol()` - Returns token symbol: "ROUM"
+- `decimals()` - Returns decimal places: 18
+- `totalSupply()` - Returns total token supply: 1,000,000,000 ROUM
 - `balanceOf(address)` - Returns balance of address
 - `transfer(address, uint256)` - Transfer tokens
 - `approve(address, uint256)` - Approve spending allowance
@@ -174,6 +201,16 @@ gantt
 
 - `increaseAllowance(address, uint256)` - Safely increase allowance
 - `decreaseAllowance(address, uint256)` - Safely decrease allowance
+
+</details>
+
+<details>
+<summary><strong>Gas Optimization</strong></summary>
+
+- **Custom Errors** - Reduces gas costs vs traditional require/revert
+- **Unchecked Arithmetic** - Safe due to Solidity 0.8.33 built-in protections
+- **Efficient Storage** - Optimized state variable layout
+- **Minimal Dependencies** - Only implements necessary interface
 
 </details>
 
@@ -198,12 +235,12 @@ ROUM-Token/
 │   ├── metadata.json
 │   └── compiler-settings.json
 ├── contracts/               # Solidity source code
-│   └── ROUM.sol
+│   └── ROUM.sol            # Main contract (v1.0 Mainnet)
 ├── docs/                    # Documentation
-│   ├── CERTIK-AUDIT.md
-│   ├── DEPLOYMENT.md
-│   ├── SECURITY.md
-│   └── INTEGRATION.md
+│   ├── CERTIK-AUDIT.md     # CertiK security audit report
+│   ├── DEPLOYMENT.md       # Deployment details
+│   ├── SECURITY.md         # Security features
+│   └── INTEGRATION.md      # Integration guide
 ├── .solhint.json           # Solidity linter config
 ├── package.json            # NPM configuration
 ├── package-lock.json       # NPM lock file
@@ -215,11 +252,12 @@ ROUM-Token/
 ## 🚀 Deployment Info
 
 - **Network:** BSC Mainnet (Chain ID: 56)
-- **Deployed:** 25 December 2024
+- **Contract Address:** `0x218232b3e7e6214A49922de0954cFc8757F7a504`
+- **Deployed:** 28 December 2024
+- **Deployer:** `0xb50ac6f8A151CB4Cdb826CDDbd0C125A2E52f6E4`
 - **Developer:** Osama Qonaibe
-- **Verification:** Full Match on Sourcify
-- **Source Hash:** `0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd`
-- **IPFS:** `QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL`
+- **Verification:** Sourcify Full Match + BSCScan Verified
+- **Version:** v1.0 (Mainnet Ready)
 
 ## 🔧 Development
 
@@ -242,23 +280,24 @@ npm run lint:fix
 
 ### GitHub Actions
 
-This repository uses automated workflows: 
+This repository uses automated workflows:
 
 - **Solidity Lint** - Checks code quality on every push/PR
 - **Smart Contract Security** - Generates security reports automatically
 
 ## 👨‍💻 Developer
 
-**Osama Qonaibe**  
-📧 Email: Osamaqonaibe@outlook.com  
-🌍 Location: Palestine 🇵🇸  
-💼 Role: Full-Stack & Blockchain Developer
+**Osama Qonaibe**
+- 📧 Email: Osamaqonaibe@outlook.com
+- 🌍 Location: Palestine 🇵🇸
+- 💼 Role: Full-Stack & Blockchain Developer
+- 🔗 GitHub: [@Osama-Qonaibe](https://github.com/Osama-Qonaibe)
 
 ## 📚 Documentation
 
 | Document | Description |
 |----------|-------------|
-| [🔐 CertiK Audit Report](docs/CERTIK-AUDIT.md) | **Comprehensive security audit with charts (97/100)** |
+| [🔐 CertiK Audit Report](docs/CERTIK-AUDIT.md) | **Comprehensive security audit (97/100) with detailed analysis** |
 | [Security Features](docs/SECURITY.md) | Security features and best practices |
 | [Integration Guide](docs/INTEGRATION.md) | Developer integration with code examples |
 | [Deployment Info](docs/DEPLOYMENT.md) | Deployment details and verification |
@@ -266,7 +305,7 @@ This repository uses automated workflows:
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. 
+This project is licensed under the **MIT License**.
 
 ```
 MIT License
@@ -303,17 +342,18 @@ SOFTWARE.
 - ⚠️ **0 Critical Issues**
 - 🔴 **0 High Risk Items**
 
-[**📄 View Full Audit Report**](docs/CERTIK-AUDIT.md) | [**🔍 CertiK Live Scanner**](https://skynet.certik.com/tools/token-scan/bsc/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+[**📄 View Full Audit Report**](docs/CERTIK-AUDIT.md) | [**🔍 CertiK Live Scanner**](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504)
 
 ### Security Features
 
 - ✅ Verified on Sourcify (Full Match)
-- ✅ Verified on BSCScan  
+- ✅ Verified on BSCScan
 - ✅ Solidity 0.8.33 (built-in overflow protection)
+- ✅ Custom error handling (gas optimized)
 - ✅ No external dependencies
-- ✅ Immutable (no owner controls)
+- ✅ Immutable contract (no owner controls)
 - ✅ Open source (MIT License)
-- ✅ Automated smart contract security checks
+- ✅ Automated security checks via GitHub Actions
 - ✅ Automated code quality validation (Solhint)
 - ✅ **CertiK Audited (97/100)** - Exceptional Rating
 
@@ -351,9 +391,9 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
   
   <br>
   
-  <a href="https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e">BSCScan</a> •
-  <a href="https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/">Sourcify</a> •
-  <a href="docs/CERTIK-AUDIT.md">Security Audit</a> •
+  <a href="https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504">BSCScan</a> •
+  <a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504">Sourcify</a> •
+  <a href="https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504">CertiK Security</a> •
   <a href="https://github.com/Osama-Qonaibe/ROUM-Token">GitHub</a>
   
   <br><br>
