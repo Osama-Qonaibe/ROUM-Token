@@ -56,7 +56,7 @@
 
 **OFFICIAL BURN COMMITMENT:**
 
-> "All remaining tokens from the legacy contract (ROUM Token v1.0.0) at address 0x35B1761B00AB98144fAB4dEDBD58C59A2050947e have been permanently burned by transferring them to the Zero Address (0x0000000000000000000000000000000000000000).
+> "All remaining tokens from the legacy contract (ROUM Token v1.0.0) at address 0x35B1761B00AB98144fAB4dEDBD58C59A2050947e have been permanently burned by transferring them to the Zero Address (0x000000000000000000000000000000000000dEaD).
 > 
 > These tokens are irreversibly destroyed and cannot be recovered under any circumstances. This action protects investors and ensures platform integrity. No entity, including the original contract deployer, can ever access or restore these tokens."
 
@@ -123,7 +123,7 @@
 
 ✅ Step 4: Irreversible Transfer
    • Transferred all tokens to Zero Address
-   • Zero Address: 0x0000000000000000000000000000000000000000
+   • Zero Address: 0x000000000000000000000000000000000000dEaD
    • Transaction: Confirmed on blockchain
    • Status: PERMANENT & IRREVERSIBLE
 
@@ -211,7 +211,7 @@ After Burning:
 **What is Zero Address?**
 
 ```
-Address: 0x0000000000000000000000000000000000000000
+Address: 0x000000000000000000000000000000000000dEaD
 
 Characteristics:
 ✓ No owner or controller
@@ -220,13 +220,15 @@ Characteristics:
 ✓ Tokens cannot be moved or recovered
 ✓ Action is permanent and irreversible
 ✓ Used universally for token destruction
+✓ "dEaD" symbolizes tokens are destroyed
 
-Why Zero Address?
+Why Zero Address (dEaD)?
 ✓ Ensures tokens are truly destroyed
 ✓ No one can access these tokens
 ✓ Publicly verifiable
 ✓ Blockchain standard method
 ✓ Tamper-proof and permanent
+✓ Industry-recognized burn destination
 ```
 
 ### Irreversibility Explained
@@ -423,7 +425,7 @@ Status: ✅ OFFICIALLY CERTIFIED
    See transfer to Zero Address
 
 ✓ Step 4: Verify Zero Address
-   https://bscscan.com/address/0x0000000000000000000000000000000000000000
+   https://bscscan.com/address/0x000000000000000000000000000000000000dEaD
    Check balance received: 1,000,000,000 ROUM
 
 ✓ Step 5: Confirm on Sourcify
@@ -451,9 +453,9 @@ Status: ✅ OFFICIALLY CERTIFIED
 - View: [BSCScan](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504)
 
 **Zero Address (Burn Destination):**
-- Address: 0x0000000000000000000000000000000000000000
+- Address: 0x000000000000000000000000000000000000dEaD
 - Balance: 1,000,000,000 ROUM
-- View: [BSCScan](https://bscscan.com/address/0x0000000000000000000000000000000000000000)
+- View: [BSCScan](https://bscscan.com/address/0x000000000000000000000000000000000000dEaD)
 
 **Additional Verification:**
 - Sourcify: [Full Match](https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/)
@@ -467,7 +469,7 @@ Status: ✅ OFFICIALLY CERTIFIED
 |---|---|---|
 | **v1.0.0 Balance** | 0 ROUM | BSCScan |
 | **Burn Date** | 28 Dec 2025 | Blockchain |
-| **Burn Method** | Zero Address | Verified |
+| **Burn Method** | Zero Address (dEaD) | Verified |
 | **Recovery Possible** | NO (0%) | Cryptographic |
 | **Blockchain Verified** | YES | Public Ledger |
 | **Developer Certified** | YES | Official Statement |
@@ -505,9 +507,9 @@ Status: ✅ OFFICIALLY CERTIFIED
 
 **"The proof is on the blockchain forever."**
 
-All remaining tokens from ROUM Token v1.0.0 have been permanently destroyed through transfer to the Zero Address. This action is irreversible, verifiable, and permanent.
+All remaining tokens from ROUM Token v1.0.0 have been permanently destroyed through transfer to the Zero Address (0x000000000000000000000000000000000000dEaD). This action is irreversible, verifiable, and permanent.
 
-**Burn Verification:** [Check on BSCScan](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+**Burn Verification:** [Check on BSCScan](https://bscscan.com/address/0x000000000000000000000000000000000000dEaD)
 
 ---
 
