@@ -73,7 +73,7 @@ assets/
 
 ## Brand Protection
 
-© 2025 Osama Qonaube. All logo designs and brand assets are protected under the MIT License.
+© 2025 Osama Qonaibe. All logo designs and brand assets are protected under the MIT License.
 
 ---
 

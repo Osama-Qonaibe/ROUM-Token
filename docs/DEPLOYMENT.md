@@ -73,7 +73,7 @@ mapping(address => mapping(address => uint256)) private _allowance;
 1. **Contract Development:** Completed
 2. **Local Testing:** Completed
 3. **Compilation:** Solidity 0.8.33 with optimizer enabled (200 runs)
-4. **Deployment to BSC:** December 2024
+4. **Deployment to BSC:** December 25, 2024
 5. **Sourcify Verification:** Completed (Full Match)
 6. **BSCScan Verification:** Completed
 7. **GitHub Repository:** Created December 26, 2025
@@ -119,7 +119,7 @@ mapping(address => mapping(address => uint256)) private _allowance;
 
 ## Developer Information
 
-- **Developer:** Osama Qonaube
+- **Developer:** Osama Qonaibe
 - **Email:** Osamaqonaibe@outlook.com
 - **Location:** Palestine 🇵🇸
 - **GitHub:** [@Osama-Qonaibe](https://github.com/Osama-Qonaibe)
@@ -129,7 +129,7 @@ mapping(address => mapping(address => uint256)) private _allowance;
 ```
 MIT License
 
-Copyright (c) 2025 Osama Qonaube
+Copyright (c) 2025 Osama Qonaibe
 ```
 
 ## Additional Resources
