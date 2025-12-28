@@ -6,11 +6,11 @@
   <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue)](https://soliditylang.org/)
-  [![BSC](https://img.shields.io/badge/BSC-Verified-green)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-  [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-  [![Solidity Lint](https://img.shields.io/github/actions/workflow/status/Osama-Qonaibe/ROUM-Token/solidity-lint.yml?label=Solidity%20Lint&logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
-  [![CodeQL](https://img.shields.io/github/actions/workflow/status/Osama-Qonaibe/ROUM-Token/codeql.yml? label=CodeQL&logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
+  [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue. svg)](https://soliditylang.org/)
+  [![BSC](https://img.shields.io/badge/BSC-Verified-green.svg)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+  [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen.svg)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+  [![Solidity Lint](https://img.shields.io/badge/Solidity_Lint-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
+  [![CodeQL](https://img.shields.io/badge/CodeQL-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
 
 </div>
 
@@ -100,13 +100,13 @@ ROUM-Token/
 ├── assets/                  # Brand assets and logos
 │   ├── logos/              # Logo files directory
 │   ├── README.md
-│   └── brand-guidelines.md
+│   └── brand-guidelines. md
 ├── build/                   # Compilation artifacts
 │   ├── abi. json
 │   ├── metadata.json
 │   └── compiler-settings.json
 ├── contracts/               # Solidity source code
-│   └── ROUM.sol
+│   └── ROUM. sol
 ├── docs/                    # Documentation
 │   ├── DEPLOYMENT.md
 │   ├── SECURITY.md
@@ -134,7 +134,7 @@ ROUM-Token/
 
 ```bash
 # Clone repository
-git clone https://github.com/Osama-Qonaibe/ROUM-Token. git
+git clone https://github.com/Osama-Qonaibe/ROUM-Token.git
 cd ROUM-Token
 
 # Install dependencies
@@ -157,7 +157,7 @@ This repository uses automated workflows:
 ## 👨‍💻 Developer
 
 **Osama Qonaibe**  
-📧 Email:  Osamaqonaibe@outlook.com  
+📧 Email: Osamaqonaibe@outlook.com  
 🌍 Location: Palestine 🇵🇸  
 💼 Role: Full-Stack & Blockchain Developer
 
@@ -172,7 +172,7 @@ This repository uses automated workflows:
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**. 
 
 ```
 MIT License
@@ -233,7 +233,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 **Need help?**
 - 📧 Email: Osamaqonaibe@outlook.com
-- 🐛 GitHub Issues:  [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
+- 🐛 GitHub Issues: [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
 - 📖 Documentation: [View docs](docs/)
 
 ---
