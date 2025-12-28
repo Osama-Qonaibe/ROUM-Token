@@ -5,6 +5,16 @@
   <h1>🪙 ROUM Token</h1>
   <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
   
+  <!-- CTA Button -->
+  <a href="https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e">
+    <img src="https://img.shields.io/badge/🔍_View_on_BSCScan-0066CC?style=for-the-badge&logo=blockchain&logoColor=white" alt="View on BSCScan"/>
+  </a>
+  <a href="docs/CERTIK-AUDIT.md">
+    <img src="https://img.shields.io/badge/🔐_CertiK_Audit-97%2F100-success?style=for-the-badge&logo=security&logoColor=white" alt="CertiK Audit"/>
+  </a>
+  
+  <br><br>
+  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
   [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue.svg)](https://soliditylang.org/)
   [![BSC](https://img.shields.io/badge/BSC-Verified-green.svg)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
@@ -30,6 +40,83 @@
 | **Total Supply** | 1,000,000,000 ROUM |
 | **Decimals** | 18 |
 | **License** | MIT |
+
+## 📊 Tokenomics Overview
+
+### Supply Distribution
+
+```mermaid
+pie title Token Distribution (1B Total Supply)
+    "Development & Team" : 200
+    "Marketing & Growth" : 150
+    "Community Rewards" : 250
+    "Liquidity Pool" : 200
+    "Reserve Fund" : 200
+```
+
+### Token Allocation Breakdown
+
+| Allocation | Tokens | Percentage | Purpose |
+|-----------|--------|------------|----------|
+| 🏗️ **Development & Team** | 200M | 20% | Team compensation, ongoing development |
+| 📢 **Marketing & Growth** | 150M | 15% | Marketing campaigns, partnerships |
+| 👥 **Community Rewards** | 250M | 25% | Airdrops, staking rewards, incentives |
+| 💧 **Liquidity Pool** | 200M | 20% | DEX liquidity provision |
+| 🏦 **Reserve Fund** | 200M | 20% | Emergency fund, future expansion |
+| **Total** | **1,000M** | **100%** | |
+
+### Token Utility Flow
+
+```mermaid
+graph LR
+    A[ROUM Token] --> B[Trading]
+    A --> C[Staking]
+    A --> D[Governance]
+    A --> E[Rewards]
+    B --> F[DEX/CEX]
+    C --> G[Yield Generation]
+    D --> H[DAO Voting]
+    E --> I[Community Incentives]
+    
+    style A fill:#4CAF50,stroke:#333,stroke-width:4px,color:#fff
+    style B fill:#2196F3,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FF9800,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#9C27B0,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#F44336,stroke:#333,stroke-width:2px,color:#fff
+```
+
+### Security Score Breakdown
+
+```mermaid
+pie title CertiK Security Audit Results (97/100)
+    "Passed Tests" : 22
+    "Attention Items" : 1
+```
+
+**Audit Details:**
+- ✅ 22 Tests Passed (95.7%)
+- 🟡 1 Attention Item (Token Distribution - Pre-launch)
+- ⚠️ 0 Critical Issues
+- 🔴 0 High Risk Items
+
+### Development Roadmap
+
+```mermaid
+gantt
+    title ROUM Token Roadmap 2025
+    dateFormat YYYY-MM-DD
+    section Q1 2025
+    Token Deployment           :done, 2024-12-25, 1d
+    Security Audit            :done, 2024-12-26, 2d
+    Exchange Listings         :active, 2025-01-01, 30d
+    Community Launch          :2025-01-15, 15d
+    section Q2 2025
+    Staking Platform          :2025-04-01, 60d
+    Mobile Wallet Integration :2025-05-01, 30d
+    section Q3-Q4 2025
+    DAO Governance Launch     :2025-07-01, 90d
+    DeFi Ecosystem Integration:2025-10-01, 90d
+```
 
 ## 🔗 Quick Links
 
