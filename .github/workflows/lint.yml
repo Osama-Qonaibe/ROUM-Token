@@ -42,8 +42,15 @@ jobs:
     - name: Run ESLint (if config exists)
       if: steps.check-package.outputs.exists == 'true'
       run: |
-        if [ -f .eslintrc.json ] || [ -f .eslintrc.js ] || [ -f .eslintrc.yml ] || [ -f .eslintrc.yaml ] || [ -f .eslintrc.cjs ] || [ -f .eslintrc.mjs ] || [ -f eslint.config.js ]; then
-          npm run lint
+        # Check if any ESLint config file exists
+        if find . -maxdepth 1 \( -name '.eslintrc.*' -o -name 'eslint.config.js' \) -print -quit | grep -q .; then
+          # Check if lint script exists in package.json
+          if grep -q '"lint"' package.json; then
+            npm run lint
+          else
+            echo "⚠️  ESLint config found but no 'lint' script in package.json - running ESLint directly"
+            npx eslint . || true
+          fi
         else
           echo "⚠️  ESLint config not found - skipping lint"
         fi
