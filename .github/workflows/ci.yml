@@ -56,7 +56,6 @@ jobs:
 
       - name: Lint JavaScript
         run: npm run lint:js
-        continue-on-error: true
 
   security:
     name: Security Analysis

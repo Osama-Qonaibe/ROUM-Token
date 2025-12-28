@@ -25,13 +25,13 @@ module.exports = {
       url: "https://data-seed-prebsc-1-s1.binance.org:8545",
       chainId: 97,
       gasPrice: 20000000000,
-      accounts: []
+      accounts: [] // Add private key via environment variable: [process.env.PRIVATE_KEY]
     },
     bsc: {
       url: "https://bsc-dataseed.binance.org/",
       chainId: 56,
       gasPrice: 20000000000,
-      accounts: []
+      accounts: [] // Add private key via environment variable: [process.env.PRIVATE_KEY]
     }
   },
   etherscan: {

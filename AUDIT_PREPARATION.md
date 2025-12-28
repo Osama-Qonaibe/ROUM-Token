@@ -50,7 +50,7 @@
 
 ## Contact Information
 **Developer:** Osama Qonaibe  
-**Email:** [Your Email]  
+**Email:** Osamaqonaibe@outlook.com  
 **GitHub:** https://github.com/Osama-Qonaibe/ROUM-Token
 
 ---
