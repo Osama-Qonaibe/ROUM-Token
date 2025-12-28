@@ -9,8 +9,8 @@
   [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue)](https://soliditylang.org/)
   [![BSC](https://img.shields.io/badge/BSC-Verified-green)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-  [![Solidity Lint](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml/badge. svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
-  [![CodeQL](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql. yml/badge.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
+  [![Solidity Lint](https://img.shields.io/github/actions/workflow/status/Osama-Qonaibe/ROUM-Token/solidity-lint.yml?label=Solidity%20Lint&logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
+  [![CodeQL](https://img.shields.io/github/actions/workflow/status/Osama-Qonaibe/ROUM-Token/codeql.yml? label=CodeQL&logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
 
 </div>
 
@@ -134,7 +134,7 @@ ROUM-Token/
 
 ```bash
 # Clone repository
-git clone https://github.com/Osama-Qonaibe/ROUM-Token.git
+git clone https://github.com/Osama-Qonaibe/ROUM-Token. git
 cd ROUM-Token
 
 # Install dependencies
@@ -149,7 +149,7 @@ npm run lint:fix
 
 ### GitHub Actions
 
-This repository uses automated workflows:
+This repository uses automated workflows: 
 
 - **Solidity Lint** - Checks code quality on every push/PR
 - **CodeQL** - Security analysis on every push/PR
@@ -157,9 +157,9 @@ This repository uses automated workflows:
 ## 👨‍💻 Developer
 
 **Osama Qonaibe**  
-📧 Email: Osamaqonaibe@outlook. com  
+📧 Email:  Osamaqonaibe@outlook.com  
 🌍 Location: Palestine 🇵🇸  
-💼 Role:  Full-Stack & Blockchain Developer
+💼 Role: Full-Stack & Blockchain Developer
 
 ## 📚 Documentation
 
@@ -184,7 +184,7 @@ of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions: 
+furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -210,7 +210,7 @@ SOFTWARE.
 - ✅ Automated security scanning (CodeQL)
 - ✅ Automated code quality checks (Solhint)
 
-🚨 **Security Contact:** Osamaqonaibe@outlook.com
+🚨 **Security Contact:** Osamaqonaibe@outlook. com
 
 For detailed security information, see [SECURITY.md](docs/SECURITY.md)
 
@@ -232,8 +232,8 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 ## 💬 Support
 
 **Need help?**
-- 📧 Email:  Osamaqonaibe@outlook.com
-- 🐛 GitHub Issues: [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
+- 📧 Email: Osamaqonaibe@outlook.com
+- 🐛 GitHub Issues:  [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
 - 📖 Documentation: [View docs](docs/)
 
 ---
