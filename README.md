@@ -100,7 +100,7 @@ ROUM-Token/
 ├── assets/                  # Brand assets and logos
 │   ├── logos/              # Logo files directory
 │   ├── README.md
-│   └── brand-guidelines. md
+│   └── brand-guidelines.md
 ├── build/                   # Compilation artifacts
 │   ├── abi. json
 │   ├── metadata.json
@@ -149,7 +149,7 @@ npm run lint:fix
 
 ### GitHub Actions
 
-This repository uses automated workflows: 
+This repository uses automated workflows:
 
 - **Solidity Lint** - Checks code quality on every push/PR
 - **CodeQL** - Security analysis on every push/PR
@@ -210,9 +210,9 @@ SOFTWARE.
 - ✅ Automated security scanning (CodeQL)
 - ✅ Automated code quality checks (Solhint)
 
-🚨 **Security Contact:** Osamaqonaibe@outlook. com
+🚨 **Security Contact:** Osamaqonaibe@outlook.com
 
-For detailed security information, see [SECURITY.md](docs/SECURITY.md)
+For detailed security information, see [SECURITY. md](docs/SECURITY.md)
 
 ## 🌟 About Tel Rumeida
 
@@ -233,7 +233,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 **Need help?**
 - 📧 Email: Osamaqonaibe@outlook.com
-- 🐛 GitHub Issues: [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
+- 🐛 GitHub Issues:  [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
 - 📖 Documentation: [View docs](docs/)
 
 ---
