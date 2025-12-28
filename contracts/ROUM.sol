@@ -64,9 +64,7 @@ contract ROUM is IERC20 {
         require(spender != address(0), "ROUM: approve to zero address");
         uint256 currentAllowance = _allowance[msg.sender][spender];
         require(currentAllowance >= subtractedValue, "ROUM: decreased allowance below zero");
-        unchecked {
-            _allowance[msg.sender][spender] = currentAllowance - subtractedValue;
-        }
+        _allowance[msg.sender][spender] = currentAllowance - subtractedValue;
         emit Approval(msg.sender, spender, _allowance[msg.sender][spender]);
         return true;
     }
