@@ -334,6 +334,6 @@ Before each release:
 
 **Last Updated:** December 26, 2025  
 **Status:** ✅ Active  
-**Next Update:** January 26, 2025
+**Next Update:** January 26, 2026
 
 **ROUM Token - Transparent Releases, Continuous Improvement** ✨
