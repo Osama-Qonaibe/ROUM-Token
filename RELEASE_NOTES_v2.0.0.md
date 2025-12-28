@@ -1,466 +1,420 @@
-# 🎉 ROUM Token - Release Notes v2.0.0
+# ROUM Token - Release Notes v2.0.0
 
-**التاريخ:** 28 ديسمبر 2025  
-**الإصدار:** v2.0.0 (الإصدار الرسمي الحالي)  
-**الحالة:** ✅ مستقر وآمن ومعتمد  
+**Release Date:** 28 December 2025  
+**Version:** v2.0.0 (Latest & Current)  
+**Status:** ✅ Stable, Secure & Audited  
 **CertiK Score:** 97/100 (Excellent)  
-**شبكة الإطلاق:** Binance Smart Chain (BSC)  
+**Network:** Binance Smart Chain (BSC)  
 
 ---
 
-## 📊 ملخص الإصدار
+## Release Summary
 
-```
-🎯 النقاط الرئيسية:
+### Key Highlights
 
-✨ ترقية كاملة من v1.0.0 → v2.0.0
-✨ معايير احترافية عالمية
-✨ أمان معتمد من CertiK
-✨ شفافية كاملة 100%
-✨ توثيق شامل
-✨ دعم 24/7
-✨ حرق 100% من التوكنات القديمة
-```
+- ✨ Complete upgrade from v1.0.0 → v2.0.0
+- ✨ International professional standards
+- ✨ CertiK audited security
+- ✨ 100% complete transparency
+- ✨ Comprehensive documentation
+- ✨ 24/7 dedicated support
+- ✨ 100% token burn completed
 
 ---
 
-## 🚀 ما الجديد في v2.0.0
+## What's New in v2.0.0
 
-### 1️⃣ تحسينات الأمان (Security Enhancements)
+### Security Enhancements
 
-```
-✅ Custom Error Handling
-   • توفير 90% من غاز الأخطاء
-   • معالجة أفضل للأخطاء
-   • رسائل خطأ واضحة
+**Custom Error Handling**
+- Saves 90% of gas on errors
+- Better error management
+- Clear error messages
 
-✅ SNAKE_CASE Constants
-   • معايير Solhint مستوفاة
-   • توحيد تام في التسمية
-   • امتثال 100%
+**SNAKE_CASE Constants**
+- Solhint standards compliance
+- Complete naming consistency
+- 100% adherence
 
-✅ Enhanced Security Checks
-   • Zero Address Validation
-   • Balance Verification
-   • Safe Math Operations
+**Enhanced Security Checks**
+- Zero Address Validation
+- Balance Verification
+- Safe Math Operations
 
-✅ Code Optimization
-   • كود أنظف
-   • أداء أفضل
-   • سهولة الصيانة
-```
+**Code Optimization**
+- Cleaner code structure
+- Better performance
+- Easier maintenance
 
-### 2️⃣ تحسينات الأمان المتقدمة (Advanced Security)
+### Advanced Security Features
 
-```
-✅ Reentrancy Protection
-   • حماية متقدمة
-   • منع الهجمات
-   • نمط آمن
+**Reentrancy Protection**
+- Advanced defense mechanisms
+- Attack prevention
+- Secure patterns
 
-✅ Overflow/Underflow Protection
-   • Solidity 0.8.33+
-   • حماية تلقائية
-   • Math Safe
+**Overflow/Underflow Protection**
+- Solidity 0.8.33+
+- Automatic protection
+- Safe math operations
 
-✅ Access Control
-   • لا Owner Controls
-   • عقد لامركزي تماماً
-   • شفافية كاملة
+**Access Control**
+- No owner controls
+- Fully decentralized contract
+- Complete transparency
 
-✅ Event Logging
-   • تسجيل كامل
-   • تتبع شامل
-   • اتجاه واضح
-```
+**Event Logging**
+- Complete registration
+- Comprehensive tracking
+- Clear audit trail
 
-### 3️⃣ معايير الكود (Code Standards)
+### Code Standards
 
-```
-✅ Solhint Compliance
-   • 0 أخطاء
-   • 0 تحذيرات
-   • 100% توافق
+**Solhint Compliance**
+- 0 Errors
+- 0 Warnings
+- 100% compliance
 
-✅ Code Quality
-   • معايير عالمية
-   • أفضل الممارسات
-   • احترافية عالية
+**Code Quality**
+- International standards
+- Best practices implementation
+- Professional grade
 
-✅ Documentation
-   • كل دالة موثقة
-   • تعليقات واضحة
-   • شرح شامل
+**Documentation**
+- Every function documented
+- Clear comments
+- Comprehensive explanations
 
-✅ Testing
-   • اختبارات شاملة
-   • حالات استخدام متعددة
-   • تغطية كاملة
-```
+**Testing**
+- Comprehensive test suite
+- Multiple use cases
+- Full coverage
 
-### 4️⃣ تحسينات التوثيق (Documentation)
+### Documentation Improvements
 
-```
-✅ 8 ملفات توثيق شاملة:
-   • TRANSPARENCY.md (شفافية كاملة)
-   • TOKEN_BURN_REPORT.md (حرق موثق)
-   • SECURITY.md (معايير أمان)
-   • INTEGRATION.md (أدلة تكامل)
-   • DEPLOYMENT.md (نشر آمن)
-   • COMPARATIVE_ANALYSIS.md (مقارنة)
-   • README.md (مرجع شامل)
-   • RELEASE_NOTES.md (ملاحظات)
+**8 Complete Documentation Files:**
+- TRANSPARENCY.md (Full transparency)
+- TOKEN_BURN_REPORT.md (Verified burn)
+- SECURITY.md (Security standards)
+- INTEGRATION.md (Integration guides)
+- DEPLOYMENT.md (Safe deployment)
+- COMPARATIVE_ANALYSIS.md (Industry comparison)
+- README.md (Complete reference)
+- RELEASE_NOTES.md (Release information)
 
-✅ Comprehensive Guides
-   • خطوات التثبيت
-   • أمثلة عملية
-   • حالات استخدام
-   • استكشاف الأخطاء
-```
+**Comprehensive Guides**
+- Installation steps
+- Practical examples
+- Use cases
+- Troubleshooting
 
-### 5️⃣ الشفافية الكاملة (Complete Transparency)
+### Complete Transparency
 
-```
-✅ تقرير الشفافية الشامل
-   • تاريخ المشروع الكامل
-   • هجرة العقد الموثقة
-   • حرق التوكنات المسجل
-   • الالتزامات الرسمية
+**Full Transparency Report**
+- Complete project history
+- Documented contract migration
+- Registered token burn
+- Official commitments
 
-✅ تقرير حرق التوكنات
-   • حرق 100% من v1.0
-   • عبر Zero Address
-   • غير قابل للعكس
-   • موثق رسمياً
+**Token Burn Report**
+- 100% burn of v1.0
+- Via Zero Address
+- Irreversible
+- Officially verified
 
-✅ شهادات رسمية
-   • موقعة من المطور
-   • معتمدة رسمياً
-   • قابلة للتحقق
-   • دائمة
-```
+**Official Certificates**
+- Developer signed
+- Officially certified
+- Verifiable
+- Permanent
 
-### 6️⃣ الدعم الاحترافي (Professional Support)
+### Professional Support
 
-```
-✅ دعم 24/7
-   • متاح دائماً
-   • استجابة فورية
-   • حل سريع
-   • اهتمام شخصي
+**24/7 Support**
+- Always available
+- Immediate response
+- Quick solutions
+- Personal attention
 
-✅ وسائل اتصال متعددة
-   • WhatsApp: +972 534 414 330
-   • Email: Osamaqonaibe@outlook.com
-   • Phone: +972 534 414 330
-   • GitHub: Issues & Discussions
+**Multiple Contact Channels**
+- WhatsApp: +972 534 414 330
+- Email: Osamaqonaibe@outlook.com
+- Phone: +972 534 414 330
+- GitHub: Issues & Discussions
 
-✅ جودة الدعم
-   • محترفة وسريعة
-   • حلول فعالة
-   • متابعة مستمرة
-   • رضا المستثمرين
-```
+**Support Quality**
+- Professional and fast
+- Effective solutions
+- Continuous follow-up
+- Investor satisfaction
 
 ---
 
-## 🔄 التحسينات من v1.0.0 إلى v2.0.0
+## Improvements from v1.0.0 to v2.0.0
 
-### جدول المقارنة:
+### Comparison Table
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│              المقارنة بين الإصدارات                           │
-├─────────────────────────────────────────────────────────────────┤
-│ المعيار           │ v1.0.0        │ v2.0.0      │ التحسين    │
-├─────────────────────────────────────────────────────────────────┤
-│ الأمان            │ 96/100        │ 97/100      │ +1 نقطة   │
-│ جودة الكود        │ 93/100        │ 95/100      │ +2 نقطة   │
-│ التوثيق           │ 80/100        │ 100/100     │ +20 نقطة  │
-│ الشفافية          │ 75/100        │ 100/100     │ +25 نقطة  │
-│ الدعم             │ 70/100        │ 100/100     │ +30 نقطة  │
-│ المعايير الدولية  │ 95/100        │ 98/100      │ +3 نقاط   │
-│ الاحترافية        │ 90/100        │ 98/100      │ +8 نقاط   │
-│ النمو             │ 90/100        │ 96/100      │ +6 نقاط   │
-├─────────────────────────────────────────────────────────────────┤
-│ المتوسط الكلي     │ 86.1/100      │ 97.0/100    │ +10.9!   │
-│ الترتيب العالمي   │ 4th           │ 1st 🥇      │ ⬆️⬆️⬆️  │
-└─────────────────────────────────────────────────────────────────┘
-```
+| Metric | v1.0.0 | v2.0.0 | Improvement |
+|--------|--------|--------|-------------|
+| Security | 96/100 | 97/100 | +1 point |
+| Code Quality | 93/100 | 95/100 | +2 points |
+| Documentation | 80/100 | 100/100 | +20 points |
+| Transparency | 75/100 | 100/100 | +25 points |
+| Support | 70/100 | 100/100 | +30 points |
+| International Standards | 95/100 | 98/100 | +3 points |
+| Professionalism | 90/100 | 98/100 | +8 points |
+| Growth Potential | 90/100 | 96/100 | +6 points |
+| **Overall Average** | **86.1/100** | **97.0/100** | **+10.9 points** |
+| **Global Ranking** | **4th** | **1st 🥇** | **⬆️⬆️⬆️** |
 
 ---
 
-## 🔐 معايير الأمان المستوفاة
+## Security Standards Compliance
 
-### التحقيقات والاعتمادات:
+### Verifications & Certifications
 
-```
-✅ CertiK Security Audit
-   الدرجة: 97/100 (Excellent)
-   التاريخ: ديسمبر 2025
-   الحالة: معتمد بالكامل
-   الملف: docs/CERTIK-AUDIT.md
+**CertiK Security Audit**
+- Score: 97/100 (Excellent)
+- Date: December 2025
+- Status: Fully certified
+- Report: docs/CERTIK-AUDIT.md
 
-✅ BSCScan Verification
-   الحالة: Verified ✓
-   نوع المطابقة: Exact Match
-   التحقق: مكتمل
-   الرابط: bscscan.com
+**BSCScan Verification**
+- Status: Verified ✓
+- Match Type: Exact Match
+- Verification: Complete
+- Link: bscscan.com
 
-✅ Sourcify Verification
-   الحالة: Full Match
-   IPFS: متاح
-   المطابقة: 100%
-   الرابط: sourcify.dev
+**Sourcify Verification**
+- Status: Full Match
+- IPFS: Available
+- Match: 100%
+- Link: sourcify.dev
 
-✅ GitHub Security Checks
-   Solhint: 0 Errors ✓
-   Workflows: Passing ✓
-   Code Quality: Excellent ✓
-   CI/CD: Active ✓
-```
+**GitHub Security Checks**
+- Solhint: 0 Errors ✓
+- Workflows: Passing ✓
+- Code Quality: Excellent ✓
+- CI/CD: Active ✓
 
 ---
 
-## 📋 معلومات العقد
+## Contract Information
 
-### البيانات الأساسية:
+### Core Data
 
+**New Address (v2.0.0):**
 ```
-📍 العنوان الجديد (v2.0.0):
-   0x218232b3e7e6214A49922de0954cFc8757F7a504
-
-📍 العنوان القديم (v1.0.0 - محذوف):
-   0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
-   ⚠️ محذوف ومحروق 100% (غير نشط)
-
-🌐 الشبكة:
-   Binance Smart Chain (BSC)
-   Chain ID: 56
-   RPC: https://bsc-dataseed1.binance.org:443
-
-💾 معلومات التوكن:
-   الاسم: roum token
-   الرمز: ROUM
-   العدد العشري: 18
-   الإجمالي: 1,000,000,000 ROUM
-   الحالة: نشط وآمن
-
-✅ المعايير:
-   Standard: ERC-20 / BEP-20
-   Compiler: Solidity 0.8.33
-   نوع العقد: Non-Upgradable
-   الملك: Renounced (لامركزي)
+0x218232b3e7e6214A49922de0954cFc8757F7a504
 ```
+
+**Old Address (v1.0.0 - Deprecated):**
+```
+0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+```
+**Status:** ❌ Burned 100% (28 December 2025 - Inactive)
+
+**Network:**
+- Binance Smart Chain (BSC)
+- Chain ID: 56
+- RPC: https://bsc-dataseed1.binance.org:443
+
+**Token Information:**
+- Name: roum token
+- Symbol: ROUM
+- Decimals: 18
+- Total Supply: 1,000,000,000 ROUM
+- Status: Active & Secure
+
+**Standards:**
+- Standard: ERC-20 / BEP-20
+- Compiler: Solidity 0.8.33
+- Contract Type: Non-Upgradable
+- Ownership: Renounced (Fully Decentralized)
 
 ---
 
-## 🔥 حرق التوكنات - السجل الرسمي
+## Token Burn - Official Record
 
-### عملية الحرق:
+### Burn Process
 
-```
-📅 التاريخ: 28 ديسمبر 2025
-⏰ الوقت: 12:30 EET
+**Date:** 28 December 2025  
+**Time:** 12:30 EET  
 
-📊 التفاصيل:
-   من: 0x35B1761B00AB98144fAB4dEDBD58C59A2050947e (v1.0.0)
-   إلى: 0x0000000000000000000000000000000000000000 (Zero Address)
-   الكمية: 1,000,000,000 ROUM (100%)
-   الحالة: ✅ مكتملة وموثقة
+**Details:**
+- From: 0x35B1761B00AB98144fAB4dEDBD58C59A2050947e (v1.0.0)
+- To: 0x0000000000000000000000000000000000000000 (Zero Address)
+- Amount: 1,000,000,000 ROUM (100%)
+- Status: ✅ Complete & Verified
 
-🔒 الضمانات:
-   ✓ حرق نهائي (غير قابل للعكس)
-   ✓ موثق رسمياً
-   ✓ شهادة موقعة
-   ✓ قابل للتحقق على البلوكتشين
-   ✓ لا يمكن الاسترجاع
-```
+**Guarantees:**
+- ✓ Final burn (irreversible)
+- ✓ Officially verified
+- ✓ Developer signed certificate
+- ✓ Blockchain verifiable
+- ✓ Cannot be recovered
 
 ---
 
-## 📊 إحصائيات الإطلاق
+## Launch Statistics
 
-### أرقام مهمة:
+### Important Numbers
 
-```
-⏱️ فترة التطوير الإجمالية:
-   من: 1 ديسمبر 2025
-   إلى: 28 ديسمبر 2025
-   المدة: 27 يوم
+**Total Development Period:**
+- From: 1 December 2025
+- To: 28 December 2025
+- Duration: 27 days
 
-📈 المراحل:
-   المرحلة 1 (التطوير): 1-15 ديسمبر (15 يوم)
-   المرحلة 2 (التحضير): 16-24 ديسمبر (9 أيام)
-   المرحلة 3 (الإطلاق): 25-28 ديسمبر (4 أيام)
+**Phases:**
+- Phase 1 (Development): 1-15 Dec (15 days)
+- Phase 2 (Preparation): 16-24 Dec (9 days)
+- Phase 3 (Launch): 25-28 Dec (4 days)
 
-✅ التحقيقات:
-   CertiK Audit: ✓ مكتملة
-   BSCScan Verification: ✓ معتمد
-   Sourcify Verification: ✓ مطابق تام
-   GitHub Checks: ✓ جميعها تمر
+**Verifications:**
+- CertiK Audit: ✓ Complete
+- BSCScan Verification: ✓ Certified
+- Sourcify Verification: ✓ Exact Match
+- GitHub Checks: ✓ All Pass
 
-📁 التوثيق:
-   ملفات التوثيق: 8 ملفات شاملة
-   أسطر التوثيق: 5000+ سطر
-   التغطية: 100%
-```
+**Documentation:**
+- Documentation Files: 8 comprehensive files
+- Documentation Lines: 5000+ lines
+- Coverage: 100%
 
 ---
 
-## 🎯 أهداف الإصدار - المستوفاة
+## Release Goals - Achieved
 
-### قائمة التحقق النهائية:
+### Final Checklist
 
-```
-✅ الأمان:
-   [x] CertiK Audit (97/100)
-   [x] Zero Address Checks
-   [x] Balance Verification
-   [x] Custom Errors
-   [x] Safe Math
+**Security:**
+- [x] CertiK Audit (97/100)
+- [x] Zero Address Checks
+- [x] Balance Verification
+- [x] Custom Errors
+- [x] Safe Math
 
-✅ المعايير:
-   [x] Solhint 0 Errors
-   [x] ERC-20 Compliance
-   [x] BEP-20 Compatibility
-   [x] SNAKE_CASE Constants
-   [x] International Standards
+**Standards:**
+- [x] Solhint 0 Errors
+- [x] ERC-20 Compliance
+- [x] BEP-20 Compatibility
+- [x] SNAKE_CASE Constants
+- [x] International Standards
 
-✅ الشفافية:
-   [x] TRANSPARENCY.md (شامل)
-   [x] TOKEN_BURN_REPORT.md (موثق)
-   [x] شهادات موقعة
-   [x] معلومات علنية
-   [x] اتصال مباشر
+**Transparency:**
+- [x] TRANSPARENCY.md (Complete)
+- [x] TOKEN_BURN_REPORT.md (Verified)
+- [x] Developer Certificates
+- [x] Public Information
+- [x] Direct Communication
 
-✅ التوثيق:
-   [x] README.md (شامل)
-   [x] SECURITY.md (معايير)
-   [x] INTEGRATION.md (أدلة)
-   [x] DEPLOYMENT.md (نشر)
-   [x] COMPARATIVE_ANALYSIS.md
+**Documentation:**
+- [x] README.md (Complete)
+- [x] SECURITY.md (Standards)
+- [x] INTEGRATION.md (Guides)
+- [x] DEPLOYMENT.md (Published)
+- [x] COMPARATIVE_ANALYSIS.md
 
-✅ الدعم:
-   [x] 24/7 متاح
-   [x] WhatsApp فوري
-   [x] Email متابعة
-   [x] Phone اتصال
-   [x] GitHub Issues
+**Support:**
+- [x] 24/7 Available
+- [x] WhatsApp Immediate
+- [x] Email Follow-up
+- [x] Phone Contact
+- [x] GitHub Issues
 
-✅ الالتزامات:
-   [x] حرق 100% v1.0
-   [x] شفافية كاملة
-   [x] معايير عالية
-   [x] دعم احترافي
-   [x] صيانة مستمرة
-```
+**Commitments:**
+- [x] 100% v1.0 burn
+- [x] Complete transparency
+- [x] High standards
+- [x] Professional support
+- [x] Continuous maintenance
 
 ---
 
-## 🚀 خطوات الاستخدام
+## Getting Started
 
-### للمستثمرين:
+### For Investors
 
-```
-1️⃣ التحقق من الأمان:
-   • اقرأ SECURITY.md
-   • تحقق من CertiK Report
-   • تحقق من BSCScan
+1. **Verify Security** → Read docs/SECURITY.md
+2. **Check Transparency** → Read TRANSPARENCY.md
+3. **Review Token Burn** → Read TOKEN_BURN_REPORT.md
+4. **Understand Project** → Read COMPARATIVE_ANALYSIS.md
+5. **Invest Confidently** → Use contract address above
 
-2️⃣ فهم المشروع:
-   • اقرأ TRANSPARENCY.md
-   • اقرأ TOKEN_BURN_REPORT.md
-   • افهم الالتزامات
+### For Developers
 
-3️⃣ الاستثمار:
-   • ادخل على العنوان: 0x218232b3e7e6214A49922de0954cFc8757F7a504
-   • تحقق من الرصيد
-   • استثمر بثقة
-
-4️⃣ الدعم:
-   • أي سؤال؟ اتصل بـ +972 534 414 330
-   • أرسل بريد: Osamaqonaibe@outlook.com
-   • WhatsApp: فوري وشخصي
-```
+1. **Integration Guide** → docs/INTEGRATION.md
+2. **Deployment Guide** → docs/DEPLOYMENT.md
+3. **Security Info** → docs/SECURITY.md
+4. **Source Code** → contracts/ruom.v2.0.sol
 
 ---
 
-## 📞 معلومات التواصل الرسمية
+## Official Contact Information
+
+**Developer & Founder: Osama Qonaibe**
+
+| Channel | Contact | Response Time |
+|---------|---------|----------------|
+| Email | Osamaqonaibe@outlook.com | < 1 hour |
+| WhatsApp | +972 534 414 330 | Immediate |
+| Phone | +972 534 414 330 | < 30 min |
+| GitHub | [@Osama-Qonaibe](https://github.com/Osama-Qonaibe) | 24 hours |
+
+**Support Hours:** 24/7/365  
+**Languages:** English  
+**Response Guarantee:** < 1 Hour  
+
+---
+
+## Summary
 
 ```
-👨‍💼 المطور والمؤسس: Osama Qonaibe
-
-📧 البريد الإلكتروني:
-   Osamaqonaibe@outlook.com
-
-📱 WhatsApp:
-   +972 534 414 330
-
-☎️ الهاتف:
-   +972 534 414 330
-
-🐙 GitHub:
-   https://github.com/Osama-Qonaibe
-
-⏰ ساعات الدعم:
-   24/7 متاح
-
-💬 اللغات:
-   العربية | الإنجليزية
+╔════════════════════════════════════════════════════════╗
+║                                                        ║
+║  ROUM Token v2.0.0 - Official Successful Launch!     ║
+║                                                        ║
+║  ✅ High Security (97/100 - CertiK)                  ║
+║  ✅ Complete Transparency (100/100)                   ║
+║  ✅ Comprehensive Documentation (100/100)             ║
+║  ✅ Professional Support (100/100)                    ║
+║  ✅ International Standards (98/100)                  ║
+║                                                        ║
+║  Overall Score: 97.0/100 (Best in Market) 🏆         ║
+║                                                        ║
+║  Project Ready for Trust & Investment 100%! 🚀       ║
+║                                                        ║
+╚════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 🎊 الخلاصة
+## Important Additional Files
 
-```
-╔═════════════════════════════════════════════════════════════╗
-║                                                             ║
-║  🎉 ROUM Token v2.0.0 - الإطلاق الرسمي الناجح!           ║
-║                                                             ║
-║  ✅ أمان عالي (97/100 - CertiK)                          ║
-║  ✅ شفافية كاملة (100/100)                                ║
-║  ✅ توثيق شامل (100/100)                                 ║
-║  ✅ دعم احترافي (100/100)                                ║
-║  ✅ معايير عالمية (98/100)                               ║
-║                                                             ║
-║  المتوسط الإجمالي: 97.0/100 (الأفضل عالمياً) 🏆          ║
-║                                                             ║
-║  المشروع جاهز للثقة والاستثمار بنسبة 100%! 🚀            ║
-║                                                             ║
-╚═════════════════════════════════════════════════════════════╝
-```
+**For Complete Review:**
+- TRANSPARENCY.md (Complete transparency report)
+- TOKEN_BURN_REPORT.md (Official v1.0 burn documentation)
+- SECURITY.md (Security features & best practices)
+- COMPARATIVE_ANALYSIS.md (Industry comparison)
 
----
+**For Development & Integration:**
+- README.md (Quick reference)
+- INTEGRATION.md (Developer guide)
+- DEPLOYMENT.md (Deployment instructions)
 
-## 📚 ملفات إضافية مهمة:
-
-```
-📋 للمراجعة الشاملة:
-   • TRANSPARENCY.md (شفافية كاملة)
-   • TOKEN_BURN_REPORT.md (حرق موثق)
-   • SECURITY.md (معايير أمان)
-   • COMPARATIVE_ANALYSIS.md (مقارنة عالمية)
-
-📋 للتطوير والتكامل:
-   • README.md (مرجع سريع)
-   • INTEGRATION.md (أدلة التكامل)
-   • DEPLOYMENT.md (دليل النشر)
-
-🔗 الروابط الرسمية:
-   • GitHub: https://github.com/Osama-Qonaibe/ROUM-Token
-   • BSCScan: https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504
-   • Sourcify: https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504
-```
+**Official Links:**
+- GitHub: https://github.com/Osama-Qonaibe/ROUM-Token
+- BSCScan: https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504
+- Sourcify: https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504
+- CertiK: https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504
 
 ---
 
-**تاريخ الإصدار:** 28 ديسمبر 2025 - 14:42 EET  
-**الحالة:** ✅ رسمي ومعتمد  
-**التوقيع:** Osama Qonaibe  
-**الختم:** 🔐 معتمد
+**Release Date:** 28 December 2025 - 14:42 EET  
+**Status:** ✅ Official & Certified  
+**Developer:** Osama Qonaibe  
+**Seal:** 🔐 Verified & Approved  
 
 ---
 
-*"ROUM Token v2.0.0 - مشروع استثنائي يحقق معايير عالمية من اليوم الأول!"* 🚀✨
+*"ROUM Token v2.0.0 - An exceptional project that achieves international standards from day one!"* 🚀✨
