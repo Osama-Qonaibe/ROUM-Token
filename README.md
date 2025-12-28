@@ -11,7 +11,7 @@
   [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen.svg)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![CertiK Audit](https://img.shields.io/badge/CertiK_Audit-97%2F100-brightgreen.svg?style=flat&logo=security&logoColor=white)](docs/CERTIK-AUDIT.md)
   [![Solidity Lint](https://img.shields.io/badge/Solidity_Lint-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
-  [![CodeQL](https://img.shields.io/badge/CodeQL-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
+  [![Security Check](https://img.shields.io/badge/Security_Check-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/security-check.yml)
 
 </div>
 
@@ -99,7 +99,7 @@ ROUM-Token/
 │   ├── ISSUE_TEMPLATE/
 │   ├── workflows/
 │   │   ├── solidity-lint.yml
-│   │   └── codeql.yml
+│   │   └── security-check.yml
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── assets/                  # Brand assets and logos
 │   ├── logos/              # Logo files directory
@@ -158,7 +158,7 @@ npm run lint:fix
 This repository uses automated workflows: 
 
 - **Solidity Lint** - Checks code quality on every push/PR
-- **CodeQL** - Security analysis on every push/PR
+- **Smart Contract Security** - Generates security reports automatically
 
 ## 👨‍💻 Developer
 
@@ -226,8 +226,8 @@ SOFTWARE.
 - ✅ No external dependencies
 - ✅ Immutable (no owner controls)
 - ✅ Open source (MIT License)
-- ✅ Automated security scanning (CodeQL)
-- ✅ Automated code quality checks (Solhint)
+- ✅ Automated smart contract security checks
+- ✅ Automated code quality validation (Solhint)
 - ✅ **CertiK Audited (97/100)** - Exceptional Rating
 
 🚨 **Security Contact:** Osamaqonaibe@outlook.com
