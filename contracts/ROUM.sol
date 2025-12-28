@@ -5,7 +5,6 @@ pragma solidity ^0.8.33;
  * @title ROUM Token - Rumeida Heritage ERC20
  * @notice Rumeida Heritage Token (ROUM) - A BEP20 token on Binance Smart Chain
  * @dev Implements standard ERC20 interface with optimized gas usage via custom errors
- * @author Osama Qonaibe
  */
 
 interface IERC20 {
@@ -38,16 +37,9 @@ contract ROUM is IERC20 {
     error DecreaseAllowanceBelowZero();
 
     // ==================== TOKEN METADATA ====================
-    /// @notice Token name
-    string public constant name = "roum token";
-    
-    /// @notice Token symbol
+    string public constant name = "Rumeida Heritage";
     string public constant symbol = "ROUM";
-    
-    /// @notice Token decimal places
     uint8 public constant decimals = 18;
-    
-    /// @notice Total token supply: 1 billion tokens
     uint256 public constant totalSupply = 1_000_000_000 * 10**18;
 
     // ==================== STATE VARIABLES ====================
@@ -59,7 +51,7 @@ contract ROUM is IERC20 {
 
     // ==================== CONSTRUCTOR ====================
     /**
-     * @notice Initializes the ROUM token with initial supply
+     * @notice Initializes the ROUM token
      * @dev Allocates all tokens to contract deployer
      */
     constructor() {
