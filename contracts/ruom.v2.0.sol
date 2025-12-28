@@ -37,10 +37,10 @@ contract ROUM is IERC20 {
     error DecreaseAllowanceBelowZero();
 
     // ==================== TOKEN METADATA ====================
-    string public constant name = "Rumeida Heritage";
-    string public constant symbol = "ROUM";
-    uint8 public constant decimals = 18;
-    uint256 public constant totalSupply = 1_000_000_000 * 10**18;
+    string public constant NAME = "roum token";
+    string public constant SYMBOL = "ROUM";
+    uint8 public constant DECIMALS = 18;
+    uint256 public constant TOTAL_SUPPLY = 1_000_000_000 * 10**18;
 
     // ==================== STATE VARIABLES ====================
     /// @dev Maps account addresses to their token balances
@@ -55,8 +55,8 @@ contract ROUM is IERC20 {
      * @dev Allocates all tokens to contract deployer
      */
     constructor() {
-        _balanceOf[msg.sender] = totalSupply;
-        emit Transfer(address(0), msg.sender, totalSupply);
+        _balanceOf[msg.sender] = TOTAL_SUPPLY;
+        emit Transfer(address(0), msg.sender, TOTAL_SUPPLY);
     }
 
     // ==================== VIEW FUNCTIONS ====================
