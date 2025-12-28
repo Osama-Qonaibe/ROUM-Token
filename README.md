@@ -9,6 +9,7 @@
   [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue.svg)](https://soliditylang.org/)
   [![BSC](https://img.shields.io/badge/BSC-Verified-green.svg)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen.svg)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+  [![CertiK](https://img.shields.io/badge/CertiK-97%2F100-brightgreen.svg?style=flat&logo=security&logoColor=white)](https://skynet.certik.com/tools/token-scan/bsc/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![Solidity Lint](https://img.shields.io/badge/Solidity_Lint-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
   [![CodeQL](https://img.shields.io/badge/CodeQL-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
 
@@ -34,6 +35,7 @@
 
 - 🔍 [**BSCScan**](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e) - View on Block Explorer
 - ✅ [**Sourcify**](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/) - Verified Source Code
+- 🔐 [**CertiK Audit**](docs/CERTIK-AUDIT.md) - Security Audit Report (97/100)
 - 📚 [**Documentation**](docs/) - Technical Documentation
 - 🎨 [**Brand Assets**](assets/) - Logos and Brand Guidelines
 
@@ -45,6 +47,7 @@
 - ✅ **Built-in Overflow Protection** - Safe math included
 - ✅ **Clean & Auditable Code** - Open source and transparent
 - ✅ **Multiple Verifications** - Verified on BSCScan and Sourcify
+- ✅ **Security Audited** - CertiK Score: 97/100
 
 ## 🛠️ Technical Details
 
@@ -99,6 +102,7 @@ ROUM-Token/
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── assets/                  # Brand assets and logos
 │   ├── logos/              # Logo files directory
+│   ├── audit/              # Security audit visualizations
 │   ├── README.md
 │   └── brand-guidelines.md
 ├── build/                   # Compilation artifacts
@@ -108,6 +112,7 @@ ROUM-Token/
 ├── contracts/               # Solidity source code
 │   └── ROUM.sol
 ├── docs/                    # Documentation
+│   ├── CERTIK-AUDIT.md
 │   ├── DEPLOYMENT.md
 │   ├── SECURITY.md
 │   └── INTEGRATION.md
@@ -165,6 +170,7 @@ This repository uses automated workflows:
 
 | Document | Description |
 |----------|-------------|
+| [CertiK Audit](docs/CERTIK-AUDIT.md) | Comprehensive security audit report (97/100) |
 | [Security](docs/SECURITY.md) | Security features and audit information |
 | [Integration](docs/INTEGRATION.md) | Developer integration guide with code examples |
 | [Deployment](docs/DEPLOYMENT.md) | Deployment details and verification |
@@ -209,6 +215,7 @@ SOFTWARE.
 - ✅ Open source (MIT License)
 - ✅ Automated security scanning (CodeQL)
 - ✅ Automated code quality checks (Solhint)
+- ✅ **CertiK Audited (97/100)** - [View Report](docs/CERTIK-AUDIT.md)
 
 🚨 **Security Contact:** Osamaqonaibe@outlook.com
 
@@ -246,6 +253,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
   
   <a href="https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e">BSCScan</a> •
   <a href="https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/">Sourcify</a> •
+  <a href="https://skynet.certik.com/tools/token-scan/bsc/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e">CertiK</a> •
   <a href="https://github.com/Osama-Qonaibe/ROUM-Token">GitHub</a>
   
   <br><br>
