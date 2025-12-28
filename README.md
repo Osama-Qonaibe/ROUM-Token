@@ -110,6 +110,91 @@ ROUM-Token/
 └── .gitignore
 ```
 
+## 🛠️ Development Setup
+
+This repository includes a complete development infrastructure for testing, linting, and deploying the ROUM token.
+
+### Prerequisites
+
+- Node.js v20 or later
+- npm or yarn package manager
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Compile contracts
+npm run compile
+
+# Run tests
+npm test
+
+# Run test coverage
+npm run test:coverage
+
+# Lint Solidity code
+npm run lint:sol
+
+# Lint JavaScript code
+npm run lint:js
+```
+
+### Available Scripts
+
+| Script | Description |
+|--------|-------------|
+| `npm test` | Run all tests using Hardhat |
+| `npm run test:coverage` | Generate test coverage report |
+| `npm run compile` | Compile smart contracts |
+| `npm run lint:sol` | Lint Solidity files with Solhint |
+| `npm run lint:js` | Lint JavaScript files with ESLint |
+| `npm run deploy` | Deploy contracts to configured network |
+
+### Project Structure (Development)
+
+```
+ROUM-Token/
+├── contracts/               # Solidity source code
+│   └── ROUM.sol            # Main token contract
+├── test/                   # Comprehensive test suite
+│   └── ROUM.test.js
+├── scripts/                # Deployment scripts
+│   └── deploy.js
+├── hardhat.config.js       # Hardhat configuration
+├── .solhint.json          # Solidity linting rules
+├── .eslintrc.json         # JavaScript linting rules
+├── AUDIT_PREPARATION.md   # Audit documentation
+└── .github/workflows/     # CI/CD workflows
+    └── ci.yml
+```
+
+### Testing
+
+The project includes comprehensive tests covering:
+- ✅ Deployment and initialization
+- ✅ Token transfers and balances
+- ✅ Allowance management (approve, increase, decrease)
+- ✅ Edge cases and error conditions
+- ✅ Event emissions
+
+### CI/CD
+
+GitHub Actions workflows automatically:
+- ✅ Compile contracts on every push
+- ✅ Run full test suite
+- ✅ Generate coverage reports
+- ✅ Lint Solidity and JavaScript code
+- ✅ Run security analysis with Slither
+
+### Network Configuration
+
+The Hardhat configuration supports:
+- **Hardhat Network** (local testing)
+- **BSC Testnet** (testing deployment)
+- **BSC Mainnet** (production)
+
 ## 🚀 Deployment Info
 
 - **Network:** BSC Mainnet (Chain ID: 56)
