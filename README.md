@@ -1,5 +1,7 @@
 <div align="center">
-  
+
+  [![Solidity Lint](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml/badge.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
+[![CodeQL](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml/badge.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
   <img src="assets/logos/logo.png" alt="ROUM Token Logo" width="200"/>
   
   <h1>🪙 ROUM Token</h1>
