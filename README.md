@@ -6,7 +6,7 @@
   <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue. svg)](https://soliditylang.org/)
+  [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue.svg)](https://soliditylang.org/)
   [![BSC](https://img.shields.io/badge/BSC-Verified-green.svg)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen.svg)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![Solidity Lint](https://img.shields.io/badge/Solidity_Lint-passing-brightgreen.svg?logo=github)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
@@ -90,7 +90,7 @@
 
 ```
 ROUM-Token/
-├── . github/                  # GitHub configuration
+├── .github/                  # GitHub configuration
 │   ├── FUNDING.yml
 │   ├── ISSUE_TEMPLATE/
 │   ├── workflows/
@@ -102,21 +102,21 @@ ROUM-Token/
 │   ├── README.md
 │   └── brand-guidelines.md
 ├── build/                   # Compilation artifacts
-│   ├── abi. json
+│   ├── abi.json
 │   ├── metadata.json
 │   └── compiler-settings.json
 ├── contracts/               # Solidity source code
-│   └── ROUM. sol
+│   └── ROUM.sol
 ├── docs/                    # Documentation
 │   ├── DEPLOYMENT.md
 │   ├── SECURITY.md
 │   └── INTEGRATION.md
-├── . solhint.json           # Solidity linter config
+├── .solhint.json           # Solidity linter config
 ├── package.json            # NPM configuration
 ├── package-lock.json       # NPM lock file
 ├── LICENSE                 # MIT License
 ├── README.md               # This file
-└── . gitignore
+└── .gitignore
 ```
 
 ## 🚀 Deployment Info
@@ -157,7 +157,7 @@ This repository uses automated workflows:
 ## 👨‍💻 Developer
 
 **Osama Qonaibe**  
-📧 Email:  Osamaqonaibe@outlook.com  
+📧 Email: Osamaqonaibe@outlook.com  
 🌍 Location: Palestine 🇵🇸  
 💼 Role: Full-Stack & Blockchain Developer
 
@@ -189,7 +189,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", "WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -210,7 +210,7 @@ SOFTWARE.
 - ✅ Automated security scanning (CodeQL)
 - ✅ Automated code quality checks (Solhint)
 
-🚨 **Security Contact:** Osamaqonaibe@outlook. com
+🚨 **Security Contact:** Osamaqonaibe@outlook.com
 
 For detailed security information, see [SECURITY.md](docs/SECURITY.md)
 
@@ -233,7 +233,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 **Need help?**
 - 📧 Email: Osamaqonaibe@outlook.com
-- 🐛 GitHub Issues:  [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
+- 🐛 GitHub Issues: [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
 - 📖 Documentation: [View docs](docs/)
 
 ---
