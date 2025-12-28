@@ -56,7 +56,7 @@ event Transfer(address indexed from, address indexed to, uint256 value);
 
 ---
 
-### v1.0.0 - Genesis Release (2024-12-25)
+### v1.0.0 - Genesis Release (2025-12-25)
 
 **Type:** Major Release (v1.0.0)  
 **Scope:** Initial Production Release  

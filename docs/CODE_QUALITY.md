@@ -252,7 +252,7 @@ Compliance Status:          ✅ FULL
 - Better developer experience
 - No breaking changes
 
-### v1.0.0 (2024-12-25)
+### v1.0.0 (2025-12-25)
 - Initial release
 - Full ERC-20/BEP-20 compliance
 - Complete security audit

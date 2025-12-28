@@ -1,7 +1,7 @@
 # ROUM Token v1.0.0 - Changelog
 
 ## Version 1.0.0 - Genesis Release
-**Release Date:** December 25, 2024
+**Release Date:** December 25, 2025
 **Status:** Production
 
 ### Added
