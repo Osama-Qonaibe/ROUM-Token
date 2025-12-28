@@ -132,14 +132,14 @@ White:  #FFFFFF  (255, 255, 255)
 
 ### Copyright Notice
 ```
-© 2025 Osama Qonaube. All rights reserved.
+© 2024 Osama Qonaibe. All rights reserved.
 Licensed under MIT License.
 ```
 
 ### Smart Contract Attribution
 ```
 SPDX-License-Identifier: MIT
-Developer: Osama Qonaube
+Developer: Osama Qonaibe
 Email: Osamaqonaibe@outlook.com
 ```
 
@@ -168,6 +168,6 @@ Email: Osamaqonaibe@outlook.com
 
 ---
 
-**Maintained by:** Osama Qonaube  
-**Last Updated:** December 26, 2025  
+**Maintained by:** Osama Qonaibe  
+**Last Updated:** December 26, 2024  
 **License:** MIT License

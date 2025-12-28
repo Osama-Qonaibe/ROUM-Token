@@ -113,7 +113,7 @@ ROUM-Token/
 ## 🚀 Deployment Info
 
 - **Network:** BSC Mainnet (Chain ID: 56)
-- **Deployed:** 25 December 2025
+- **Deployed:** 25 December 2024
 - **Developer:** Osama Qonaibe
 - **Verification:** Full Match on Sourcify
 - **Source Hash:** `0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd`
@@ -142,7 +142,7 @@ This project is licensed under the **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2025 Osama Qonaibe
+Copyright (c) 2024 Osama Qonaibe
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

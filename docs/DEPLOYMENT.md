@@ -119,7 +119,7 @@ mapping(address => mapping(address => uint256)) private _allowance;
 
 ## Developer Information
 
-- **Developer:** Osama Qonaube
+- **Developer:** Osama Qonaibe
 - **Email:** Osamaqonaibe@outlook.com
 - **Location:** Palestine 🇵🇸
 - **GitHub:** [@Osama-Qonaibe](https://github.com/Osama-Qonaibe)
@@ -129,7 +129,7 @@ mapping(address => mapping(address => uint256)) private _allowance;
 ```
 MIT License
 
-Copyright (c) 2025 Osama Qonaube
+Copyright (c) 2024 Osama Qonaibe
 ```
 
 ## Additional Resources

@@ -2,7 +2,7 @@
 
 ## Official Contact Directory
 
-**Last Updated:** December 26, 2025  
+**Last Updated:** December 26, 2024  
 **Status:** ✅ Active & Verified
 
 ---
@@ -409,6 +409,6 @@ Discussions: Join the community
 
 ---
 
-**Last Updated:** December 26, 2025  
+**Last Updated:** December 26, 2024  
 **Status:** ✅ Active & Verified  
 **Next Review:** January 26, 2025
