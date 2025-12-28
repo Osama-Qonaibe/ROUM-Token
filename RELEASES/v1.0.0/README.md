@@ -559,4 +559,4 @@ Community Status:      ✅ Ready for adoption
 - Last Updated: December 26, 2025
 - Next Review: January 26, 2026
 
-**Copyright © 2024 ROUM Token. All rights reserved.**
+**Copyright © 2025 ROUM Token. All rights reserved.**

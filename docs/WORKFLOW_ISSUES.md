@@ -83,9 +83,7 @@ If automated checking is desired, consider adding Solidity-specific workflows in
        steps:
          - uses: actions/checkout@v4
          - name: Run solhint
-           run: |
-             npm install -g solhint
-             solhint 'contracts/**/*.sol'
+           run: npm install -g solhint && solhint 'contracts/**/*.sol'
    ```
 
 3. **Hardhat/Truffle Tests** (if testing framework is added)
