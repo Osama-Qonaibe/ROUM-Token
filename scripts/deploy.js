@@ -15,7 +15,7 @@ async function main() {
   console.log("Name:", await roum.name());
   console.log("Symbol:", await roum.symbol());
   console.log("Decimals:", await roum.decimals());
-  console.log("Total Supply:", ethers.formatEther(await roum.totalSupply()), "ROUM");
+  console.log("Total Supply:", hre.ethers.formatEther(await roum.totalSupply()), "ROUM");
 }
 
 main()

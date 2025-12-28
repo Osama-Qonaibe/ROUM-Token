@@ -6,12 +6,11 @@ describe("ROUM Token - Comprehensive Test Suite", function () {
   let owner;
   let addr1;
   let addr2;
-  let addrs;
 
   const TOTAL_SUPPLY = ethers.parseEther("1000000000"); // 1 billion tokens
 
   beforeEach(async function () {
-    [owner, addr1, addr2, ...addrs] = await ethers.getSigners();
+    [owner, addr1, addr2] = await ethers.getSigners();
     const ROUM = await ethers.getContractFactory("ROUM");
     roum = await ROUM.deploy();
   });
