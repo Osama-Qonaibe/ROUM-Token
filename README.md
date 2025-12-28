@@ -3,7 +3,7 @@
   <img src="assets/logos/logo.png" alt="ROUM Token Logo" width="200"/>
   
   <h1>🪙 ROUM Token</h1>
-  <p><strong>Rumeida Heritage on Binance Smart Chain</strong></p>
+  <p><strong>roum token on Binance Smart Chain</strong></p>
   
   <!-- CTA Button -->
   <a href="https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504">
@@ -30,7 +30,7 @@
 
 ---
 
-**ROUM** is a BEP-20 token deployed on Binance Smart Chain, representing the heritage and history of Rumeida (Tel Rumeida) in Hebron, Palestine.
+**ROUM** is a BEP-20 token deployed on Binance Smart Chain, representing roum token heritage on the blockchain.
 
 ## 📋 Token Information
 
@@ -235,7 +235,7 @@ ROUM-Token/
 │   ├── metadata.json
 │   └── compiler-settings.json
 ├── contracts/               # Solidity source code
-│   └── ROUM.sol            # Main contract (v1.0 Mainnet)
+│   └── ruom.v2.0.sol       # Main contract (v2.0 - Current)
 ├── docs/                    # Documentation
 │   ├── CERTIK-AUDIT.md     # CertiK security audit report
 │   ├── DEPLOYMENT.md       # Deployment details
@@ -257,7 +257,7 @@ ROUM-Token/
 - **Deployer:** `0xb50ac6f8A151CB4Cdb826CDDbd0C125A2E52f6E4`
 - **Developer:** Osama Qonaibe
 - **Verification:** Sourcify Full Match + BSCScan Verified
-- **Version:** v1.0 (Mainnet Ready)
+- **Version:** v2.0 (Latest)
 
 ## 🔧 Development
 
@@ -361,9 +361,9 @@ SOFTWARE.
 
 For detailed security information, see [SECURITY.md](docs/SECURITY.md)
 
-## 🌟 About Tel Rumeida
+## 🌟 About roum token
 
-Tel Rumeida (Arabic: تل الرميدة) is an ancient archaeological site in Hebron, Palestine, with continuous human settlement spanning over 5,000 years. This token honors and preserves the rich cultural heritage of this historic Palestinian site.
+roum token is a digital asset on the Binance Smart Chain designed for modern blockchain transactions and ecosystem integration.
 
 ## 🤝 Contributing
 
@@ -398,6 +398,6 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
   
   <br><br>
   
-  **ROUM Token - Preserving Palestinian Heritage on the Blockchain**
+  **ROUM Token - roum token on the Blockchain**
   
 </div>
