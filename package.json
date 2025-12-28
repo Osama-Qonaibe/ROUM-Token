@@ -1,0 +1,14 @@
+{
+  "name": "roum-token",
+  "version": "1.0.0",
+  "description": "🪙 ROUM (Rumeida Heritage) - ERC20 Token on Binance Smart Chain",
+  "scripts": {
+    "lint": "solhint 'contracts/**/*.sol'"
+  },
+  "devDependencies": {
+    "solhint": "^4.1.1"
+  },
+  "keywords": ["solidity", "bsc", "erc20", "blockchain"],
+  "author": "Osama Qonaibe",
+  "license": "MIT"
+}
