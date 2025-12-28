@@ -53,6 +53,22 @@
 
 ---
 
+## 📊 Professional Security Audit Report
+
+**[👉 View Complete Audit with Professional Charts & Visualizations](docs/CERTIK-AUDIT-VISUAL.md)**
+
+This comprehensive report includes:
+- 📈 Interactive security score gauge (97/100)
+- 📊 Industry comparison charts (ROUM vs USDT/USDC/BNB)
+- ✅ Test results visualization (95.7% pass rate)
+- 🎯 Risk assessment matrix (0 critical issues)
+- ⚡ Gas optimization analysis (90% savings)
+- 💎 Code quality profile (8-dimension assessment)
+- 🔐 Vulnerability scan results (0 issues found)
+- 📋 Complete test breakdown and recommendations
+
+---
+
 ## Project Status Summary
 
 ### Overall Quality Score: 97.0/100
@@ -97,6 +113,7 @@
 - [View on BSCScan](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Verified Contract
 - [Sourcify Verification](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Exact Match (100%)
 - [CertiK Live Scanner](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Live Security Analysis
+- [📊 Full Audit Report with Charts](docs/CERTIK-AUDIT-VISUAL.md) - Professional Visualizations
 - [Full Audit Report](docs/CERTIK-AUDIT.md) - Comprehensive Analysis
 
 ---
@@ -107,6 +124,7 @@
 
 | Document | Purpose | Last Updated |
 |----------|---------|---------------|
+| [📊 CERTIK-AUDIT-VISUAL.md](docs/CERTIK-AUDIT-VISUAL.md) | **Professional Security Charts & Visualizations** | 28 Dec 2025 |
 | [TRANSPARENCY.md](TRANSPARENCY.md) | Complete Project Transparency & History | 28 Dec 2025 |
 | [TOKEN_BURN_REPORT.md](TOKEN_BURN_REPORT.md) | Official v1.0 Token Burn Documentation | 28 Dec 2025 |
 | [COMPARATIVE_ANALYSIS.md](COMPARATIVE_ANALYSIS.md) | Industry Comparison (97/100) | 28 Dec 2025 |
@@ -194,11 +212,12 @@ Verification: BSCScan + Sourcify (Exact Match)
 
 ### For Investors
 
-1. **Verify Security** → Read [docs/SECURITY.md](docs/SECURITY.md)
-2. **Check Transparency** → Read [TRANSPARENCY.md](TRANSPARENCY.md)
-3. **Review Token Burn** → Read [TOKEN_BURN_REPORT.md](TOKEN_BURN_REPORT.md)
-4. **Understand Project** → Read [COMPARATIVE_ANALYSIS.md](COMPARATIVE_ANALYSIS.md)
-5. **Purchase on DEX** → Use contract address above
+1. **View Security Charts** → [📊 CERTIK-AUDIT-VISUAL.md](docs/CERTIK-AUDIT-VISUAL.md)
+2. **Verify Security** → Read [docs/SECURITY.md](docs/SECURITY.md)
+3. **Check Transparency** → Read [TRANSPARENCY.md](TRANSPARENCY.md)
+4. **Review Token Burn** → Read [TOKEN_BURN_REPORT.md](TOKEN_BURN_REPORT.md)
+5. **Understand Project** → Read [COMPARATIVE_ANALYSIS.md](COMPARATIVE_ANALYSIS.md)
+6. **Purchase on DEX** → Use contract address above
 
 ### For Developers
 
@@ -307,6 +326,7 @@ copies or substantial portions of the Software.
   [BSCScan](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504) •
   [Sourcify](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) •
   [CertiK](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504) •
+  [📊 Security Charts](docs/CERTIK-AUDIT-VISUAL.md) •
   [Documentation](docs/) •
   [Support](mailto:Osamaqonaibe@outlook.com)
   
