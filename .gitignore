@@ -25,3 +25,13 @@ node_modules/
 # OS
 .DS_Store
 Thumbs.db
+
+# NPM
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+*.cache

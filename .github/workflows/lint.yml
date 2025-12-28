@@ -1,0 +1,35 @@
+name: Solidity Lint
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  solhint:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v3
+
+    - name: 🔧 Setup Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+
+    - name: 📦 Install dependencies
+      run: npm install
+
+    - name: 🔍 Run Solhint
+      run: npm run lint
+
+    - name: ✅ Lint completed successfully
+      if: success()
+      run: echo "✅ Solidity code passed all lint checks!"
