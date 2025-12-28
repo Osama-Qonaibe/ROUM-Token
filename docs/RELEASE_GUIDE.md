@@ -7,7 +7,7 @@ This guide documents the release process and version history of ROUM Token, ensu
 ## 📋 Current Version
 
 **Latest Release:** v1.0.1 (Code Quality Patch)  
-**Release Date:** December 26, 2025  
+**Release Date:** December 26, 2024  
 **Status:** ✅ Active & Maintained
 
 ---

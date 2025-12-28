@@ -386,4 +386,4 @@ For integration support:
 
 ---
 
-**Last Updated:** December 26, 2025
+**Last Updated:** December 26, 2024

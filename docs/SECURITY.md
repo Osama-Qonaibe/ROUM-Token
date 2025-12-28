@@ -222,5 +222,5 @@ While ROUM token has been designed with security in mind:
 ---
 
 **Security Contact:** Osamaqonaibe@outlook.com  
-**Last Updated:** December 26, 2025  
+**Last Updated:** December 26, 2024  
 **Version:** 1.0

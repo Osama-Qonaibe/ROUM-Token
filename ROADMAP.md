@@ -20,7 +20,7 @@ Empower the Palestinian community by creating a transparent, secure, and decentr
 - [x] Brand identity and logos
 - [x] Professional repository setup
 
-**Status:** ✅ Completed (December 25, 2025)
+**Status:** ✅ Completed (December 25, 2024)
 
 ---
 
@@ -235,8 +235,8 @@ This roadmap is subject to change based on:
 - Regulatory environment
 - Strategic priorities
 
-**Last Updated:** December 26, 2025  
-**Next Review:** January 15, 2026
+**Last Updated:** December 26, 2024  
+**Next Review:** January 15, 2025
 
 ---
 

@@ -76,7 +76,7 @@ mapping(address => mapping(address => uint256)) private _allowance;
 4. **Deployment to BSC:** December 2024
 5. **Sourcify Verification:** Completed (Full Match)
 6. **BSCScan Verification:** Completed
-7. **GitHub Repository:** Created December 26, 2025
+7. **GitHub Repository:** Created December 26, 2024
 
 ## Contract Features
 
@@ -141,4 +141,4 @@ Copyright (c) 2024 Osama Qonaibe
 
 ---
 
-**Last Updated:** December 26, 2025
+**Last Updated:** December 26, 2024

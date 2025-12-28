@@ -251,7 +251,7 @@ This governance framework may be amended through:
 
 ---
 
-**Last Updated:** December 25, 2025  
+**Last Updated:** December 25, 2024  
 **Next Review:** March 25, 2025
 
 For questions: Osamaqonaibe@outlook.com
