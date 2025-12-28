@@ -1,0 +1,156 @@
+{
+  "project": {
+    "name": "ROUM Token",
+    "subtitle": "Rumeida Heritage - تراث رميضة الرقمي",
+    "description": "Platform tokenization for Rumeida cultural heritage through blockchain technology",
+    "network": "Binance Smart Chain (BSC)",
+    "standard": "ERC-20",
+    "launchYear": 2025
+  },
+  "tokenomics": {
+    "totalSupply": 1000000,
+    "tokenSymbol": "ROUM",
+    "tokenDecimals": 18,
+    "distribution": [
+      {
+        "category": "ICO - Public Sale",
+        "percentage": 40,
+        "amount": 400000,
+        "description": "Public Initial Coin Offering",
+        "color": "rgba(45, 139, 146, 0.9)"
+      },
+      {
+        "category": "Liquidity Pool",
+        "percentage": 20,
+        "amount": 200000,
+        "description": "DEX Liquidity and Trading Pairs",
+        "color": "rgba(50, 184, 198, 0.9)"
+      },
+      {
+        "category": "Development Team",
+        "percentage": 15,
+        "amount": 150000,
+        "description": "Team incentives and operations",
+        "color": "rgba(255, 215, 0, 0.9)"
+      },
+      {
+        "category": "Reserve Fund",
+        "percentage": 15,
+        "amount": 150000,
+        "description": "Strategic reserves for project growth",
+        "color": "rgba(255, 107, 107, 0.9)"
+      },
+      {
+        "category": "Community Rewards",
+        "percentage": 10,
+        "amount": 100000,
+        "description": "Community incentives and rewards",
+        "color": "rgba(81, 207, 102, 0.9)"
+      }
+    ]
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Phase One - Development",
+      "period": "Q1 2025",
+      "description": "Smart contract development and design with specialized team",
+      "milestones": [
+        "Smart contract architecture",
+        "Security framework implementation",
+        "Initial testing and debugging"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Phase Two - Auditing",
+      "period": "Q2 2025",
+      "description": "Comprehensive security audit and contract verification",
+      "milestones": [
+        "Third-party security audit",
+        "Vulnerability assessment",
+        "Code optimization"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Official Launch",
+      "period": "Q3 2025",
+      "description": "Deployment on Binance Smart Chain",
+      "milestones": [
+        "Contract deployment on BSC",
+        "DEX listing and liquidity launch",
+        "Community onboarding"
+      ]
+    },
+    {
+      "phase": 4,
+      "title": "Public Sale",
+      "period": "Q4 2025",
+      "description": "Open public offering for investors",
+      "milestones": [
+        "ICO launch",
+        "Investor acquisition",
+        "Market expansion"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "title": "High Security",
+      "icon": "fas fa-lock-open",
+      "description": "Fully audited smart contract with highest security standards"
+    },
+    {
+      "id": 2,
+      "title": "Fast Speed",
+      "icon": "fas fa-tachometer-alt",
+      "description": "Instant transactions on Binance Smart Chain network"
+    },
+    {
+      "id": 3,
+      "title": "Global Reach",
+      "icon": "fas fa-globe",
+      "description": "Available worldwide without geographic restrictions"
+    },
+    {
+      "id": 4,
+      "title": "Transparency",
+      "icon": "fas fa-chart-pie",
+      "description": "All data visible and verifiable on blockchain"
+    },
+    {
+      "id": 5,
+      "title": "Trustworthy",
+      "icon": "fas fa-handshake",
+      "description": "Backed by active community and strong support"
+    },
+    {
+      "id": 6,
+      "title": "Unique",
+      "icon": "fas fa-star",
+      "description": "Distinctive design reflecting project vision and future"
+    }
+  ],
+  "team": {
+    "founder": "Osama Qonaibe",
+    "title": "Full-Stack & Blockchain Developer",
+    "location": "Palestine 🇵🇸",
+    "expertise": [
+      "Smart Contract Development",
+      "Solidity Programming",
+      "Blockchain Architecture",
+      "DeFi Solutions",
+      "Full-Stack Development"
+    ]
+  },
+  "stats": {
+    "totalSupply": "1,000,000 ROUM",
+    "network": "Binance Smart Chain (BSC)",
+    "standard": "ERC-20 Token Standard",
+    "security": "Audited Smart Contract",
+    "community": "Growing and Active",
+    "status": "Ready for Launch"
+  }
+}
