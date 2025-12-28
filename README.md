@@ -16,7 +16,7 @@
 
 ---
 
-**ROUM** is a BEP-20 token deployed on Binance Smart Chain, representing the heritage and history of Rumeida (Tel Rumeida) in Hebron, Palestine. 
+**ROUM** is a BEP-20 token deployed on Binance Smart Chain, representing the heritage and history of Rumeida (Tel Rumeida) in Hebron, Palestine.
 
 ## 📋 Token Information
 
@@ -149,7 +149,7 @@ npm run lint:fix
 
 ### GitHub Actions
 
-This repository uses automated workflows:
+This repository uses automated workflows: 
 
 - **Solidity Lint** - Checks code quality on every push/PR
 - **CodeQL** - Security analysis on every push/PR
@@ -157,7 +157,7 @@ This repository uses automated workflows:
 ## 👨‍💻 Developer
 
 **Osama Qonaibe**  
-📧 Email: Osamaqonaibe@outlook.com  
+📧 Email:  Osamaqonaibe@outlook.com  
 🌍 Location: Palestine 🇵🇸  
 💼 Role: Full-Stack & Blockchain Developer
 
@@ -210,9 +210,9 @@ SOFTWARE.
 - ✅ Automated security scanning (CodeQL)
 - ✅ Automated code quality checks (Solhint)
 
-🚨 **Security Contact:** Osamaqonaibe@outlook.com
+🚨 **Security Contact:** Osamaqonaibe@outlook. com
 
-For detailed security information, see [SECURITY. md](docs/SECURITY.md)
+For detailed security information, see [SECURITY.md](docs/SECURITY.md)
 
 ## 🌟 About Tel Rumeida
 
