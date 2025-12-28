@@ -1,7 +1,5 @@
 <div align="center">
-
-  [![Solidity Lint](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml/badge.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
-[![CodeQL](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml/badge.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
+  
   <img src="assets/logos/logo.png" alt="ROUM Token Logo" width="200"/>
   
   <h1>🪙 ROUM Token</h1>
@@ -11,11 +9,14 @@
   [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue)](https://soliditylang.org/)
   [![BSC](https://img.shields.io/badge/BSC-Verified-green)](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
   [![Sourcify](https://img.shields.io/badge/Sourcify-Verified-brightgreen)](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+  [![Solidity Lint](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml/badge. svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/solidity-lint.yml)
+  [![CodeQL](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql. yml/badge.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/actions/workflows/codeql.yml)
+
 </div>
 
 ---
 
-**ROUM** is a BEP-20 token deployed on Binance Smart Chain, representing the heritage and history of Rumeida (Tel Rumeida) in Hebron, Palestine.
+**ROUM** is a BEP-20 token deployed on Binance Smart Chain, representing the heritage and history of Rumeida (Tel Rumeida) in Hebron, Palestine. 
 
 ## 📋 Token Information
 
@@ -89,16 +90,19 @@
 
 ```
 ROUM-Token/
-├── .github/                  # GitHub configuration
+├── . github/                  # GitHub configuration
 │   ├── FUNDING.yml
 │   ├── ISSUE_TEMPLATE/
+│   ├── workflows/
+│   │   ├── solidity-lint.yml
+│   │   └── codeql.yml
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── assets/                  # Brand assets and logos
 │   ├── logos/              # Logo files directory
 │   ├── README.md
 │   └── brand-guidelines.md
 ├── build/                   # Compilation artifacts
-│   ├── abi.json
+│   ├── abi. json
 │   ├── metadata.json
 │   └── compiler-settings.json
 ├── contracts/               # Solidity source code
@@ -107,26 +111,55 @@ ROUM-Token/
 │   ├── DEPLOYMENT.md
 │   ├── SECURITY.md
 │   └── INTEGRATION.md
-├── LICENSE                  # MIT License
-├── README.md                # This file
-└── .gitignore
+├── . solhint.json           # Solidity linter config
+├── package.json            # NPM configuration
+├── package-lock.json       # NPM lock file
+├── LICENSE                 # MIT License
+├── README.md               # This file
+└── . gitignore
 ```
 
 ## 🚀 Deployment Info
 
 - **Network:** BSC Mainnet (Chain ID: 56)
-- **Deployed:** 25 December 2025
+- **Deployed:** 25 December 2024
 - **Developer:** Osama Qonaibe
 - **Verification:** Full Match on Sourcify
 - **Source Hash:** `0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd`
 - **IPFS:** `QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL`
 
+## 🔧 Development
+
+### Setup
+
+```bash
+# Clone repository
+git clone https://github.com/Osama-Qonaibe/ROUM-Token.git
+cd ROUM-Token
+
+# Install dependencies
+npm install
+
+# Run linter
+npm run lint
+
+# Fix linting issues
+npm run lint:fix
+```
+
+### GitHub Actions
+
+This repository uses automated workflows:
+
+- **Solidity Lint** - Checks code quality on every push/PR
+- **CodeQL** - Security analysis on every push/PR
+
 ## 👨‍💻 Developer
 
 **Osama Qonaibe**  
-📧 Email: Osamaqonaibe@outlook.com  
+📧 Email: Osamaqonaibe@outlook. com  
 🌍 Location: Palestine 🇵🇸  
-💼 Role: Full-Stack & Blockchain Developer
+💼 Role:  Full-Stack & Blockchain Developer
 
 ## 📚 Documentation
 
@@ -151,7 +184,7 @@ of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+furnished to do so, subject to the following conditions: 
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -174,6 +207,8 @@ SOFTWARE.
 - ✅ No external dependencies
 - ✅ Immutable (no owner controls)
 - ✅ Open source (MIT License)
+- ✅ Automated security scanning (CodeQL)
+- ✅ Automated code quality checks (Solhint)
 
 🚨 **Security Contact:** Osamaqonaibe@outlook.com
 
@@ -192,11 +227,12 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 2. Follow the code style guidelines
 3. Write clear commit messages
 4. Test your changes on BSC testnet
+5. Ensure all linting checks pass
 
 ## 💬 Support
 
 **Need help?**
-- 📧 Email: Osamaqonaibe@outlook.com
+- 📧 Email:  Osamaqonaibe@outlook.com
 - 🐛 GitHub Issues: [Create an issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
 - 📖 Documentation: [View docs](docs/)
 
