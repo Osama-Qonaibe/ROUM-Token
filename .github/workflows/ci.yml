@@ -29,7 +29,7 @@ jobs:
   node-tests:
     name: Run Node tests (Hardhat)
     needs: detect
-    if: ${{ needs.detect.outputs.has_packages == 'true' }}
+    if: ${{ needs.detect.outputs.has_package == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -50,7 +50,7 @@ jobs:
   solhint:
     name: Solhint (Solidity linter)
     needs: detect
-    if: ${{ needs.detect.outputs.has_contracts == 'true' && needs.detect.outputs.has_packages == 'true' }}
+    if: ${{ needs.detect.outputs.has_contracts == 'true' && needs.detect.outputs.has_package == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
