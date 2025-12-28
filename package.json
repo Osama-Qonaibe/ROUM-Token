@@ -1,0 +1,39 @@
+{
+  "name": "roum-token",
+  "version": "1.0.0",
+  "description": "🪙 ROUM (Rumeida Heritage) - ERC20 Token on Binance Smart Chain",
+  "main": "contracts/ROUM.sol",
+  "author": {
+    "name": "Osama Qonaibe",
+    "email": "Osamaqonaibe@outlook.com",
+    "url": "https://github.com/Osama-Qonaibe"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Osama-Qonaibe/ROUM-Token.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "erc20",
+    "bsc",
+    "binance-smart-chain",
+    "token",
+    "roum",
+    "rumeida",
+    "heritage",
+    "palestine",
+    "solidity",
+    "smart-contract",
+    "defi"
+  ],
+  "bugs": {
+    "url": "https://github.com/Osama-Qonaibe/ROUM-Token/issues",
+    "email": "Osamaqonaibe@outlook.com"
+  },
+  "homepage": "https://github.com/Osama-Qonaibe/ROUM-Token#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
