@@ -11,7 +11,7 @@ jobs:
     name: Detect repo layout
     runs-on: ubuntu-latest
     outputs:
-      has_packages: ${{ steps.pkg.outputs.has_package }}
+      has_package: ${{ steps.pkg.outputs.has_package }}
       has_contracts: ${{ steps.ct.outputs.has_contracts }}
     steps:
       - uses: actions/checkout@v4
