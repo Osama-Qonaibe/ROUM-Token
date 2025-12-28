@@ -13,17 +13,39 @@ interface IERC20 {
 }
 
 contract ROUM is IERC20 {
-    string public constant name = "Rumeida Heritage";
-    string public constant symbol = "ROUM";
-    uint8 public constant decimals = 18;
-    uint256 public constant totalSupply = 1_000_000_000 * 10**18;
+    string public constant NAME = "Rumeida Heritage";
+    string public constant SYMBOL = "ROUM";
+    uint8 public constant DECIMALS = 18;
+    uint256 public constant TOTAL_SUPPLY = 1_000_000_000 * 10**18;
 
     mapping(address => uint256) private _balanceOf;
     mapping(address => mapping(address => uint256)) private _allowance;
 
+    // Custom Errors for gas optimization
+    error ZeroAddress();
+    error InsufficientBalance();
+    error InsufficientAllowance();
+    error DecreaseAllowanceBelowZero();
+
     constructor() {
-        _balanceOf[msg.sender] = totalSupply;
-        emit Transfer(address(0), msg.sender, totalSupply);
+        _balanceOf[msg.sender] = TOTAL_SUPPLY;
+        emit Transfer(address(0), msg.sender, TOTAL_SUPPLY);
+    }
+
+    function totalSupply() public view override returns (uint256) {
+        return TOTAL_SUPPLY;
+    }
+
+    function name() public view returns (string memory) {
+        return NAME;
+    }
+
+    function symbol() public view returns (string memory) {
+        return SYMBOL;
+    }
+
+    function decimals() public view returns (uint8) {
+        return DECIMALS;
     }
 
     function balanceOf(address account) public view override returns (uint256) {
@@ -35,9 +57,9 @@ contract ROUM is IERC20 {
     }
 
     function transfer(address to, uint256 value) external override returns (bool) {
-        require(to != address(0), "ROUM: transfer to zero address");
+        if (to == address(0)) revert ZeroAddress();
         uint256 fromBal = _balanceOf[msg.sender];
-        require(fromBal >= value, "ROUM: insufficient balance");
+        if (fromBal < value) revert InsufficientBalance();
         unchecked {
             _balanceOf[msg.sender] = fromBal - value;
             _balanceOf[to] += value;
@@ -47,14 +69,14 @@ contract ROUM is IERC20 {
     }
 
     function approve(address spender, uint256 value) external override returns (bool) {
-        require(spender != address(0), "ROUM: approve to zero address");
+        if (spender == address(0)) revert ZeroAddress();
         _allowance[msg.sender][spender] = value;
         emit Approval(msg.sender, spender, value);
         return true;
     }
 
     function increaseAllowance(address spender, uint256 addedValue) external returns (bool) {
-        require(spender != address(0), "ROUM: approve to zero address");
+        if (spender == address(0)) revert ZeroAddress();
         unchecked {
             _allowance[msg.sender][spender] += addedValue;
         }
@@ -63,9 +85,9 @@ contract ROUM is IERC20 {
     }
 
     function decreaseAllowance(address spender, uint256 subtractedValue) external returns (bool) {
-        require(spender != address(0), "ROUM: approve to zero address");
+        if (spender == address(0)) revert ZeroAddress();
         uint256 currentAllowance = _allowance[msg.sender][spender];
-        require(currentAllowance >= subtractedValue, "ROUM: decreased allowance below zero");
+        if (currentAllowance < subtractedValue) revert DecreaseAllowanceBelowZero();
         unchecked {
             _allowance[msg.sender][spender] = currentAllowance - subtractedValue;
         }
@@ -74,12 +96,12 @@ contract ROUM is IERC20 {
     }
 
     function transferFrom(address from, address to, uint256 value) external override returns (bool) {
-        require(from != address(0), "ROUM: transfer from zero address");
-        require(to != address(0), "ROUM: transfer to zero address");
+        if (from == address(0)) revert ZeroAddress();
+        if (to == address(0)) revert ZeroAddress();
         uint256 fromBal = _balanceOf[from];
-        require(fromBal >= value, "ROUM: insufficient balance");
+        if (fromBal < value) revert InsufficientBalance();
         uint256 currentAllowance = _allowance[from][msg.sender];
-        require(currentAllowance >= value, "ROUM: insufficient allowance");
+        if (currentAllowance < value) revert InsufficientAllowance();
         unchecked {
             _balanceOf[from] = fromBal - value;
             _balanceOf[to] += value;
