@@ -1,44 +1,40 @@
 {
   "name": "roum-token",
-  "version": "1.0.0",
-  "description":  "🪙 ROUM (Rumeida Heritage) - ERC20 Token on Binance Smart Chain",
-  "main": "contracts/ROUM.sol",
-  "scripts": {
-    "lint": "solhint 'contracts/**/*.sol'",
-    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type":  "git",
-    "url":  "https://github.com/Osama-Qonaibe/ROUM-Token.git"
-  },
+  "version": "2.0.0",
+  "description": "ROUM - roum token on Binance Smart Chain. A BEP-20 token with full ERC-20 compatibility, gas-optimized using custom errors, and verified on BSCScan & Sourcify.",
   "keywords": [
-    "blockchain",
-    "cryptocurrency",
-    "erc20",
+    "roum",
+    "roum-token",
+    "bep20",
     "bsc",
     "binance-smart-chain",
-    "token",
-    "roum",
-    "rumeida",
-    "heritage",
-    "palestine",
-    "solidity",
+    "ethereum",
     "smart-contract",
-    "defi"
+    "cryptocurrency",
+    "token",
+    "solidity",
+    "web3"
   ],
+  "homepage": "https://github.com/Osama-Qonaibe/ROUM-Token",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Osama-Qonaibe/ROUM-Token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Osama-Qonaibe/ROUM-Token/issues"
+  },
   "author": {
     "name": "Osama Qonaibe",
     "email": "Osamaqonaibe@outlook.com",
-    "url":  "https://github.com/Osama-Qonaibe"
+    "url": "https://github.com/Osama-Qonaibe"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Osama-Qonaibe/ROUM-Token/issues",
-    "email": "Osamaqonaibe@outlook. com"
+  "main": "contracts/ruom.v2.0.sol",
+  "scripts": {
+    "lint": "solhint 'contracts/**/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix"
   },
-  "homepage": "https://github.com/Osama-Qonaibe/ROUM-Token#readme",
   "devDependencies": {
-    "solhint": "^4.1.1"
+    "solhint": "^4.0.0"
   }
 }
