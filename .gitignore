@@ -12,9 +12,18 @@ docs/
 
 # Dotenv file
 .env
+.env.local
 
-# Node modules
+# Dependencies
 node_modules/
+package-lock.json
+
+# Hardhat
+cache/
+artifacts/
+coverage/
+coverage.json
+typechain-types/
 
 # IDE
 .vscode/

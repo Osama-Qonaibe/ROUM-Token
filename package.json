@@ -1,0 +1,29 @@
+{
+  "name": "roum-token",
+  "version": "1.0.0",
+  "description": "ROUM (Rumeida Heritage) Token - Professional ERC20 on BSC",
+  "scripts": {
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "lint:sol": "solhint 'contracts/**/*.sol'",
+    "lint:js": "eslint '**/*.js'",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "verify": "hardhat verify"
+  },
+  "keywords": ["ROUM", "ERC20", "BSC", "Token", "Blockchain"],
+  "author": "Osama Qonaibe",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "chai": "^4.3.10",
+    "ethers": "^6.9.0",
+    "solhint": "^4.0.0",
+    "eslint": "^8.55.0",
+    "solidity-coverage": "^0.8.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "compiler-version": ["error", "^0.8.33"],
+    "func-visibility": ["warn", {"ignoreConstructors": true}],
+    "max-line-length": ["warn", 120],
+    "code-complexity": ["warn", 7],
+    "function-max-lines": ["warn", 50],
+    "no-empty-blocks": "error",
+    "check-send-result": "error",
+    "avoid-low-level-calls": "warn"
+  }
+}
