@@ -55,9 +55,7 @@ contract ROUM is IERC20 {
 
     function increaseAllowance(address spender, uint256 addedValue) external returns (bool) {
         require(spender != address(0), "ROUM: approve to zero address");
-        unchecked {
-            _allowance[msg.sender][spender] += addedValue;
-        }
+        _allowance[msg.sender][spender] += addedValue;
         emit Approval(msg.sender, spender, _allowance[msg.sender][spender]);
         return true;
     }
