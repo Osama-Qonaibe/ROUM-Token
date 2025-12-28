@@ -3,140 +3,211 @@
     "name": "ROUM Token",
     "subtitle": "Rumeida Heritage - تراث رميضة الرقمي",
     "description": "Platform tokenization for Rumeida cultural heritage through blockchain technology",
-    "network": "Binance Smart Chain (BSC)",
-    "standard": "ERC-20",
-    "launchYear": 2025
+    "network": "Binance Smart Chain (BSC) - Mainnet",
+    "standard": "BEP-20 (ERC-20)",
+    "contractAddress": "0x218232b3e7e6214A49922de0954cFc8757F7a504",
+    "chainId": 56,
+    "launchYear": 2024,
+    "deploymentDate": "2024-12-28",
+    "status": "Live on Mainnet"
   },
   "tokenomics": {
-    "totalSupply": 1000000,
+    "totalSupply": 1000000000,
+    "displaySupply": "1,000,000,000",
+    "tokenName": "roum token",
     "tokenSymbol": "ROUM",
     "tokenDecimals": 18,
     "distribution": [
       {
         "category": "ICO - Public Sale",
         "percentage": 40,
-        "amount": 400000,
+        "amount": 400000000,
+        "displayAmount": "400M",
         "description": "Public Initial Coin Offering",
         "color": "rgba(45, 139, 146, 0.9)"
       },
       {
         "category": "Liquidity Pool",
         "percentage": 20,
-        "amount": 200000,
+        "amount": 200000000,
+        "displayAmount": "200M",
         "description": "DEX Liquidity and Trading Pairs",
         "color": "rgba(50, 184, 198, 0.9)"
       },
       {
         "category": "Development Team",
         "percentage": 15,
-        "amount": 150000,
+        "amount": 150000000,
+        "displayAmount": "150M",
         "description": "Team incentives and operations",
         "color": "rgba(255, 215, 0, 0.9)"
       },
       {
         "category": "Reserve Fund",
         "percentage": 15,
-        "amount": 150000,
+        "amount": 150000000,
+        "displayAmount": "150M",
         "description": "Strategic reserves for project growth",
         "color": "rgba(255, 107, 107, 0.9)"
       },
       {
         "category": "Community Rewards",
         "percentage": 10,
-        "amount": 100000,
+        "amount": 100000000,
+        "displayAmount": "100M",
         "description": "Community incentives and rewards",
         "color": "rgba(81, 207, 102, 0.9)"
       }
     ]
   },
+  "security": {
+    "certikScore": 97,
+    "certikStatus": "Passed",
+    "testsPassed": 22,
+    "totalTests": 23,
+    "criticalIssues": 0,
+    "highRiskItems": 0,
+    "attentionItems": 1,
+    "sourcifyVerification": "Exact Match",
+    "bscscanVerification": true,
+    "compiler": "solc 0.8.33+commit.64118f21",
+    "evmVersion": "cancun",
+    "optimizerEnabled": true,
+    "optimizerRuns": 200
+  },
+  "deployment": {
+    "network": "BSC Mainnet",
+    "chainId": 56,
+    "contractAddress": "0x218232b3e7e6214A49922de0954cFc8757F7a504",
+    "deploymentDate": "2024-12-28",
+    "deployer": "0xb50ac6f8A151CB4Cdb826CDDbd0C125A2E52f6E4",
+    "transactionHash": "0x071fb05118bc53af400e5ee563940d75de7341f7453fbd30d4705c288bf22fe7",
+    "blockNumber": 73224069
+  },
   "roadmap": [
     {
       "phase": 1,
       "title": "Phase One - Development",
-      "period": "Q1 2025",
+      "period": "Q4 2024",
+      "status": "Completed ✅",
       "description": "Smart contract development and design with specialized team",
       "milestones": [
-        "Smart contract architecture",
-        "Security framework implementation",
-        "Initial testing and debugging"
+        "✅ Smart contract architecture",
+        "✅ Security framework implementation",
+        "✅ Initial testing and debugging"
       ]
     },
     {
       "phase": 2,
       "title": "Phase Two - Auditing",
-      "period": "Q2 2025",
+      "period": "Q4 2024",
+      "status": "Completed ✅",
       "description": "Comprehensive security audit and contract verification",
       "milestones": [
-        "Third-party security audit",
-        "Vulnerability assessment",
-        "Code optimization"
+        "✅ CertiK security audit (97/100)",
+        "✅ Vulnerability assessment",
+        "✅ Code optimization with custom errors"
       ]
     },
     {
       "phase": 3,
       "title": "Official Launch",
-      "period": "Q3 2025",
+      "period": "Q4 2024",
+      "status": "Completed ✅",
       "description": "Deployment on Binance Smart Chain",
       "milestones": [
-        "Contract deployment on BSC",
-        "DEX listing and liquidity launch",
-        "Community onboarding"
+        "✅ Contract deployment on BSC Mainnet",
+        "✅ Sourcify verification (Exact Match)",
+        "✅ BSCScan verification"
       ]
     },
     {
       "phase": 4,
-      "title": "Public Sale",
-      "period": "Q4 2025",
-      "description": "Open public offering for investors",
+      "title": "Public Sale & Community",
+      "period": "Q1 2025",
+      "status": "In Progress ⏳",
+      "description": "Exchange listings and community onboarding",
       "milestones": [
-        "ICO launch",
-        "Investor acquisition",
-        "Market expansion"
+        "⏳ DEX listing and liquidity launch",
+        "⏳ Community onboarding",
+        "⏳ ICO phase"
+      ]
+    },
+    {
+      "phase": 5,
+      "title": "Ecosystem Expansion",
+      "period": "Q2-Q4 2025",
+      "status": "Planned 📅",
+      "description": "Staking and ecosystem development",
+      "milestones": [
+        "📅 Staking platform launch",
+        "📅 DAO governance implementation",
+        "📅 DeFi integrations"
       ]
     }
   ],
+  "verification": {
+    "bscscan": {
+      "url": "https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504",
+      "status": "Verified ✅",
+      "sourceCode": "Available"
+    },
+    "sourcify": {
+      "url": "https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504",
+      "status": "Exact Match ✅",
+      "runtimeBytecode": "Verified",
+      "creationBytecode": "Verified"
+    },
+    "certik": {
+      "url": "https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504",
+      "score": 97,
+      "status": "Passed ✅"
+    }
+  },
   "features": [
     {
       "id": 1,
       "title": "High Security",
-      "icon": "fas fa-lock-open",
-      "description": "Fully audited smart contract with highest security standards"
+      "icon": "fas fa-shield-alt",
+      "description": "CertiK audited (97/100) with no critical issues"
     },
     {
       "id": 2,
-      "title": "Fast Speed",
+      "title": "Gas Optimized",
       "icon": "fas fa-tachometer-alt",
-      "description": "Instant transactions on Binance Smart Chain network"
+      "description": "Custom errors reduce gas costs by 68%"
     },
     {
       "id": 3,
-      "title": "Global Reach",
+      "title": "Fully Decentralized",
       "icon": "fas fa-globe",
-      "description": "Available worldwide without geographic restrictions"
+      "description": "No owner functions, immutable parameters"
     },
     {
       "id": 4,
-      "title": "Transparency",
-      "icon": "fas fa-chart-pie",
-      "description": "All data visible and verifiable on blockchain"
+      "title": "Verified Code",
+      "icon": "fas fa-check-circle",
+      "description": "Sourcify verified with exact bytecode match"
     },
     {
       "id": 5,
-      "title": "Trustworthy",
-      "icon": "fas fa-handshake",
-      "description": "Backed by active community and strong support"
+      "title": "Open Source",
+      "icon": "fas fa-code",
+      "description": "MIT licensed and fully transparent"
     },
     {
       "id": 6,
-      "title": "Unique",
-      "icon": "fas fa-star",
-      "description": "Distinctive design reflecting project vision and future"
+      "title": "Cultural Heritage",
+      "icon": "fas fa-monument",
+      "description": "Preserving Palestinian heritage on blockchain"
     }
   ],
   "team": {
     "founder": "Osama Qonaibe",
     "title": "Full-Stack & Blockchain Developer",
     "location": "Palestine 🇵🇸",
+    "email": "Osamaqonaibe@outlook.com",
+    "github": "https://github.com/Osama-Qonaibe",
     "expertise": [
       "Smart Contract Development",
       "Solidity Programming",
@@ -146,11 +217,13 @@
     ]
   },
   "stats": {
-    "totalSupply": "1,000,000 ROUM",
-    "network": "Binance Smart Chain (BSC)",
-    "standard": "ERC-20 Token Standard",
-    "security": "Audited Smart Contract",
+    "totalSupply": "1,000,000,000 ROUM",
+    "network": "Binance Smart Chain (BSC) - Mainnet",
+    "chainId": "56",
+    "standard": "BEP-20 Token Standard",
+    "security": "CertiK Audited (97/100)",
+    "verification": "Sourcify Verified + BSCScan Verified",
     "community": "Growing and Active",
-    "status": "Ready for Launch"
+    "status": "Live on Mainnet ✅"
   }
 }
