@@ -10,6 +10,8 @@ jobs:
   detect:
     name: Detect repo layout
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       has_package: ${{ steps.pkg.outputs.has_package }}
       has_contracts: ${{ steps.ct.outputs.has_contracts }}
@@ -31,6 +33,8 @@ jobs:
     needs: detect
     if: ${{ needs.detect.outputs.has_package == 'true' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js
@@ -52,6 +56,8 @@ jobs:
     needs: detect
     if: ${{ needs.detect.outputs.has_contracts == 'true' && needs.detect.outputs.has_package == 'true' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js
@@ -68,6 +74,8 @@ jobs:
     needs: detect
     if: ${{ needs.detect.outputs.has_contracts == 'true' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
