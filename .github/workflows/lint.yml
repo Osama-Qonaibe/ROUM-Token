@@ -17,7 +17,7 @@ jobs:
         node-version: [18.x]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Check package.json exists
       id: check-package
@@ -32,7 +32,7 @@ jobs:
 
     - name: Use Node.js ${{ matrix.node-version }}
       if: steps.check-package.outputs.exists == 'true'
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         # Removed cache: 'npm' to avoid requiring lock files
@@ -45,13 +45,13 @@ jobs:
       if: steps.check-package.outputs.exists == 'true'
       run: |
         # Check if any ESLint config file exists
-        if find . -maxdepth 1 \( -name '.eslintrc.*' -o -name 'eslint.config.js' \) -print -quit | grep -q .; then
+        if find . -maxdepth 1 \( -name '.eslintrc.*' -o -name 'eslint.config.*' \) -print -quit | grep -q .; then
           # Check if lint script exists in package.json
           if grep -q '"lint"' package.json; then
             npm run lint
           else
             echo "⚠️  ESLint config found but no 'lint' script in package.json - running ESLint directly"
-            npx eslint . || true
+            npx eslint .
           fi
         else
           echo "⚠️  ESLint config not found - skipping lint"
