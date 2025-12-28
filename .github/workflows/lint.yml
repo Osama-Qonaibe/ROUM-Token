@@ -17,30 +17,34 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Check package.json exists
+      id: check-package
+      run: |
+        if [ -f package.json ]; then
+          echo "✅ package.json found"
+          echo "exists=true" >> $GITHUB_OUTPUT
+        else
+          echo "⚠️  package.json not found - skipping lint"
+          echo "exists=false" >> $GITHUB_OUTPUT
+        fi
+
     - name: Use Node.js ${{ matrix.node-version }}
+      if: steps.check-package.outputs.exists == 'true'
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         # Removed cache: 'npm' to avoid requiring lock files
 
     - name: Install dependencies
+      if: steps.check-package.outputs.exists == 'true'
       run: npm install
 
-    - name: Check package.json exists
-      run: |
-        if [ -f package.json ]; then
-          echo "✅ package.json found"
-        else
-          echo "⚠️  package.json not found - skipping lint"
-          exit 0
-        fi
-
     - name: Run ESLint (if config exists)
+      if: steps.check-package.outputs.exists == 'true'
       run: |
-        if [ -f .eslintrc.json ] || [ -f .eslintrc.js ]; then
+        if [ -f .eslintrc.json ] || [ -f .eslintrc.js ] || [ -f .eslintrc.yml ] || [ -f .eslintrc.yaml ] || [ -f .eslintrc.cjs ] || [ -f .eslintrc.mjs ] || [ -f eslint.config.js ]; then
           npm run lint
         else
           echo "⚠️  ESLint config not found - skipping lint"
-          exit 0
         fi
       continue-on-error: true
