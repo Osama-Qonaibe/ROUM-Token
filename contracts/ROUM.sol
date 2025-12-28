@@ -38,10 +38,8 @@ contract ROUM is IERC20 {
         require(to != address(0), "ROUM: transfer to zero address");
         uint256 fromBal = _balanceOf[msg.sender];
         require(fromBal >= value, "ROUM: insufficient balance");
-        unchecked {
-            _balanceOf[msg.sender] = fromBal - value;
-            _balanceOf[to] += value;
-        }
+        _balanceOf[msg.sender] = fromBal - value;
+        _balanceOf[to] += value;
         emit Transfer(msg.sender, to, value);
         return true;
     }
@@ -76,11 +74,9 @@ contract ROUM is IERC20 {
         require(fromBal >= value, "ROUM: insufficient balance");
         uint256 currentAllowance = _allowance[from][msg.sender];
         require(currentAllowance >= value, "ROUM: insufficient allowance");
-        unchecked {
-            _balanceOf[from] = fromBal - value;
-            _balanceOf[to] += value;
-            _allowance[from][msg.sender] = currentAllowance - value;
-        }
+        _balanceOf[from] = fromBal - value;
+        _balanceOf[to] += value;
+        _allowance[from][msg.sender] = currentAllowance - value;
         emit Transfer(from, to, value);
         return true;
     }
