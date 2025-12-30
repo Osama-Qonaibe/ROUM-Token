@@ -17,6 +17,9 @@
   <a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504">
     <img src="https://img.shields.io/badge/Sourcify_Verified-Exact_Match-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Sourcify Verified"/>
   </a>
+  <a href="https://github.com/Osama-Qonaibe/ROUM-Token/wiki">
+    <img src="https://img.shields.io/badge/📚_Wiki-Documentation-blue?style=for-the-badge" alt="Wiki Documentation"/>
+  </a>
   
   <br><br>
   
@@ -35,6 +38,7 @@
   [![CertiK Audit](https://img.shields.io/badge/CertiK_Audit-97%2F100-brightgreen.svg?style=flat&logo=security&logoColor=white)](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504)
   [![Tests Passed](https://img.shields.io/badge/Tests-22%2F23-brightgreen.svg)](docs/CERTIK-AUDIT-VISUAL.md)
   [![Transparency](https://img.shields.io/badge/Transparency-100%25-brightgreen.svg)](TRANSPARENCY.md)
+  [![Wiki](https://img.shields.io/badge/📚_Wiki-15_Pages-blue.svg)](https://github.com/Osama-Qonaibe/ROUM-Token/wiki)
   [![Support](https://img.shields.io/badge/Support-24%2F7-blue.svg)](mailto:Osamaqonaibe@outlook.com)
 
 </div>
@@ -56,7 +60,31 @@
 | **Release Date** | 28 December 2025 |
 | **Current Phase** | 🚀 Launchpad Economics |
 | **Verification** | ✅ BSCScan + Sourcify (Exact Match) |
+| **Documentation** | ✅ [15-Page Wiki](https://github.com/Osama-Qonaibe/ROUM-Token/wiki) |
 | **License** | MIT |
+
+---
+
+## 📚 Documentation Hub
+
+**[👉 Visit Complete Wiki Documentation (15 Pages)](https://github.com/Osama-Qonaibe/ROUM-Token/wiki)**
+
+Our comprehensive Wiki includes:
+- 📖 **Home** - Project overview and navigation
+- 📄 **Technical Whitepaper** - Complete technical specifications
+- 🔒 **Security Assessment** - Detailed security analysis
+- 🏆 **CertiK Audit Report** - Full audit results (97/100)
+- 📊 **Tokenomics** - Complete economic model
+- 🔥 **Burn Events Timeline** - All token burn history
+- 🏛️ **Governance** - Community governance model
+- ❓ **FAQ** - Frequently asked questions
+- 📞 **Support** - Get help and support
+- 🚀 **Deployment Guide** - Technical deployment steps
+- 🔗 **Integration Guide** - Developer integration guide
+- 📋 **Code Quality** - Development standards
+- 📦 **Release Procedures** - Release management
+- 🤝 **Contributing** - How to contribute
+- 📜 **Code of Conduct** - Community guidelines
 
 ---
 
@@ -128,6 +156,7 @@ This comprehensive document includes:
 
 | Document | Purpose | Status | Last Updated |
 |----------|---------|--------|---------------|
+| [📚 **GitHub Wiki**](https://github.com/Osama-Qonaibe/ROUM-Token/wiki) | **Complete Documentation Hub (15 Pages)** | ✅ Live | 30 Dec 2025 |
 | [📊 TOKENOMICS-VISUAL-DOCUMENTATION.md](docs/TOKENOMICS-VISUAL-DOCUMENTATION.md) | **Complete Tokenomics with 6 Professional Charts** | ✅ Live | 29 Dec 2025 |
 | [📊 CERTIK-AUDIT-VISUAL.md](docs/CERTIK-AUDIT-VISUAL.md) | **Professional Security Assessment Report** | ✅ Live | - |
 | [🔐 SECURITY.md](docs/SECURITY.md) | Security Best Practices & Verification | ✅ Live | - |
@@ -177,6 +206,7 @@ This comprehensive report includes:
 - ✅ **BSCScan Verified** - Exact Match Verification
 - ✅ **Sourcify Verified** - Full Match (100%)
 - ✅ **100% Transparent** - Full Documentation
+- ✅ **Wiki Created** - 15-Page Documentation Hub
 - ✅ **24/7 Support** - Direct Communication
 
 ---
@@ -205,6 +235,7 @@ This comprehensive report includes:
 - [View on BSCScan](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Verified Contract
 - [Sourcify Verification](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Exact Match (100%)
 - [CertiK Live Scanner](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504) - Live Security Analysis
+- [📚 GitHub Wiki](https://github.com/Osama-Qonaibe/ROUM-Token/wiki) - Complete Documentation (15 Pages)
 - [📊 Full Audit Report with Charts](docs/CERTIK-AUDIT-VISUAL.md) - Professional Visualizations
 - [Full Audit Report](docs/CERTIK-AUDIT.md) - Comprehensive Analysis
 
@@ -216,6 +247,7 @@ This comprehensive report includes:
 
 | Document | Purpose | Last Updated |
 |----------|---------|---------------|
+| [📚 **GitHub Wiki**](https://github.com/Osama-Qonaibe/ROUM-Token/wiki) | **Complete Documentation Hub (15 Pages)** | 30 Dec 2025 |
 | [📊 TOKENOMICS-VISUAL-DOCUMENTATION.md](docs/TOKENOMICS-VISUAL-DOCUMENTATION.md) | **Professional Tokenomics with Charts & Analysis** | 29 Dec 2025 |
 | [📊 CERTIK-AUDIT-VISUAL.md](docs/CERTIK-AUDIT-VISUAL.md) | **Professional Security Charts & Visualizations** | 28 Dec 2025 |
 | [TRANSPARENCY.md](TRANSPARENCY.md) | Complete Project Transparency & History | 28 Dec 2025 |
@@ -238,6 +270,7 @@ This comprehensive report includes:
 - v1.0 to v2.0 migration explained
 - Pre-launch phase clearly described
 - All commitments in writing
+- 15-page Wiki documentation
 
 **Enterprise-Grade Security (97/100)**
 - CertiK audited and approved
@@ -255,6 +288,7 @@ This comprehensive report includes:
 - GitHub: Issue tracking
 
 **Comprehensive Documentation (100%)**
+- 15-page GitHub Wiki
 - 10+ complete documentation files
 - 7000+ lines of documentation
 - Code examples & guides
@@ -312,18 +346,20 @@ Verification: BSCScan + Sourcify (Exact Match)
 
 ### For Investors & Community
 
-1. **Understand Tokenomics** → [📊 TOKENOMICS-VISUAL-DOCUMENTATION.md](docs/TOKENOMICS-VISUAL-DOCUMENTATION.md)
-2. **View Security Charts** → [📊 CERTIK-AUDIT-VISUAL.md](docs/CERTIK-AUDIT-VISUAL.md)
-3. **Check Live Security** → [CertiK Skynet Scanner](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504)
-4. **Verify Security** → Read [docs/SECURITY.md](docs/SECURITY.md)
-5. **Monitor Progress** → Watch this repository for updates
+1. **Visit Wiki Hub** → [📚 GitHub Wiki (15 Pages)](https://github.com/Osama-Qonaibe/ROUM-Token/wiki)
+2. **Understand Tokenomics** → [📊 TOKENOMICS-VISUAL-DOCUMENTATION.md](docs/TOKENOMICS-VISUAL-DOCUMENTATION.md)
+3. **View Security Charts** → [📊 CERTIK-AUDIT-VISUAL.md](docs/CERTIK-AUDIT-VISUAL.md)
+4. **Check Live Security** → [CertiK Skynet Scanner](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+5. **Read FAQ** → [Wiki FAQ Page](https://github.com/Osama-Qonaibe/ROUM-Token/wiki/FAQ)
+6. **Get Support** → [Wiki Support Page](https://github.com/Osama-Qonaibe/ROUM-Token/wiki/Support)
 
 ### For Developers
 
-1. **Integration Guide** → [docs/INTEGRATION.md](docs/INTEGRATION.md)
-2. **Deploy Guide** → [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
-3. **Security Info** → [docs/SECURITY.md](docs/SECURITY.md)
-4. **Source Code** → [contracts/ruom.v2.0.sol](contracts/ruom.v2.0.sol)
+1. **Visit Wiki** → [📚 Developer Documentation](https://github.com/Osama-Qonaibe/ROUM-Token/wiki)
+2. **Integration Guide** → [Wiki Integration Guide](https://github.com/Osama-Qonaibe/ROUM-Token/wiki/Integration-Guide)
+3. **Deploy Guide** → [Wiki Deployment Guide](https://github.com/Osama-Qonaibe/ROUM-Token/wiki/Deployment-Guide)
+4. **Security Info** → [Wiki Security Assessment](https://github.com/Osama-Qonaibe/ROUM-Token/wiki/Security-Assessment)
+5. **Source Code** → [contracts/ruom.v2.0.sol](contracts/ruom.v2.0.sol)
 
 ---
 
@@ -358,6 +394,7 @@ Verification: BSCScan + Sourcify (Exact Match)
 
 ✅ **100% Transparent**
 - Full documentation (100/100)
+- 15-page Wiki documentation
 - Open source (MIT license)
 - All commitments in writing
 - Launchpad strategy clearly explained
@@ -366,6 +403,7 @@ Verification: BSCScan + Sourcify (Exact Match)
 - 24/7 availability
 - Multiple contact channels
 - Quick response times
+- Dedicated Wiki support page
 
 ---
 
@@ -379,6 +417,7 @@ Verification: BSCScan + Sourcify (Exact Match)
 | WhatsApp | +972 534 414 330 | Immediate |
 | Phone | +972 534 414 330 | < 30 min |
 | GitHub | [@Osama-Qonaibe](https://github.com/Osama-Qonaibe) | 24 hours |
+| Wiki Support | [Support Page](https://github.com/Osama-Qonaibe/ROUM-Token/wiki/Support) | 24/7 |
 
 **Support Hours:** 24/7/365  
 **Languages:** English  
@@ -422,15 +461,16 @@ copies or substantial portions of the Software.
   
   ### ROUM Token v2.0.0
   
-  **97/100 Security • 100% Transparent • 95.65% Tests Passed • 24/7 Support • 🚀 Launchpad Economics**
+  **97/100 Security • 100% Transparent • 95.65% Tests Passed • 15-Page Wiki • 24/7 Support • 🚀 Launchpad Economics**
   
   **Released:** 28 December 2025  
-  **Last Updated:** 29 December 2025  
+  **Last Updated:** 30 December 2025  
   **Status:** ✅ Live & Verified  
   **Phase:** 🚀 Launchpad Economics  
   **Code Quality:** 97/100  
   **Security Features:** 98/100  
   **Gas Optimization:** 97/100  
+  **Documentation:** 15-Page Wiki  
   **Rating:** ⭐⭐⭐⭐⭐ (5/5 Stars)  
   
   <br>
@@ -438,6 +478,7 @@ copies or substantial portions of the Software.
   [BSCScan](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504) •
   [Sourcify](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) •
   [CertiK](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504) •
+  [📚 Wiki](https://github.com/Osama-Qonaibe/ROUM-Token/wiki) •
   [📊 Tokenomics](docs/TOKENOMICS-VISUAL-DOCUMENTATION.md) •
   [📊 Security Charts](docs/CERTIK-AUDIT-VISUAL.md) •
   [Documentation](docs/) •
