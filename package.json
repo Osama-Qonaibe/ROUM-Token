@@ -1,0 +1,40 @@
+{
+  "name": "roum-token",
+  "version": "2.0.0",
+  "description": "ROUM - roum token on Binance Smart Chain. A BEP-20 token with full ERC-20 compatibility, gas-optimized using custom errors, and verified on BSCScan & Sourcify.",
+  "keywords": [
+    "roum",
+    "roum-token",
+    "bep20",
+    "bsc",
+    "binance-smart-chain",
+    "ethereum",
+    "smart-contract",
+    "cryptocurrency",
+    "token",
+    "solidity",
+    "web3"
+  ],
+  "homepage": "https://github.com/Osama-Qonaibe/ROUM-Token",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Osama-Qonaibe/ROUM-Token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Osama-Qonaibe/ROUM-Token/issues"
+  },
+  "author": {
+    "name": "Osama Qonaibe",
+    "email": "Osamaqonaibe@outlook.com",
+    "url": "https://github.com/Osama-Qonaibe"
+  },
+  "license": "MIT",
+  "main": "contracts/ruom.v2.0.sol",
+  "scripts": {
+    "lint": "solhint 'contracts/**/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix"
+  },
+  "devDependencies": {
+    "solhint": "^4.0.0"
+  }
+}

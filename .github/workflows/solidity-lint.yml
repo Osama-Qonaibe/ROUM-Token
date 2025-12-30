@@ -1,0 +1,50 @@
+name: Solidity Lint
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'contracts/**/*.sol'
+      - '.solhint.json'
+      - 'package.json'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'contracts/**/*.sol'
+      - '.solhint.json'
+      - 'package.json'
+
+permissions:
+  contents: read
+
+jobs:
+  solhint:
+    name: 🔍 Solidity Code Quality Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🔧 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🔍 Run Solhint
+        run: npm run lint
+
+      - name: ✅ Lint passed
+        if: success()
+        run: echo "✅ Solidity code quality check passed successfully!"
+
+      - name: ❌ Lint failed
+        if: failure()
+        run: |
+          echo "❌ Solidity linting failed. Please fix the issues above."
+          echo "Run 'npm run lint:fix' locally to auto-fix some issues."
+          exit 1
