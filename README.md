@@ -14,9 +14,6 @@
   <a href="https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504">
     <img src="https://img.shields.io/badge/CertiK_Audit-97%2F100-success?style=for-the-badge&logo=security&logoColor=white" alt="CertiK Audit"/>
   </a>
-  <a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504">
-    <img src="https://img.shields.io/badge/Sourcify_Verified-Exact_Match-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="Sourcify Verified"/>
-  </a>
   <a href="https://github.com/Osama-Qonaibe/ROUM-Token/wiki">
     <img src="https://img.shields.io/badge/📚_Wiki-Documentation-blue?style=for-the-badge" alt="Wiki Documentation"/>
   </a>
@@ -41,7 +38,6 @@
   [![Version](https://img.shields.io/badge/Version-v2.0.0-green.svg)](RELEASE_NOTES_v2.0.0.md)
   [![Release Date](https://img.shields.io/badge/Released-28_Dec_2025-informational.svg)]()
   [![BSC Verified](https://img.shields.io/badge/BSC-Verified-green.svg)](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504)
-  [![Sourcify Verified](https://img.shields.io/badge/Sourcify-Exact_Match-brightgreen.svg)](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504)
   [![CertiK Audit](https://img.shields.io/badge/CertiK_Audit-97%2F100-brightgreen.svg?style=flat&logo=security&logoColor=white)](https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504)
   [![Tests Passed](https://img.shields.io/badge/Tests-22%2F23-brightgreen.svg)](docs/CERTIK-AUDIT-VISUAL.md)
   [![Transparency](https://img.shields.io/badge/Transparency-100%25-brightgreen.svg)](TRANSPARENCY.md)
