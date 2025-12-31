@@ -1,9 +1,9 @@
 # 🚫 ROUM Token Security Documentation
 
 **Document Version:** 2.0  
-**Date:** December 30, 2025  
+**Date:** December 31, 2025  
 **Status:** 🏆 CertiK Certified - 97/100  
-**Last Security Update:** December 30, 2025  
+**Last Security Update:** December 31, 2025  
 
 ---
 
@@ -52,7 +52,7 @@ The ROUM token has been designed with **security as a top priority**. This docum
 ### ROUM vs Industry Leaders:
 
 | Project | Security Score | Comparison | Status |
-|---------|---------------|-----------|---------|
+|---------|---------------|-----------|--------|
 | **Bitcoin** | 98/100 | -1 point | 🡰 Most Mature |
 | **Ethereum** | 96/100 | +1 point | 🡰 Network Layer |
 | **ROUM Token** | **97/100** | **+0 (Top Tier)** | **🏆 New Standard** |
@@ -96,9 +96,9 @@ The ROUM token has been designed with **security as a top priority**. This docum
 ### ✅ Source Code Verification
 
 | Verification | Status | Details |
-|-------------|--------|----------|
-| **BSCScan Verification** | ✅ Full | [View on BSCScan](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e) |
-| **Sourcify Verification** | ✅ Full Match | [View on Sourcify](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/) |
+|-------------|--------|--------|
+| **BSCScan Verification** | ✅ Full | [View on BSCScan](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504) |
+| **Sourcify Verification** | ✅ Full Match | [View on Sourcify](https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/) |
 | **IPFS Hash** | ✅ Recorded | QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL |
 | **Source Hash** | ✅ Published | 0x6526bb915825c7ff9ef0b43ad126ccd5075553b3b6a996053665961853893afd |
 
@@ -166,13 +166,13 @@ The ROUM token has been designed with **security as a top priority**. This docum
 ### For Token Holders
 
 #### ✅ Do's
-- Always verify contract address: `0x35B1761B00AB98144fAB4dEDBD58C59A2050947e`
+- Always verify contract address: `0x218232b3e7e6214A49922de0954cFc8757F7a504`
 - Check transaction details before confirming
 - Use hardware wallets for large holdings
 - Keep private keys secure and backed up
 - Enable 2FA on exchange accounts
 - Verify official website URLs: [GitHub](https://github.com/Osama-Qonaibe/ROUM-Token)
-- Review contract on [Sourcify](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/)
+- Review contract on [Sourcify](https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/)
 
 #### ❌ Don'ts
 - Don't share private keys or seed phrases
@@ -233,8 +233,8 @@ The ROUM token has been designed with **security as a top priority**. This docum
 ### For Exchanges/Platforms
 
 #### 1. Verify Contract
-- Confirm address: `0x35B1761B00AB98144fAB4dEDBD58C59A2050947e`
-- Check Sourcify verification: [Link](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/)
+- Confirm address: `0x218232b3e7e6214A49922de0954cFc8757F7a504`
+- Check Sourcify verification: [Link](https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/)
 - Review source code on [GitHub](https://github.com/Osama-Qonaibe/ROUM-Token)
 - Verify deployment transaction on BSCScan
 
@@ -304,8 +304,8 @@ Currently, there is no formal bug bounty program. However, significant discoveri
 
 ### Official Links
 - **GitHub:** [https://github.com/Osama-Qonaibe/ROUM-Token](https://github.com/Osama-Qonaibe/ROUM-Token)
-- **BSCScan:** [https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-- **Sourcify:** [Full Verification](https://repo.sourcify.dev/contracts/full_match/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e/)
+- **BSCScan:** [https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+- **Sourcify:** [Full Verification](https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/)
 
 ### Educational Resources
 - [Solidity Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
@@ -341,6 +341,6 @@ While ROUM token has been designed with security in mind:
 
 **ROUM Token - Industry-Leading Security Standards** 🚫
 
-**Last Updated:** December 30, 2025  
+**Last Updated:** December 31, 2025  
 **Status:** ✅ Verified & Secure  
 **Security Score:** 97/100
