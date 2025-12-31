@@ -2,18 +2,18 @@
 
 ## Official Contact Directory
 
-**Last Updated:** December 26, 2025  
+**Last Updated:** December 31, 2025  
 **Status:** ✅ Active & Verified
 
 ---
 
-## 🌍 Support Team
+## 🌐 Support Team
 
 ### General Inquiries & Support
 
 ```
-📱 WhatsApp:     +44 741 129 012
-☎️  Phone:        +44 741 129 012
+💱 WhatsApp:     +44 741 129 012
+☏️  Phone:        +44 741 129 012
 ⏰ Hours:        24/7 Available
 🌐 Location:     International
 ```
@@ -50,10 +50,10 @@
 ```
 💼 Smart Contract Development
 🔐 Security & Auditing
-📛 Technical Architecture
+📋 Technical Architecture
 📄 Documentation
 🐛 Code Review
-🖉️ Integration Assistance
+📏 Integration Assistance
 ```
 
 **Use for:**
@@ -81,8 +81,8 @@
     
     OR
     
-📱 WhatsApp: +972 534 414 330
-☎️  Phone:    +972 534 414 330
+💱 WhatsApp: +972 534 414 330
+☏️  Phone:    +972 534 414 330
 ```
 
 #### Step 2: Include Information
@@ -131,8 +131,8 @@ Phase 4: Disclosure
 ### Quick Report
 
 ```
-📱 WhatsApp: +44 741 129 012
-☎️  Phone:    +44 741 129 012
+💱 WhatsApp: +44 741 129 012
+☏️  Phone:    +44 741 129 012
 📧 Email:    Osamaqonaibe@outlook.com
 ```
 
@@ -158,7 +158,7 @@ https://github.com/Osama-Qonaibe/ROUM-Token/issues
 
 ---
 
-## 📌 General Contact
+## 📋 General Contact
 
 ### All Inquiry Types
 
@@ -180,21 +180,21 @@ https://github.com/Osama-Qonaibe/ROUM-Token/issues
 ```
 🔗 Repository: https://github.com/Osama-Qonaibe/ROUM-Token
 📋 Documentation: https://github.com/Osama-Qonaibe/ROUM-Token/tree/main/docs
-📾 Release Notes: https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/RELEASE_NOTES.md
+💾 Release Notes: https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/RELEASE_NOTES.md
 🚦 Support Center: https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/.github/SUPPORT.md
 ```
 
 ### Blockchain Verification
 
 ```
-📊 BSCScan: https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
-📊 Sourcify: https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+📊 BSCScan: https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504
+📊 Sourcify: https://sourcify.dev/#/lookup/0x218232b3e7e6214A49922de0954cFc8757F7a504
 ```
 
 ### Contract Address
 
 ```
-0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+0x218232b3e7e6214A49922de0954cFc8757F7a504
 
 Network: Binance Smart Chain (BSC)
 Chain ID: 56
@@ -248,8 +248,8 @@ Status: ✅ Verified & Audited
 ```
 🐛 GitHub:  @Osama-Qonaibe
 📧 Email:   Osamaqonaibe@outlook.com
-📱 WhatsApp: +44 741 129 012
-☎️  Phone:    +44 741 129 012
+💱 WhatsApp: +44 741 129 012
+☏️  Phone:    +44 741 129 012
 ```
 
 ### Community Engagement
@@ -263,17 +263,17 @@ Status: ✅ Verified & Audited
 
 ---
 
-## 📱 Preferred Communication Method
+## 💱 Preferred Communication Method
 
 ### Ranking by Responsiveness
 
-1. **📱 WhatsApp** - Most responsive
+1. **💱 WhatsApp** - Most responsive
    - Immediate notifications
    - Direct messaging
    - Group support available
    - Available 24/7
 
-2. **☎️ Phone Call** - Very responsive
+2. **☏️ Phone Call** - Very responsive
    - Real-time discussion
    - Complex issues
    - Urgent matters
@@ -293,7 +293,7 @@ Status: ✅ Verified & Audited
 
 ---
 
-## 🗞️ FAQ - Contact Related
+## 🗣️ FAQ - Contact Related
 
 ### Q: What's the fastest way to reach you?
 **A:** WhatsApp or phone call to +44 741 129 012 or +972 534 414 330
@@ -336,7 +336,7 @@ Status: ✅ Verified & Audited
 📋 Integration:     How to integrate ROUM
 🔐 Security:         Security documentation
 📋 SUPPORT.md:       Support center
-📾 RELEASE_NOTES.md: Release information
+💾 RELEASE_NOTES.md: Release information
 📚 Docs Folder:      All documentation
 ```
 
@@ -375,13 +375,13 @@ Status: ✅ Verified & Audited
 
 **Ready to talk? Choose your preferred method:**
 
-### 📱 Text or Message
+### 💱 Text or Message
 ```
 WhatsApp: +44 741 129 012
 Developer: +972 534 414 330
 ```
 
-### ☎️ Call Us
+### ☏️ Call Us
 ```
 Phone: +44 741 129 012 (Support)
 Phone: +972 534 414 330 (Developer)
@@ -409,6 +409,6 @@ Discussions: Join the community
 
 ---
 
-**Last Updated:** December 26, 2025  
+**Last Updated:** December 31, 2025  
 **Status:** ✅ Active & Verified  
-**Next Review:** January 26, 2026
+**Next Review:** January 31, 2026
