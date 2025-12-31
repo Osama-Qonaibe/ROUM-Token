@@ -78,7 +78,7 @@ We follow responsible disclosure practices:
 
 - 📧 **Primary:** Osamaqonaibe@outlook.com
 - 🐛 **Bug Reports:** [GitHub Issues](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
-- 📚 **Documentation:** [Security Docs]([../docs/SECURITY.md](https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/docs/SECURITY.md
+- 📚 **Documentation:** [Security Docs]([[../docs/SECURITY.md](https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/docs/SECURITY.md](https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/docs/SECURITY.md)
 ))
 
 ---
