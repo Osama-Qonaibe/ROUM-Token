@@ -45,6 +45,63 @@
 
 ---
 
+## 🔗 Source Code Verification & Quick Links
+
+### Contract Verification Links
+
+<table>
+<tr>
+<th>Platform</th>
+<th>Verification Status</th>
+<th>Link</th>
+</tr>
+<tr>
+<td>📋 <strong>GitHub Source Code</strong></td>
+<td>✅ Open Source (MIT)</td>
+<td><a href="https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/contracts/ruom.v2.0.sol">View Contract</a></td>
+</tr>
+<tr>
+<td>🔍 <strong>Sourcify Verification</strong></td>
+<td>✅ Exact Match (100%)</td>
+<td><a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504">View on Sourcify</a></td>
+</tr>
+<tr>
+<td>🔗 <strong>BSCScan Verification</strong></td>
+<td>✅ Verified Contract</td>
+<td><a href="https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504">View on BSCScan</a></td>
+</tr>
+<tr>
+<td>🛡️ <strong>CertiK Audit</strong></td>
+<td>✅ 97/100 Approved</td>
+<td><a href="https://skynet.certik.com/tools/token-scan/bsc/0x218232b3e7e6214A49922de0954cFc8757F7a504">View Audit</a></td>
+</tr>
+<tr>
+<td>📚 <strong>GitHub Repository</strong></td>
+<td>✅ Public Repository</td>
+<td><a href="https://github.com/Osama-Qonaibe/ROUM-Token">Visit Repository</a></td>
+</tr>
+<tr>
+<td>📖 <strong>Documentation Wiki</strong></td>
+<td>✅ 15-Page Wiki</td>
+<td><a href="https://github.com/Osama-Qonaibe/ROUM-Token/wiki">View Wiki</a></td>
+</tr>
+</table>
+
+### Contract Details
+
+| Property | Value |
+|----------|-------|
+| **Contract Address** | `0x218232b3e7e6214A49922de0954cFc8757F7a504` |
+| **Chain ID** | 56 (Binance Smart Chain) |
+| **Network** | BSC Mainnet |
+| **Compiler** | solc 0.8.33+commit.64118f21 |
+| **EVM Version** | Cancun |
+| **Verification** | ✅ Sourcify (Exact Match) + BSCScan |
+| **GitHub Link** | [View Source](https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/contracts/ruom.v2.0.sol) |
+| **Sourcify Link** | [View Verification](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) |
+
+---
+
 ## Quick Info - v2.0.0 (Latest)
 
 | Property | Value |
@@ -464,7 +521,7 @@ copies or substantial portions of the Software.
   **97/100 Security • 100% Transparent • 95.65% Tests Passed • 15-Page Wiki • 24/7 Support • 🚀 Launchpad Economics**
   
   **Released:** 28 December 2025  
-  **Last Updated:** 30 December 2025  
+  **Last Updated:** 31 December 2025  
   **Status:** ✅ Live & Verified  
   **Phase:** 🚀 Launchpad Economics  
   **Code Quality:** 97/100  
@@ -481,7 +538,7 @@ copies or substantial portions of the Software.
   [📚 Wiki](https://github.com/Osama-Qonaibe/ROUM-Token/wiki) •
   [📊 Tokenomics](docs/TOKENOMICS-VISUAL-DOCUMENTATION.md) •
   [📊 Security Charts](docs/CERTIK-AUDIT-VISUAL.md) •
-  [Documentation](docs/) •
+  [📄 GitHub Repo](https://github.com/Osama-Qonaibe/ROUM-Token) •
   [Support](mailto:Osamaqonaibe@outlook.com)
   
   <br><br>
