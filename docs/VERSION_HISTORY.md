@@ -2,7 +2,7 @@
 
 > **Transparency Commitment**: This document provides complete, honest documentation of all ROUM Token versions from inception through production release.
 
-**Last Updated:** December 26, 2025  
+**Last Updated:** December 31, 2025  
 **Document Status:** ✅ Official & Verified
 
 ---
@@ -118,7 +118,7 @@ Based on Phase 1 learnings, we developed a professional-grade contract with sign
 ```
 Token Name:          Rumeida Heritage
 Token Symbol:        ROUM
-Contract Address:    0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+Contract Address:    0x218232b3e7e6214A49922de0954cFc8757F7a504
 Blockchain:          Binance Smart Chain (BSC)
 Network:             Testnet (For Testing & Validation)
 Deployment Date:     December 2025
@@ -151,7 +151,7 @@ Owner Status:        Verified & Documented
 
 ### Verification Links - Phase 2
 
-- **Testnet BSCScan**: [https://testnet.bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e](https://testnet.bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+- **Testnet BSCScan**: [https://testnet.bscscan.com/token/0x218232b3e7e6214A49922de0954cFc8757F7a504](https://testnet.bscscan.com/token/0x218232b3e7e6214A49922de0954cFc8757F7a504)
 
 ### Phase 2 Outcome
 
@@ -170,10 +170,10 @@ Owner Status:        Verified & Documented
 ```
 Token Name:          Rumeida Heritage
 Token Symbol:        ROUM
-Contract Address:    0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+Contract Address:    0x218232b3e7e6214A49922de0954cFc8757F7a504
 Blockchain:          Binance Smart Chain (BSC)
 Network:             Mainnet (Chain ID: 56)
-Deployment Date:     December 25, 2025
+Deployment Date:     28 December 2025
 Total Supply:        1,000,000,000 ROUM
 Decimals:            18
 Standard:            BEP-20 (ERC-20 Compatible)
@@ -236,10 +236,10 @@ IPFS Hash:           QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL
 
 ### Verification Links - Phase 3
 
-- **BSCScan (Token)**: [https://bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e](https://bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-- **BSCScan (Code)**: [https://bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e#code](https://bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e#code)
-- **Sourcify (Distributed)**: [https://repo.sourcify.dev/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e](https://repo.sourcify.dev/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-- **GoPlus Security**: [https://gopluslabs.io/token-security/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e](https://gopluslabs.io/token-security/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+- **BSCScan (Token)**: [https://bscscan.com/token/0x218232b3e7e6214A49922de0954cFc8757F7a504](https://bscscan.com/token/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+- **BSCScan (Code)**: [https://bscscan.com/token/0x218232b3e7e6214A49922de0954cFc8757F7a504#code](https://bscscan.com/token/0x218232b3e7e6214A49922de0954cFc8757F7a504#code)
+- **Sourcify (Distributed)**: [https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+- **GoPlus Security**: [https://gopluslabs.io/token-security/56/0x218232b3e7e6214A49922de0954cFc8757F7a504](https://gopluslabs.io/token-security/56/0x218232b3e7e6214A49922de0954cFc8757F7a504)
 
 ---
 
@@ -250,7 +250,7 @@ IPFS Hash:           QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL
 | Aspect | Phase 1 (Beta) | Phase 2 (Testnet) | Phase 3 (Production) |
 |--------|:---:|:---:|:---:|
 | **Network Type** | Mainnet ❌ | Testnet ✅ | Mainnet ✅ |
-| **Contract Address** | 0xa5e3... | 0x35B1... | 0x35B1... |
+| **Contract Address** | 0xa5e3... | 0x218232... | 0x218232... |
 | **Hidden Owner** | ❌ Present | ✅ Removed | ✅ None |
 | **Anti-Whale** | ⚠️ Complex | ✅ Optimized | ✅ Optimized |
 | **Risky Items** | 0 | 0 | 0 |
@@ -275,18 +275,18 @@ IPFS Hash:           QmZnz3iQxZL61Hm5W5YZFySENDMLeyXo86TLa5dHsVpPmL
 │ └─ Decision: Burn & Restart                         │
 │                                                        │
 │ Mid December: Phase 2 Development                    │
-│ └─ Contract: 0x35B1761B00AB98144fAB4dEDBD58C59A   │
+│ └─ Contract: 0x218232b3e7e6214A49922de0954cFc8757F7a504 │
 │ └─ Network: BSC Testnet                            │
 │ └─ Security: Significant Improvements               │
 │ └─ Testing: Comprehensive Validation                │
 │                                                        │
-│ December 25, 2025: Phase 3 Production Launch        │
-│ └─ Contract: 0x35B1761B00AB98144fAB4dEDBD58C59A   │
+│ December 28, 2025: Phase 3 Production Launch        │
+│ └─ Contract: 0x218232b3e7e6214A49922de0954cFc8757F7a504 │
 │ └─ Network: BSC Mainnet                            │
 │ └─ Verification: BSCScan + Sourcify (100%)         │
 │ └─ Status: 🚀 ACTIVE & VERIFIED                    │
 │                                                        │
-│ December 26+: Production Operations                 │
+│ December 29+: Production Operations                 │
 │ └─ Full community support initiated                 │
 │ └─ Bug reporting system active                     │
 │ └─ Continuous monitoring                           │
@@ -695,7 +695,7 @@ Prior to each phase implementation, ROUM Token commits to conducting comprehensi
 ```markdown
 ## Bug Report
 
-**Contract Address**: 0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+**Contract Address**: 0x218232b3e7e6214A49922de0954cFc8757F7a504
 **Network**: Binance Smart Chain Mainnet
 **Severity**: Low / Medium / High / Critical
 
@@ -798,8 +798,8 @@ ROUM Token exists because we believe in:
 
 **File**: VERSION_HISTORY.md  
 **Location**: `/docs/VERSION_HISTORY.md`  
-**Last Updated**: December 26, 2025 - 5:55 AM EET  
-**Version**: 2.1 (Complete Roadmap Update)  
+**Last Updated**: December 31, 2025 - 11:25 AM EET  
+**Version**: 2.2 (Contract Address Update)
 **Status**: ✅ Official & Verified  
 **Maintenance**: Updated quarterly or as needed
 
@@ -826,6 +826,7 @@ ROUM Token exists because we believe in:
 - [x] Professional firm names listed
 - [x] Whitepaper integration strategy included
 - [x] Full transparency achieved
+- [x] Contract addresses updated to v2.0.0
 
 ---
 
@@ -848,10 +849,9 @@ ROUM Token exists because we believe in:
 **Networks & Verification:**
 - [Phase 1 - BSCScan](https://bscscan.com/address/0xa5e3ea5e1de303d073cfa15eab08e60c24324f6b)
 - [Phase 1 - GoPlus](https://gopluslabs.io/token-security/56/0xa5e3EA5e1de303D073cFA15EaB08e60C24324F6B)
-- [Phase 2 - Testnet](https://testnet.bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-- [Phase 3 - BSCScan](https://bscscan.com/token/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-- [Phase 3 - Sourcify](https://repo.sourcify.dev/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
-- [Phase 3 - GoPlus](https://gopluslabs.io/token-security/56/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e)
+- [Phase 3 - BSCScan](https://bscscan.com/token/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+- [Phase 3 - Sourcify](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504)
+- [Phase 3 - GoPlus](https://gopluslabs.io/token-security/56/0x218232b3e7e6214A49922de0954cFc8757F7a504)
 
 **Support & Reporting:**
 - [GitHub Issues](https://github.com/Osama-Qonaibe/ROUM-Token/issues) - Bug Reports
