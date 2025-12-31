@@ -4,6 +4,7 @@
 **Date:** December 31, 2025  
 **Status:** 🏆 CertiK Certified - 97/100  
 **Last Security Update:** December 31, 2025  
+**Links Updated:** December 31, 2025  
 
 ---
 
@@ -171,7 +172,7 @@ The ROUM token has been designed with **security as a top priority**. This docum
 - Use hardware wallets for large holdings
 - Keep private keys secure and backed up
 - Enable 2FA on exchange accounts
-- Verify official website URLs: [GitHub](https://github.com/Osama-Qonaibe/ROUM-Token)
+- Verify official website URLs: [GitHub Repository](https://github.com/Osama-Qonaibe/ROUM-Token)
 - Review contract on [Sourcify](https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/)
 
 #### ❌ Don'ts
@@ -303,9 +304,19 @@ Currently, there is no formal bug bounty program. However, significant discoveri
 ## 📄 Security Resources
 
 ### Official Links
-- **GitHub:** [https://github.com/Osama-Qonaibe/ROUM-Token](https://github.com/Osama-Qonaibe/ROUM-Token)
-- **BSCScan:** [https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504)
-- **Sourcify:** [Full Verification](https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/)
+- **GitHub Repository:** https://github.com/Osama-Qonaibe/ROUM-Token
+- **GitHub - Main Branch:** https://github.com/Osama-Qonaibe/ROUM-Token/tree/main
+- **Documentation Folder:** https://github.com/Osama-Qonaibe/ROUM-Token/tree/main/docs
+
+### Documentation Files
+- **SECURITY.md:** https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/docs/SECURITY.md
+- **TECHNICAL_WHITEPAPER.md:** https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/docs/TECHNICAL_WHITEPAPER.md
+- **TOKEN_BURN_REPORT.md:** https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/docs/TOKEN_BURN_REPORT.md
+- **TRANSPARENCY.md:** https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/docs/TRANSPARENCY.md
+
+### Blockchain Verification
+- **BSCScan:** https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504
+- **Sourcify:** https://repo.sourcify.dev/contracts/full_match/56/0x218232b3e7e6214A49922de0954cFc8757F7a504/
 
 ### Educational Resources
 - [Solidity Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
@@ -334,8 +345,8 @@ While ROUM token has been designed with security in mind:
 **Questions about security?**
 
 - 📧 **Email:** Osamaqonaibe@outlook.com
-- 🐛 **GitHub Issues:** [Report Security Issue](https://github.com/Osama-Qonaibe/ROUM-Token/issues)
-- 📖 **Documentation:** [Full Docs](https://github.com/Osama-Qonaibe/ROUM-Token/tree/main/docs)
+- 🐛 **GitHub Issues:** https://github.com/Osama-Qonaibe/ROUM-Token/issues
+- 📖 **Documentation:** https://github.com/Osama-Qonaibe/ROUM-Token/tree/main/docs
 
 ---
 
@@ -343,4 +354,5 @@ While ROUM token has been designed with security in mind:
 
 **Last Updated:** December 31, 2025  
 **Status:** ✅ Verified & Secure  
-**Security Score:** 97/100
+**Security Score:** 97/100  
+**All Links:** ✅ Verified & Working
