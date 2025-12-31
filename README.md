@@ -28,6 +28,13 @@
   
   <br><br>
   
+  <!-- 🟢 MAJOR SOURCIFY VERIFICATION BADGE -->
+  <div style="background: #e8f5e9; border: 3px solid #4caf50; border-radius: 10px; padding: 20px; margin: 20px 0;">
+    <h3 style="color: #2e7d32; margin: 0 0 10px 0;">✅ SOURCE CODE VERIFIED ON SOURCIFY</h3>
+    <p style="color: #388e3c; margin: 10px 0; font-weight: bold;">Exact Match (100%) - Full Source Code Transparency</p>
+    <a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504" style="display: inline-block; background: #4caf50; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 10px; border: 2px solid #2e7d32;">🔍 View Full Verification Details</a>
+  </div>
+  
   <!-- Project Badges -->
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
   [![Solidity](https://img.shields.io/badge/Solidity-0.8.33-blue.svg)](https://soliditylang.org/)
@@ -61,9 +68,9 @@
 <td><a href="https://github.com/Osama-Qonaibe/ROUM-Token/blob/main/contracts/ruom.v2.0.sol">View Contract</a></td>
 </tr>
 <tr>
-<td>🔍 <strong>Sourcify Verification</strong></td>
+<td>🟢 <strong>Sourcify Verification</strong></td>
 <td>✅ Exact Match (100%)</td>
-<td><a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504">View on Sourcify</a></td>
+<td><a href="https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504"><strong>View on Sourcify ↗️</strong></a></td>
 </tr>
 <tr>
 <td>🔗 <strong>BSCScan Verification</strong></td>
@@ -86,6 +93,20 @@
 <td><a href="https://github.com/Osama-Qonaibe/ROUM-Token/wiki">View Wiki</a></td>
 </tr>
 </table>
+
+### Sourcify Verification Details
+
+| Verification Aspect | Details | Status |
+|------|---------|--------|
+| **Contract Address** | `0x218232b3e7e6214A49922de0954cFc8757F7a504` | ✅ Verified |
+| **Chain** | Binance Smart Chain (56) | ✅ Verified |
+| **Compiler Version** | solc 0.8.33+commit.64118f21 | ✅ Verified |
+| **EVM Version** | Cancun | ✅ Verified |
+| **Source Code Match** | Exact Match (100%) | ✅ Perfect |
+| **Creation Bytecode** | Matches on-chain | ✅ Verified |
+| **Runtime Bytecode** | Matches on-chain | ✅ Verified |
+| **Verification Type** | Full Match | ✅ Highest Level |
+| **Sourcify Link** | [View Verification](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) | ✅ Active |
 
 ### Contract Details
 
