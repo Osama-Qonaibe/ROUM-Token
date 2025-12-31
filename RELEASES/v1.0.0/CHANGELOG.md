@@ -1,7 +1,7 @@
 # ROUM Token v1.0.0 - Changelog
 
 ## Version 1.0.0 - Genesis Release
-**Release Date:** December 25, 2024
+**Release Date:** December 28, 2025
 **Status:** Production
 
 ### Added
@@ -25,8 +25,8 @@
 - ✅ Security review completed
 
 ### Verified On
-- ✅ BSCScan: https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
-- ✅ Sourcify: https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+- ✅ BSCScan: https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504
+- ✅ Sourcify: https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504
 
 ### Documentation
 - ✅ README.md - Complete overview
@@ -61,7 +61,7 @@
 
 For users upgrading from beta version:
 - Beta contract: 0xa5e3EA5e1de303D073cFA15EaB08e60C24324F6B (Retired)
-- Production contract: 0x35B1761B00AB98144fAB4dEDBD58C59A2050947e (Active)
+- Production contract: 0x218232b3e7e6214A49922de0954cFc8757F7a504 (Active)
 
 All functionality is backward compatible with BEP-20 standard.
 
