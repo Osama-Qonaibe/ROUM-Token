@@ -2,7 +2,7 @@
 
 ## Official Production Release
 
-**Release Date:** 25 December 2025  
+**Release Date:** 28 December 2025  
 **Version:** 1.0.0  
 **Status:** ✅ PRODUCTION & VERIFIED  
 **Network:** Binance Smart Chain (BSC) Mainnet
@@ -13,9 +13,9 @@
 
 ROUM Token (Rumeida Heritage) is a professional-grade BEP-20 token deployed on the Binance Smart Chain. This is the official Genesis Release featuring a fully verified smart contract with complete transparency and professional documentation.
 
-**Contract Address:**
+**Contract Address (v2.0.0):**
 ```
-0x35B1761B00AB98144fAB4dEDBD58C59A2050947e
+0x218232b3e7e6214A49922de0954cFc8757F7a504
 ```
 
 ---
@@ -63,8 +63,8 @@ Optimizer:          Enabled (200 runs)
 
 | Platform | Status | Link |
 |----------|--------|------|
-| **BSCScan** | ✅ Verified | [View Contract](https://bscscan.com/address/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e) |
-| **Sourcify** | ✅ Verified | [View Source](https://sourcify.dev/#/lookup/0x35B1761B00AB98144fAB4dEDBD58C59A2050947e) |
+| **BSCScan** | ✅ Verified | [View Contract](https://bscscan.com/address/0x218232b3e7e6214A49922de0954cFc8757F7a504) |
+| **Sourcify** | ✅ Verified | [View Source](https://repo.sourcify.dev/56/0x218232b3e7e6214A49922de0954cFc8757F7a504) |
 
 ### Verification Details
 ```
@@ -154,13 +154,13 @@ Dec 16-24, 2024:  Refinement
 ├─ Security hardening
 └─ Professional branding
 
-25 December 2025:     Production Launch ✅
+28 December 2025:     Production Launch ✅
 ├─ Mainnet deployment
 ├─ BSCScan verification
 ├─ Sourcify verification
 └─ Official release
 
-26 December 2025+:    Ongoing Support
+29 December 2025+:    Ongoing Support
 ├─ Community engagement
 ├─ Technical support
 ├─ Documentation updates
@@ -288,7 +288,7 @@ Special thanks to:
 
 ```
 Release Version:    1.0.0
-Release Date:       25 December 2025
+Release Date:       28 December 2025
 Release Type:       Production
 Network:            BSC Mainnet
 Verification:       ✅ Complete
@@ -311,4 +311,4 @@ Support Status:     ✅ 24/7 Available
 - 📱 WhatsApp: +44 741 129 012
 - 📧 Email: Osamaqonaibe@outlook.com
 
-**Last Updated:** 26 December 2025
+**Last Updated:** 31 December 2025
