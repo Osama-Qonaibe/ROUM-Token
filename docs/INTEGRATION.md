@@ -1,9 +1,9 @@
 # 🔗 ROUM Token Integration Guide
 
 **Document Version:** 2.0  
-**Date:** December 30, 2025  
+**Date:** December 31, 2025  
 **Status:** 🎨 Professional Visual Integration Guide  
-**Last Updated:** December 30, 2025  
+**Last Updated:** December 31, 2025  
 
 ---
 
@@ -56,7 +56,7 @@ Step 6: Monitor Events (15 min)
 ### Contract Information
 ```javascript
 const ROUM_CONTRACT = {
-  address: '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e',
+  address: '0x218232b3e7e6214A49922de0954cFc8757F7a504',
   name: 'Rumeida Heritage',
   symbol: 'ROUM',
   decimals: 18,
@@ -89,7 +89,7 @@ const ROUM_ABI = [
 
 const contract = new web3.eth.Contract(
   ROUM_ABI,
-  '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e'
+  '0x218232b3e7e6214A49922de0954cFc8757F7a504'
 );
 
 // Get balance
@@ -115,7 +115,7 @@ const provider = new ethers.providers.JsonRpcProvider(
   'https://bsc-dataseed.binance.org/'
 );
 
-const ROUM_ADDRESS = '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e';
+const ROUM_ADDRESS = '0x218232b3e7e6214A49922de0954cFc8757F7a504';
 const ROUM_ABI = require('./build/abi.json');
 
 const contract = new ethers.Contract(ROUM_ADDRESS, ROUM_ABI, provider);
@@ -150,7 +150,7 @@ async function addToMetaMask() {
       params: {
         type: 'ERC20',
         options: {
-          address: '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e',
+          address: '0x218232b3e7e6214A49922de0954cFc8757F7a504',
           symbol: 'ROUM',
           decimals: 18,
           image: 'https://raw.githubusercontent.com/Osama-Qonaibe/ROUM-Token/main/assets/logo-small.png'
@@ -207,7 +207,7 @@ import { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import ROUM_ABI from './abi.json';
 
-const ROUM_ADDRESS = '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e';
+const ROUM_ADDRESS = '0x218232b3e7e6214A49922de0954cFc8757F7a504';
 
 function ROUMBalance({ address }) {
   const [balance, setBalance] = useState('0');
@@ -259,7 +259,7 @@ const ROUTER_ADDRESS = '0x10ED43C718714eb63d5aA57B78B54704E256024E';
 {
   "name": "Rumeida Heritage",
   "symbol": "ROUM",
-  "address": "0x35B1761B00AB98144fAB4dEDBD58C59A2050947e",
+  "address": "0x218232b3e7e6214A49922de0954cFc8757F7a504",
   "chainId": 56,
   "decimals": 18,
   "logoURI": "https://raw.githubusercontent.com/Osama-Qonaibe/ROUM-Token/main/assets/logo-small.png"
@@ -279,7 +279,7 @@ const web3 = new Web3('wss://bsc-ws-node.nariox.org:443');
 const ROUM_ABI = require('./build/abi.json');
 const contract = new web3.eth.Contract(
   ROUM_ABI,
-  '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e'
+  '0x218232b3e7e6214A49922de0954cFc8757F7a504'
 );
 
 // Monitor deposits to exchange wallet
@@ -349,7 +349,7 @@ async function getTokenInfo() {
       params: {
         module: 'token',
         action: 'tokeninfo',
-        contractaddress: '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e',
+        contractaddress: '0x218232b3e7e6214A49922de0954cFc8757F7a504',
         apikey: 'YOUR_API_KEY'
       }
     }
@@ -368,7 +368,7 @@ async function getTopHolders() {
       params: {
         module: 'token',
         action: 'tokenholderlist',
-        contractaddress: '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e',
+        contractaddress: '0x218232b3e7e6214A49922de0954cFc8757F7a504',
         page: 1,
         offset: 100,
         apikey: 'YOUR_API_KEY'
@@ -405,7 +405,7 @@ describe('ROUM Token', function () {
   it('Should return correct name', async function () {
     const contract = await ethers.getContractAt(
       'ROUM',
-      '0x35B1761B00AB98144fAB4dEDBD58C59A2050947e'
+      '0x218232b3e7e6214A49922de0954cFc8757F7a504'
     );
     expect(await contract.name()).to.equal('Rumeida Heritage');
   });
@@ -460,6 +460,6 @@ For integration support:
 
 **ROUM Token - Easy Integration, Enterprise-Grade** 🎨
 
-**Last Updated:** December 30, 2025  
+**Last Updated:** December 31, 2025  
 **Status:** ✅ Production Ready  
 **Supported Networks:** BSC (Binance Smart Chain)
