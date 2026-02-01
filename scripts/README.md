@@ -62,5 +62,4 @@ MIT License - See root LICENSE file
 ### Author
 
 Osama Qonaibe  
-Email: Osamaqonaibe@outlook.com  
 GitHub: [@Osama-Qonaibe](https://github.com/Osama-Qonaibe)
