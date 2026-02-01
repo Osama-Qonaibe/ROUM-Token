@@ -19,15 +19,26 @@ plt.rcParams['font.family'] = 'DejaVu Sans'
 plt.rcParams['figure.facecolor'] = 'white'
 plt.rcParams['axes.facecolor'] = 'white'
 
-CHARTS_DIR = '../assets/charts'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CHARTS_DIR = os.path.join(BASE_DIR, '..', 'assets', 'charts')
+
+BRAND_COLOR = '#00cc44'
+DPI = 300
 
 def ensure_charts_directory():
     if not os.path.exists(CHARTS_DIR):
         os.makedirs(CHARTS_DIR)
         print(f"✅ Created directory: {CHARTS_DIR}")
 
+def save_chart(filename, message):
+    plt.tight_layout()
+    filepath = os.path.join(CHARTS_DIR, filename)
+    plt.savefig(filepath, dpi=DPI, bbox_inches='tight', facecolor='white', edgecolor='none')
+    plt.close()
+    print(f"   ✅ {filename}")
+    return filename
+
 def create_security_score_gauge():
-    """Generate CertiK Security Score Dashboard with gauge visualization"""
     print("Creating Chart 1/7: Security Score Dashboard...")
     
     fig, ax = plt.subplots(figsize=(12, 10), facecolor='white')
@@ -40,11 +51,10 @@ def create_security_score_gauge():
     ax.text(0, 1.5, 'Overall Security Score', 
             ha='center', fontsize=14, color='#666666')
     
-    colors = ['#ff4444', '#ff8800', '#ffcc00', '#88cc00', '#00cc44']
+    colors = ['#ff4444', '#ff8800', '#ffcc00', '#88cc00', BRAND_COLOR]
     score = 97
     
     start_angle = 180
-    end_angle = 0
     
     for i in range(5):
         theta1 = start_angle - (i * 36)
@@ -65,12 +75,12 @@ def create_security_score_gauge():
     ax.add_patch(circle)
     
     ax.text(0, -0.15, '97', ha='center', fontsize=80, 
-            fontweight='bold', color='#00cc44')
+            fontweight='bold', color=BRAND_COLOR)
     ax.text(0.35, -0.15, '/100', ha='left', fontsize=24, color='#666666')
     ax.text(0, -0.35, 'EXCELLENT', ha='center', fontsize=16, 
-            fontweight='bold', color='#00cc44',
+            fontweight='bold', color=BRAND_COLOR,
             bbox=dict(boxstyle='round,pad=0.4', facecolor='#e8f5e9', 
-                     edgecolor='#00cc44', linewidth=2))
+                     edgecolor=BRAND_COLOR, linewidth=2))
     
     metrics = [
         ('Code Quality', 97),
@@ -84,36 +94,31 @@ def create_security_score_gauge():
         y = y_start - (i * 0.22)
         ax.text(-1.3, y, label, ha='left', fontsize=11, color='#333333')
         ax.text(1.3, y, f'{value}/100', ha='right', fontsize=11, 
-                fontweight='bold', color='#00cc44')
+                fontweight='bold', color=BRAND_COLOR)
         
         bar_start = -0.8
         bar_width = (value / 100) * 1.6
         rect = FancyBboxPatch((bar_start, y - 0.05), bar_width, 0.1,
                              boxstyle="round,pad=0.01", 
-                             facecolor='#00cc44', edgecolor='none', alpha=0.7)
+                             facecolor=BRAND_COLOR, edgecolor='none', alpha=0.7)
         ax.add_patch(rect)
     
     approval_text = '✅ APPROVED FOR MAINNET DEPLOYMENT'
     ax.text(0, -1.55, approval_text, ha='center', fontsize=12, 
-            fontweight='bold', color='#00cc44',
+            fontweight='bold', color=BRAND_COLOR,
             bbox=dict(boxstyle='round,pad=0.6', facecolor='#e8f5e9', 
-                     edgecolor='#00cc44', linewidth=2))
+                     edgecolor=BRAND_COLOR, linewidth=2))
     
-    plt.tight_layout()
-    plt.savefig(os.path.join(CHARTS_DIR, 'certik_score_dashboard.png'), dpi=300, 
-                bbox_inches='tight', facecolor='white', edgecolor='none')
-    plt.close()
-    print("   ✅ certik_score_dashboard.png")
+    return save_chart('certik_score_dashboard.png', 'Security Score Dashboard')
 
 def create_industry_comparison():
-    """Generate industry security comparison chart"""
     print("Creating Chart 2/7: Industry Comparison...")
     
     fig, ax = plt.subplots(figsize=(12, 8), facecolor='white')
     
     tokens = ['ROUM Token', 'Ethereum (ETH)', 'BNB', 'USDC', 'USDT']
     scores = [97, 95, 92, 90, 88]
-    colors = ['#00cc44', '#627EEA', '#F3BA2F', '#2775CA', '#26A17B']
+    colors = [BRAND_COLOR, '#627EEA', '#F3BA2F', '#2775CA', '#26A17B']
     
     y_pos = np.arange(len(tokens))
     bars = ax.barh(y_pos, scores, color=colors, edgecolor='white', 
@@ -124,8 +129,8 @@ def create_industry_comparison():
         if i == 0:
             ax.text(width + 1, bar.get_y() + bar.get_height()/2, 
                     f'{score}/100 ★ #1', ha='left', va='center',
-                    fontsize=12, fontweight='bold', color='#00cc44')
-            bar.set_edgecolor('#00cc44')
+                    fontsize=12, fontweight='bold', color=BRAND_COLOR)
+            bar.set_edgecolor(BRAND_COLOR)
             bar.set_linewidth(3)
         else:
             ax.text(width + 1, bar.get_y() + bar.get_height()/2, 
@@ -151,21 +156,16 @@ def create_industry_comparison():
     ax.text(0.5, 1.0, 'Security Comparison - ROUM leads with 97/100', 
             transform=ax.transAxes, ha='center', fontsize=12, color='#666666')
     
-    plt.tight_layout()
-    plt.savefig(f'{CHARTS_DIR}/industry_comparison.png', dpi=300, 
-                bbox_inches='tight', facecolor='white', edgecolor='none')
-    plt.close()
-    print("   ✅ industry_comparison.png")
+    return save_chart('industry_comparison.png', 'Industry Comparison')
 
 def create_test_results():
-    """Generate test results pie chart"""
     print("Creating Chart 3/7: Test Results...")
     
     fig, ax = plt.subplots(figsize=(10, 10), facecolor='white')
     
     sizes = [95.65, 4.35]
-    labels = ['Passed Tests\n22', 'Attention\n1']
-    colors = ['#00cc44', '#ff8800']
+    labels = ['Passed Tests\\n22', 'Attention\\n1']
+    colors = [BRAND_COLOR, '#ff8800']
     explode = (0.05, 0)
     
     wedges, texts, autotexts = ax.pie(sizes, labels=labels, colors=colors,
@@ -182,11 +182,11 @@ def create_test_results():
         autotext.set_fontweight('bold')
     
     centre_circle = plt.Circle((0, 0), 0.60, fc='white', linewidth=3, 
-                              edgecolor='#00cc44')
+                              edgecolor=BRAND_COLOR)
     ax.add_artist(centre_circle)
     
     ax.text(0, 0.15, '95.65%', ha='center', va='center', 
-            fontsize=48, fontweight='bold', color='#00cc44')
+            fontsize=48, fontweight='bold', color=BRAND_COLOR)
     ax.text(0, -0.05, 'Pass Rate', ha='center', va='center', 
             fontsize=16, color='#666666')
     ax.text(0, -0.25, '22/23', ha='center', va='center', 
@@ -198,7 +198,7 @@ def create_test_results():
             ha='center', fontsize=12, color='#666666')
     
     legend_elements = [
-        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#00cc44', 
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=BRAND_COLOR, 
                    markersize=12, label='✅ Passed: 22 tests'),
         plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#ff8800', 
                    markersize=12, label='⏳ Attention: 1 item (Pre-launch)')
@@ -208,27 +208,22 @@ def create_test_results():
              fancybox=True, shadow=True)
     
     ax.text(0, -1.25, '0 Critical, High, Medium, or Low Risk Issues', 
-            ha='center', fontsize=11, fontweight='bold', color='#00cc44',
+            ha='center', fontsize=11, fontweight='bold', color=BRAND_COLOR,
             bbox=dict(boxstyle='round,pad=0.5', facecolor='#e8f5e9', 
-                     edgecolor='#00cc44', linewidth=2))
+                     edgecolor=BRAND_COLOR, linewidth=2))
     
     ax.axis('equal')
-    plt.tight_layout()
-    plt.savefig(f'{CHARTS_DIR}/test_results.png', dpi=300, 
-                bbox_inches='tight', facecolor='white', edgecolor='none')
-    plt.close()
-    print("   ✅ test_results.png")
+    return save_chart('test_results.png', 'Test Results')
 
 def create_risk_assessment():
-    """Generate risk assessment matrix"""
     print("Creating Chart 4/7: Risk Assessment...")
     
     fig, ax = plt.subplots(figsize=(12, 8), facecolor='white')
     
-    categories = ['Critical\nIssues', 'High\nRisk', 'Medium\nRisk', 
-                  'Low\nRisk', 'Alerts', 'Safe/\nSecure']
+    categories = ['Critical\\nIssues', 'High\\nRisk', 'Medium\\nRisk', 
+                  'Low\\nRisk', 'Alerts', 'Safe/\\nSecure']
     values = [0, 0, 0, 0, 0, 22]
-    colors = ['#ff4444', '#ff8800', '#ffcc00', '#88cc00', '#4488ff', '#00cc44']
+    colors = ['#ff4444', '#ff8800', '#ffcc00', '#88cc00', '#4488ff', BRAND_COLOR]
     
     bars = ax.barh(categories, values, color=colors, edgecolor='white', 
                    linewidth=2, height=0.7)
@@ -242,12 +237,12 @@ def create_risk_assessment():
         else:
             ax.text(0.3, bar.get_y() + bar.get_height()/2, 
                     '0 ✓', ha='left', va='center',
-                    fontsize=12, fontweight='bold', color='#00cc44')
+                    fontsize=12, fontweight='bold', color=BRAND_COLOR)
     
     for i in range(len(bars) - 1):
         bars[i].set_alpha(0.3)
     
-    bars[-1].set_edgecolor('#00cc44')
+    bars[-1].set_edgecolor(BRAND_COLOR)
     bars[-1].set_linewidth(3)
     
     ax.set_xlim(0, 25)
@@ -269,26 +264,21 @@ def create_risk_assessment():
     
     ax.text(0.5, -0.15, 'Overall Risk Level: 🟢 MINIMAL  |  95.65% Safe/Secure', 
             transform=ax.transAxes, ha='center', fontsize=13, 
-            fontweight='bold', color='#00cc44',
+            fontweight='bold', color=BRAND_COLOR,
             bbox=dict(boxstyle='round,pad=0.6', facecolor='#e8f5e9', 
-                     edgecolor='#00cc44', linewidth=2))
+                     edgecolor=BRAND_COLOR, linewidth=2))
     
-    plt.tight_layout()
-    plt.savefig(f'{CHARTS_DIR}/risk_assessment.png', dpi=300, 
-                bbox_inches='tight', facecolor='white', edgecolor='none')
-    plt.close()
-    print("   ✅ risk_assessment.png")
+    return save_chart('risk_assessment.png', 'Risk Assessment')
 
 def create_gas_optimization():
-    """Generate gas optimization chart"""
     print("Creating Chart 5/7: Gas Optimization...")
     
     fig, ax = plt.subplots(figsize=(12, 9), facecolor='white')
     
     operations = ['transfer()', 'approve()', 'transferFrom()', 
-                  'Error\nHandling', 'Unchecked\nArithmetic']
+                  'Error\\nHandling', 'Unchecked\\nArithmetic']
     savings = [4.1, 3.2, 3.9, 90, 67.6]
-    colors = ['#88cc00', '#88cc00', '#88cc00', '#00cc44', '#00cc44']
+    colors = ['#88cc00', '#88cc00', '#88cc00', BRAND_COLOR, BRAND_COLOR]
     
     x_pos = np.arange(len(operations))
     bars = ax.bar(x_pos, savings, color=colors, edgecolor='white', 
@@ -331,28 +321,23 @@ def create_gas_optimization():
     note_text = '⚡ Custom errors save 90% gas compared to traditional require statements'
     ax.text(0.5, -0.15, note_text, 
             transform=ax.transAxes, ha='center', fontsize=11, 
-            fontweight='bold', color='#00cc44',
+            fontweight='bold', color=BRAND_COLOR,
             bbox=dict(boxstyle='round,pad=0.5', facecolor='#e8f5e9', 
-                     edgecolor='#00cc44', linewidth=2))
+                     edgecolor=BRAND_COLOR, linewidth=2))
     
-    plt.tight_layout()
-    plt.savefig(f'{CHARTS_DIR}/gas_optimization.png', dpi=300, 
-                bbox_inches='tight', facecolor='white', edgecolor='none')
-    plt.close()
-    print("   ✅ gas_optimization.png")
+    return save_chart('gas_optimization.png', 'Gas Optimization')
 
 def create_code_quality_profile():
-    """Generate code quality radar chart"""
     print("Creating Chart 6/7: Code Quality Profile...")
     
     fig, ax = plt.subplots(figsize=(10, 10), 
                           subplot_kw=dict(projection='polar'), 
                           facecolor='white')
     
-    categories = ['Code\nMaintainability', 'Security\nHotspots', 
-                  'Documentation', 'Test\nCoverage', 'Code\nComplexity', 
-                  'Code\nDuplication', 'Technical\nDebt', 
-                  'Standards\nCompliance']
+    categories = ['Code\\nMaintainability', 'Security\\nHotspots', 
+                  'Documentation', 'Test\\nCoverage', 'Code\\nComplexity', 
+                  'Code\\nDuplication', 'Technical\\nDebt', 
+                  'Standards\\nCompliance']
     values = [98, 100, 100, 95, 92, 100, 100, 100]
     
     num_vars = len(categories)
@@ -360,10 +345,10 @@ def create_code_quality_profile():
     values += values[:1]
     angles += angles[:1]
     
-    ax.plot(angles, values, 'o-', linewidth=3, color='#00cc44', markersize=10, 
-            markerfacecolor='#00cc44', markeredgecolor='white', 
+    ax.plot(angles, values, 'o-', linewidth=3, color=BRAND_COLOR, markersize=10, 
+            markerfacecolor=BRAND_COLOR, markeredgecolor='white', 
             markeredgewidth=2)
-    ax.fill(angles, values, alpha=0.25, color='#00cc44')
+    ax.fill(angles, values, alpha=0.25, color=BRAND_COLOR)
     
     ax.set_xticks(angles[:-1])
     ax.set_xticklabels(categories, fontsize=11, fontweight='bold')
@@ -392,14 +377,9 @@ def create_code_quality_profile():
             bbox=dict(boxstyle='round,pad=0.4', facecolor='#fffef0', 
                      edgecolor='#ffd700', linewidth=1.5))
     
-    plt.tight_layout()
-    plt.savefig(f'{CHARTS_DIR}/code_quality_profile.png', dpi=300, 
-                bbox_inches='tight', facecolor='white', edgecolor='none')
-    plt.close()
-    print("   ✅ code_quality_profile.png")
+    return save_chart('code_quality_profile.png', 'Code Quality Profile')
 
 def create_vulnerability_scan():
-    """Generate vulnerability scan checklist"""
     print("Creating Chart 7/7: Vulnerability Scan...")
     
     fig, ax = plt.subplots(figsize=(14, 11), facecolor='white')
@@ -448,31 +428,26 @@ def create_vulnerability_scan():
         ax.add_patch(rect)
         
         ax.text(0.8, y, '✅', ha='left', va='center', 
-                fontsize=18, color='#00cc44', fontweight='bold')
+                fontsize=18, color=BRAND_COLOR, fontweight='bold')
         
         ax.text(1.5, y, vuln, ha='left', va='center', 
                 fontsize=11, color='#333333')
     
     summary_y = y_start - (len(vulnerabilities) * y_step) - 0.5
     ax.text(5, summary_y, '🛡️ Zero Vulnerabilities Identified  |  15/15 Checks Passed', 
-            ha='center', fontsize=13, fontweight='bold', color='#00cc44',
+            ha='center', fontsize=13, fontweight='bold', color=BRAND_COLOR,
             bbox=dict(boxstyle='round,pad=0.6', facecolor='#e8f5e9', 
-                     edgecolor='#00cc44', linewidth=2.5))
+                     edgecolor=BRAND_COLOR, linewidth=2.5))
     
     score_badge_y = summary_y - 0.9
     ax.text(5, score_badge_y, '98/100 Security Features Score', 
             ha='center', fontsize=12, fontweight='bold', color='white',
-            bbox=dict(boxstyle='round,pad=0.5', facecolor='#00cc44', 
+            bbox=dict(boxstyle='round,pad=0.5', facecolor=BRAND_COLOR, 
                      edgecolor='#00aa33', linewidth=2))
     
-    plt.tight_layout()
-    plt.savefig(f'{CHARTS_DIR}/vulnerability_scan.png', dpi=300, 
-                bbox_inches='tight', facecolor='white', edgecolor='none')
-    plt.close()
-    print("   ✅ vulnerability_scan.png")
+    return save_chart('vulnerability_scan.png', 'Vulnerability Scan')
 
 def main():
-    """Main execution function"""
     print("="*60)
     print("ROUM Token - CertiK Audit Charts Generator")
     print("="*60)
@@ -481,28 +456,24 @@ def main():
     ensure_charts_directory()
     print()
     
-    create_security_score_gauge()
-    create_industry_comparison()
-    create_test_results()
-    create_risk_assessment()
-    create_gas_optimization()
-    create_code_quality_profile()
-    create_vulnerability_scan()
+    generated_charts = []
+    generated_charts.append(create_security_score_gauge())
+    generated_charts.append(create_industry_comparison())
+    generated_charts.append(create_test_results())
+    generated_charts.append(create_risk_assessment())
+    generated_charts.append(create_gas_optimization())
+    generated_charts.append(create_code_quality_profile())
+    generated_charts.append(create_vulnerability_scan())
     
     print()
     print("="*60)
-    print("✅ ALL 7 CHARTS CREATED SUCCESSFULLY!")
+    print(f"✅ ALL {len(generated_charts)} CHARTS CREATED SUCCESSFULLY!")
     print(f"Location: {CHARTS_DIR}/")
     print("="*60)
     print()
     print("Charts generated:")
-    print("1. certik_score_dashboard.png")
-    print("2. industry_comparison.png")
-    print("3. test_results.png")
-    print("4. risk_assessment.png")
-    print("5. gas_optimization.png")
-    print("6. code_quality_profile.png")
-    print("7. vulnerability_scan.png")
+    for i, chart in enumerate(generated_charts, 1):
+        print(f"{i}. {chart}")
     print()
     print("Next step: Update docs/CERTIK-AUDIT-VISUAL.md with new image paths")
 
