@@ -100,7 +100,7 @@ def create_security_score_gauge():
                      edgecolor='#00cc44', linewidth=2))
     
     plt.tight_layout()
-    plt.savefig(f'{CHARTS_DIR}/certik_score_dashboard.png', dpi=300, 
+    plt.savefig(os.path.join(CHARTS_DIR, 'certik_score_dashboard.png'), dpi=300, 
                 bbox_inches='tight', facecolor='white', edgecolor='none')
     plt.close()
     print("   ✅ certik_score_dashboard.png")
